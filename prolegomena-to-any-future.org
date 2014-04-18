@@ -54,10 +54,11 @@ pretty fast.
 ** some basic assumptions
 
 In light of these complications, it can help any person doing the
-explaining to have a sense of what her auditor (the explainee?) already knows, in order to
-tailor the explanation to the shared context of what you both already
-know.  Since this document can't (yet) ask you what you already know,
-we're going to make a few assumptions. You may:
+explaining to have a sense of what her auditor (the explainee?)
+already knows, in order to tailor the explanation to the shared
+context of what you both already know. Since this document can't
+(yet!) ask you what you already know, we're going to make a few
+assumptions. You may:
 
 *** have basic digitally literacy
 
@@ -85,9 +86,9 @@ you are working on--or at least as familiar with working on--a Mac as
 any other computer. Why? Well, see [[novelist Neal Stephenson explains some computing history][this essay]] for some background.
 
 Because this may be true, we can just for now state that there are
-some complication with using some of the more "bleeding edge" open
-source software out there, if you are only accustomed to using the
-Mac GUI (huh? see [[UNIX operating system concepts and command line skills][here]]).
+some extra complications with using some of the more "bleeding edge"
+open source software out there, especially if you are only accustomed
+to using the Mac GUI (huh? see [[UNIX operating system concepts and command line skills][here]]).
 
 DO NOT LET THIS DISSUADE YOU! It just means that you are going to
 become more skilled at working with this powerful tool of metal,
@@ -121,7 +122,7 @@ work with any of these pieces of software.
 With that in mind, feel free to jump to the section that lists and
 briefly describes [[selected free software][particular examples]] of such software. You may find
 that in the process, you hit upon a topic or question that might be
-addressed here.
+addressed elsewhere in the document.
 
 While some original writing and explanation is sprinkled throughout,
 the bulk of the documentation here will involve links to webpages to
@@ -146,11 +147,11 @@ seek to present a variety of ways to start.
 
 You might be interested in a particular medium or just wish to browse
 what's available, without having to think too much about all the steps
-in involved. In which case, we direct you [[selected free software][here]]
+in involved. In which case, we direct you [[selected free software][here]].
 
 In some cases, however, the experience of others can be useful (or
-irrelevant!). We will direct you to some [[others' paths and processes][paths]] that contributors have
-described. 
+fascinatingly irrelevant!). We will direct you to some [[others' paths and processes][paths]] that
+contributors have described.
 
 As with the Web itself, there is no one path that anyone should
 follow. To quote Joseph Campbell, "follow your bliss." 
@@ -174,7 +175,7 @@ Regardless, evidence (and personal experience) suggests that we can
 often subconsciously get ideas how to work out one problem while
 consciously working on something else. And there are usually no
 shortage of interesting concepts lurking just behind some really
-tedious ones.
+tedious ones. So [[repositories][branch]] and fork away!
 
 
 
@@ -263,8 +264,8 @@ choose to open up such a file in a text-editing program, and you will
 see a good representation of what 'compiled' means. It means that you
 can't read it. At least, not as something like English in the way
 that the source code was written by someone in something at least
-resembling English, (at least it was made up of recognizable
-symbols). 
+resembling English, (or at least as it was made up of recognizable
+symbols using a Latin alphabet). 
 
 This unreadable by humans characteristic is part of what makes
 compiled code, or "binaries" special. The only thing you can
@@ -272,47 +273,49 @@ reasonably do with it is give it to the machine inside your
 machine. That is, let the underlying low-level operating system
 facilities handle it, by bringing it unto the various operations that
 make up the processor's domain (the level of architecture we can
-think of as the machine language layer, or machine layer. 
+think of as the machine language layer, or machine layer). 
 
 The subtleties here (at least as far as the average user is
 concerned) point to the complicated nature of getting a machine to
-understand something humans try to communicate. And points to the
+understand something humans try to communicate. Which points to the
 fact that there is an enormous amount of stuff going on
 underneath the hood of that clean-lined, relatively static-looking
 desktop environment the Apple design team (or the KDE, or the GNOME
 team) has sweated over. Understanding how a keystroke on a keyboard
 gets translated into something down in a fancy processor and returned
 instantaneously on a screen, without us having to say much of
-anything is all part of the remarkable ballet of user-designer
+anything, is all part of the remarkable ballet of user-designer
 interaction. 
 
 Back to your .dmg file. Dragging the main folder of whatever window
-appears next (this is all following a Mac installation experience)
-brings the installation game to a neat conclusion. As far as the
-ordinary user is concerned, at least. And did you notice that the
-original disk image file, which was "opened" by you DiskImage
-mounter, in fact appears as a device as far as your operating system
-interface is concerned. What the hell does THAT mean?
+appears next into the Applications folder (this is all following a Mac
+installation experience) brings the installation game to a neat
+conclusion. As far as the ordinary user is concerned, at least. And
+did you notice that the original disk image file, which was "opened"
+by you DiskImage mounter, in fact appears as a device as far as your
+operating system interface is concerned. What the hell does THAT mean?
 
-When it comes to open source software, you will eventually 
-
- downloads. dragging to applications folder (or wherever).]
+When it comes to open source software, you will eventually realizable
+that any number of assumptions you had about how the above process is
+supposed to work may not be borne out.]
 
 ***** getting 'source code' onto a Mac
 
 One of the main complications I have experienced was how to take
-published code, say, from Github, http://sourceforge.net or from
+published code, say, from [[Github, Subversion et al][Github]], http://sourceforge.net or from
 somebody's personal website, and to get it working on my laptop, which
 was usually a Mac running OS X.
 
 The typical software user is either (depending on your perspective)
 shielded or blocked from understanding the nitty-gritty details of how
-to run software. There certainly are plausible arguments for making it as easy
-as possible for the "end user;" the appropriate shibboleth here is 'intuitive.'
-The Mac design philosophy, and as of the early 2010s, Macs are the de
-facto standard for media and design students [[novelist Neal Stephenson explains some computing history][(see Neal Stephenson's essay)]] is to make the user
-experience as smooth and "intuitive" as possible; you want people to
-have to do little more than "double-click" to get things to work.
+software really works. There certainly are plausible arguments for making it
+as easy as possible for the "end user;" the appropriate shibboleth
+here is 'intuitive.' The Mac design philosophy, and as of the early
+2010s, Macs are the de facto standard for media and design students 
+[[novelist Neal Stephenson explains some computing
+ history][(see Neal Stephenson's essay)]] is to make the user experience as smooth
+and "intuitive" as possible; you want people to have to do little more
+than "double-click" to get things to work.
 
 While there are many advantages to this being shielded from the
 obscure inner-workings of software installation and operation, when it
@@ -320,10 +323,10 @@ comes time to use software which is not proprietary, and which is not
 being actively maintained by a paid support team, you are now at a
 double disadvantage. Not only do you not know what to do if something
 goes wrong (which it often does), you may not have the required skills
-to do it all, may not know even the required vocabuarly (at the very
+to do it at all, may not know even the required vocabuarly (at the very
 least you may not be comfortable with working from the command line,
-especially if you have been accustomed to the Mac GUI. Knowing a
-little bit of how it all actually works 'under the hood,' makes sense.
+especially if you have been accustomed to the Mac GUI). Knowing a
+little bit of how it all actually works 'under the hood' makes sense.
 
 Again, there have been and will continue to be good reasons to keep
 people from 'opening the hood:' they are less likely to put
@@ -334,6 +337,16 @@ everyone), need to be among the vanguard of 'non-techies' acquiring
 the vocabulary. We need to learn how to not just benefit from but
 contribute to the free software movement. More elaborate arguments
 supporting this can be found [[some prominent voices and developers][here]]
+
+****** homebrew, macports et al
+Because there continues to be a sizeable demand for open source
+software by Mac users, there is a particular set of command line tools
+that you will perhaps be pleased to know about and learn. As of 2014,
+I can say that homebrew appears to be in the ascendancy as far as
+being a /package manager/ where Macs are concerned. Just as Macports
+may have been the main game in town in previous years, this too may
+change. But in the meantime, you'll want to begin to understand how to
+use the command line in order to take advantage of homebrew.
 
 ****** Xcode Unix Utilities
 On a Mac, at least in 2013, you'll probably want to get your 'hands'
