@@ -1,0 +1,725 @@
+* drafts of sections
+** quick outline
+began far back (early 80s), chugged around (friends with computers)
+until the 90s and music editing software. Exploded my brain (2008),
+took over my life (2011), led to my first computing gig (2013).
+
+The most crucial juncture is the point at which it went from being
+fun, to alienating and disturbing, to liberating and
+reinvigoratin. Miller Puckette's work, Pd, and the community around
+it, as exemplfied by Pd-extended, were critical. I'll describe a few
+useful things here. 
+
+The next big thing was emacs.
+
+** jumping in
+   
+let me start...not so much autobiographically, but in taking myself
+to be a kind of case study. With a brief description of what I
+wanted to do, what I have found myself doing, and what I feel like
+I have learned. Such a personal approach has its drawbacks, of
+course: what do you care what I did? and how could it even help
+you, when what you want to do is not what I did? and just who the
+hell do I think I am? Some explanation is in order, if nothing else,
+to gain the sympathy of the dubious reader.
+
+** problems with tutorials
+    CLOCK: [2013-08-21 Wed 15:09]--[2013-08-21 Wed 15:10] =>  0:01
+
+    in many ways, what you are reading is a reflection of my personal
+    interests and actitivies during my time in PIMA ("Everything I Really Needed to Know I Read in a Tutorial
+    at PIMA").
+
+    There are a great many virtues to working independently through
+    tutorials (at least for some people), but there will also be a great many hours spent
+    looking for the relevant information, or trying to figure out what
+    the relevant information even means.
+    
+    But here's an example problematic scenario. In order to use
+    software X, you have to have software Y. But in order to get
+    software Y, you have to know how to use some software Z that is
+    easy to find but hard to use to get software Y unless you already
+    know to use it. Thus, to get software X to do the awesome thing
+    you just thought of in an inspired vision, you have to jump
+    through several hoops that are nowhere near as beautiful or
+    exciting as the great idea you just had and are already
+    forgetting.
+
+    If this doesn't sound familiar, my guess is one of two things is
+    likely: 
+
+    1. either you don't need to ever read this because you have
+    already jumped through every cognitive hoop with relative ease;
+    2. or else you haven't yet spent enough time at
+    a computer, or don't care to.
+
+** observations of a musician in media art
+    Whatever the case, one idea here is simply to talk about some
+    pieces of software that you may or may not have come across, but
+    which I have found useful, or interesting, largely during my time
+    as a peculiar student in the MFA program at Brooklyn College's Performance and
+    Interactive Media Art. 
+
+    As a musician, my
+    experience has been most extensive with audio applications--but
+    a larger thesis, which I can only hint at here, is that the information that I have (or you may)
+    acquired working through the software related to your medium can
+    form an entry, if not a foundation, for doing ANYTHING. Moreover, if
+    you are patient enough to learn how to use some new technology,
+    than I warrant that you have a skill that could be useful beyond
+    the scope of whatever your immediate goal was. You could learn to
+    do some things that may be even more useful (in a world that
+    hasn't yet created a home for your peculiar artistic idea, activity
+    artifact or intellectual construct! Sound enticing? Here are links
+    to some specifics.
+
+** the purpose of a (this?) tutorial
+[2013-11-06 Wed 17:55]
+From what I've gathered, in my patient saga of autodidacticism, the
+ostensible purpose of a tutorial is not to show one person how to do
+one thing, but to cast as wide a net as possible. Not to unwittingly
+continue the metaphor, but the old saw of "teach a man to fish..."
+seems relevant: you need to show someone how to do things that will
+ultimately help them do WHATEVER they want at some point in the
+hopefully not too far off future. Since this can be hard to do,
+there's a temptation in writing a tutorial to instead simply do the
+fishing for the reader--to show them exactly what you did, so they can
+do that one thing. Which may seem rather myopic and entirely too much
+like simply giving a man a fish.
+
+But here's where the metaphor breaks down, and must unremorsefully
+be abandoned. Imitation--walking yourself through the steps that
+somebody else went through--is actually one of the best ways to
+start out. As acute observers of human behavior will note,
+following comes quite naturally to us humans; we excel at watching
+and borrowing. And in an autodidactic situation, it is a skill that
+has much to recommend it. You do not have to give birth, fully
+formed, to your own mental plan of how to carry out exactly what
+you want to do, but can instead look at how to modify or deviate
+from one model that at least has the virtue of having already
+succeeded at some point. To venture one more perhaps strained
+analogy, it's like the difference between giving somebody a book on
+how to get rich versus actually giving somebody a job; sure, they
+might appreciate the fact that you want them to ultimately succeed
+at the highest level, but there are a whole lot more immediate
+concerns. A vast capital empire begins with a single commodity
+exchange...thus, bringing to an end my string of strained analogies
+and paraphrases of adages.
+
+** initial encounters with the "free vs. open" theme
+   
+
+   I have historically been a musician, primarily. But I began this
+   project out of a sense of having spent a great deal of time over
+   the last two years not playing music: instead, I was poking around
+   my computer and any tutorials I could find, desperately trying to
+   understand how to do _something_. And as a _freelance_ musician,
+   this something typically involved using free software--or better
+   yet, trying to LEARN how to get, install and use free software. Why
+   "free?" Well, it turns out that a simple question like this has a
+   long history. And the possible responses have more than enough
+   complications to take us largely beyond the scope of this writing,
+   which is about how to find your way around the free software world,
+   not "why" you might need to do that in the first place. I'll
+   address the 'free' issue soon enough.
+   
+** breaking with tutorial style and etiquette
+
+   To any experienced reader of software tutorials, the sheer length
+   at which I have gone on in what is just a preface will may mark
+   this writing as being NOT FOR THEM. That may be entirely true. The
+   raison d'etre, if you will, for this tutorial is to make it easier
+   for anybody who is not used to sitting down to a highly compressed,
+   gnomic explanation of the specifications of some perhaps highly
+   abstract bit of technical knowhow. David Foster Wallace has pointed
+   out an irony of guides to English usage: that the people who need
+   them the most are not the people most likely to buy them. Something
+   similar can be said about software tutorials: the people most
+   likely to be well-versed enough to actually write one are perhaps
+   the least likely to be helpful. Since they have already progressed
+   so far from the initial stages that their readers will be starting
+   from, they may not necessarily be well-suited for the
+   characterisitc most required for good instruction: empathy. And
+   we're not talking just any kind of empathy here. We're talking
+   about an ability to finely calibrate one's demeanor and explanatory
+   style to fit the needs of the individual. Considering that this
+   ability must also come with a commmand of the more abstract aspects
+   of the subject matter and the problem emerges quite clearly. At the
+   risk of invoking an all-too-vague and frequently unhelpful word,
+   the intelligences that are required are emotional as well as verbal
+   or logical. And I don't know about you, but I've noticed that there
+   are no rules for how these things are apportioned among people, or
+   within even a given person.
+
+** the artist's voice
+
+   Much of this prefacing could be summed by saying that this is a
+   tutorial, which sometimes digresses on technical matters, BY an
+   artist and FOR artists. I thus make as few assumptions as possible
+   about how much you, as an artist, already know about the matters at
+   hand. I do assume, however, that like myself, you have as much of
+   the qualities that make for a great humanist as great
+   technician. That is, that you were as likely to have been trained
+   in a "human" art form as a "technical" one.
+
+one reason to stray towards the mathematical at all as an artist is
+that there are many attempts to grapple with "truth" in this
+world. Attempts that could not be more different in method and
+conclusion from the one's artists and so-called right-brain thinkers
+usually concern themselves with.
+
+what are the supposedly natural reasons why the overlap between artists
+and people interested in computers has been minimal?
+
+** gearing up to "think like a computer scientist"
+
+    there is no shortage of books for teaching yourself "x." In fact,
+    there's even something called "Learn X the Hard Way," which is
+    mostly about learning to program in some computer language X of
+    your choice.
+
+    There are several differences here:
+    1. This is not about learning to program in a specific language,
+       per se.
+       
+    2. This is written for artists by an artist, with input from
+       other artists.
+
+       2.1 This is significant because it gives this audience a more
+    defineable shape, though it by no means limits the heterogeneity
+    of the readers
+    
+
+    4. It assumes that artists are intelligent, sensitive, and extremely
+       well-versed in some particular domain, one that may even
+       involve extensive use of a computer.
+       
+    Perhaps most significantly,
+    
+    5. It assumes that artists are not used to thinking about or
+       using the concept of "data" in their day-to-day work.
+
+
+*** data-driven
+
+    The emphasis on data placed here is significant because, unlike
+    humans, computers are not good at intuiting what we mean, or
+    what we might be thinking. You could argue that nor are all
+    humans, but at least we have evolved to be at least capable of
+    such intuitions. Computers, or at least the ones artists are
+    likely to avail themselves of in the era of this writing, are
+    designed not to be human-like at inferring what we mean, but to
+    be good at dealing with data. 
+
+    This is, of course, purposefully vague. Because part of the point
+    about data is that the concept is stripped of nearly all
+    detail--the word in Latin simply refers to that which is
+    given. Which is being pretty vague, indeed. 
+
+    While all humans may be slightly perplexed by this concept--
+    data--artists may be more likely to not just be befuddled or
+    nonplussed but downright vexed or resentful! To begin with, data
+    is a plural word that often feels like it should be singular, so
+    we already get off to a bad start once we have to talk about what
+    data is...I mean, "are." Furthermore, data typically is/are what
+    you enter when you get your first entry-level temp job; data
+    is/are what you plot on a graph in math class. Data is banking,
+    and statistics, and scientific method, and everything seemingly
+    inimical to what English Romantic poets like Blake and Wordsworth
+    brought to consciousness hundreds of years of ago. 
+
+    At least, this thought can't help but surface if you have spent
+    much time thinking about that time period in Western art and
+    literature. This condition is increasingly less easy to take for
+    granted in 2013, which suggests that the themes such artists were
+    concerned with are less relevant now. The validity of the above
+    reasoning is not under discussion here, though. My purpose is
+    simply to state baldly that it is hard to imagine an adolescent
+    version of myself putting down my copy of Intimations of
+    Immortality in order to pick up and begin reading "How to think
+    like a computer scientist." Maybe that's just me. But
+    from what I have gathered about artists, or those with
+    artistic temperaments, thinking about the world--to say nothing of
+    their own passions--as somehow reducible to data is odd, or worse.
+
+*** it's ok
+
+    This, however, is evidently not the place to reconcile these ways
+    of looking at the world. Let it simply be known that it's primary
+    author was familiar with Heidegger's deeply skeptical, "The
+    Question Concerning Technology" long before he ever knew what a
+    command-line interface was. I hope that somehow that fact plays a
+    part in my humble attempt to help artists learn how to learn how
+    to install and run software. The circularity there is part of the
+    pleasure of having put down Wordsworth for some time now, in the
+    interest of learning something new.
+	 
+       
+*** a question of audience
+    CLOCK: [2013-09-15 Sun 22:40]--[2013-09-15 Sun 22:47] =>  0:07
+    
+    one problem we sometimes face in life is appropriately tailoring our
+    communication to a particular audience. In some cases, it is an
+    audience that shares much of the same knowledge--for whatever
+    reason, the speaker and the audience have a common context within
+    which they can communicate, sometimes using shorthand
+    expressions, or relying on assumptions that derive from similar
+    experiences between people who otherwise may have little in common.
+
+    This fairly describes many groups, but the techie world is
+    especially known for often seeming impenterable to
+    newcomers. This can be the case for people happen to just occupy
+    different spheres of the tech world; programmers who work in one
+    language or kind of technology can become very insular (look up
+    "the editor wars" for an example). 
+
+    People who are just developing their understanding of a
+    technology can take heart from this fact--that what can seem like
+    a peculiar in-language may still seem like that to people who are
+    otherwise well-versed in other some particular branch of
+    technology.
+
+    Part of the problem, then, lies in how to begin developing that
+    context for oneself. And for this there are few shortcuts. In
+    fact, the initial discomfort and vexation that comes with
+    learning a new vocabulary or new way of working can be such that
+    it quite quickly and permanently dissuades viable canditates for
+    learning from persisting long enough to see any fruits from their
+    efforts.
+
+    So let's think about what's required for the process of acquiring
+    enough context for the language in a tutorial, or even at higher
+    conceptual level, a way of thinking or working through a kind of
+    system to seem helpful.
+
+*** learning
+    CLOCK: [2013-09-16 Mon 12:04]--[2013-09-16 Mon 12:33] =>  0:29
+
+    One of the keys to confronting material that is in a strange
+    "language" is to read and re-read. Doing so without breaks in
+    between can, however, prove more frustrating than
+    anything. Speculating on just why, I have always thought of a
+    concept I read about in cognitive science: consolidating. This is
+    sometimes used to refer to the process with the brain uses to
+    acquire and retain memories. 
+
+    This is not the place to go deeper into the mechanism by which
+    this works, except to say that it appears to be connected to the
+    way the brain processes at sub- or unconscious levels. A common
+    experience is to have a name or thought "on the tip of my tongue"
+    and yet, as long as one continues to "TRY" to remember the brain
+    does not return the desired information.  It is only when one
+    stops consciously TRYING to recall and instead moves on to
+    another processing task that the missing word "pops up"
+    miraculously. 
+
+    Now, this should not be thought of as "consolidation" in
+    action. Rather, it is a easy-to-relate-to example of brain
+    functioning made nearly tangible. Learning anything new of
+    sufficient strangeness or complexity involves both conscious and
+    unconscious processes. Which is why perhaps the most important
+    trait for helping oneself through the process is patience. Words
+    like sedulous, tenacious, diligent, perserverance, resilient--all
+    should give us a sense of what we can strive for. The feeling of
+    frustration--of not getting it, even after repeated, persistent
+    effort--is often sufficient to stymie a learner, and bring to a
+    peremptory end "the learning process."
+
+    So tuning in to the extremely small pleasures available to the
+    sensitive learner, deriving some sense of satisifaction--however
+    minor--from one's persistence is key. One of the best one's for
+    me has always been just an increased sense of familiarity. This
+    can be a perfectly adequate, if temporary, substitute for
+    comprehension. Simply recognizing the material one was struggling
+    to process the day before can be thought of as a kind of
+    progress. 
+** analogies
+    for those of us who driven cars for any period of time, there are
+    some hoary analogies lurking here, specifically that of the
+    so-called "black box." This refers to any system the details of
+    which have been hidden away from the typical user. And the
+    typical user is typically content not knowing how a sparkplug
+    works. Until something goes wrong. At which point, a range of
+    possibilities present themselves, though you have to imagine a
+    vast majority of us only see one: take the car to somebody who
+    in fact knows how a sparkplug works. And more importantly, knows
+    how to remove, replace and install one--delving into the black
+    box that we treat as an abstract unit: the engine.
+
+    There are a great many advantages to this system, which
+    potentially make it not the most auspicious analogy for someone
+    who wants to talk about the value of learning how software works.
+    
+** using CL-interfaces vs. GU-interfaces
+The fact remains--most of us come to learn how to use computers by
+interacting with graphic interfaces. That is, for many of us, the
+most frequent experience we've had with computers has been based on
+many other things beside pure text. In fact, seeing anything on a
+computer screen which is primarily just text--no images, drop-down
+menus or places to click--can be strange at first, or even
+intimidating. 
+
+It would, of course, be difficult to overestimate the effect that
+"user-friendly" visual design has had on the popularity of personal
+computing. Of course, what exactly constitutes 'friendly' varies
+widely, depending on the person and the comfort level. Whatever your
+personal predilections, the argument for developing text-based,
+command line skills becomes increasingly persuasive as you want to do
+have more control over what you can do. And as you spend more time
+working with the things your software currently makes possible, the
+more you may realize that you are developing a way of a working, a
+personal computing style, in which you wish you could just do
+X. Since with computers it's mostly a matter of knowing how to "tell"
+your computer what you want it do, you will eventually need to learn
+what kind of 'language' your computer understands (whatever the
+deficiencies of this language, you can be assured it will not blush or bat
+an eye at the torrent of vulgarities you direct at it when
+frustrated). 
+
+One effect of relying on software which lacks
+limitations on how you can modify it is that--tada, you may be
+EXPECTED to modify it!
+
+All the ramifications of this fact may not be obvious at the moment,
+except to say that modifying how something works usually requires some
+UNDERSTANDING of _how_ it works. And this is one of the hidden topics
+of this writing: how do we gain _understanding_, of anything
+from software to the meaning of a word?
+
+While this is necessarily a rather broad question, one way to
+think about it at a relatively high level while keeping in mind the practical
+imperatives of using software effectively is to develop one's
+understanding of HOW software--any software--works. Now, this is an
+enormous topic, but one way to simplify it is to point out that
+software is typically made by people. It is WRITTEN; it is CREATED;
+it is BUILT; it is DESIGNED. 
+
+The emphasis here is to show that there is a process not dissimilar
+to the ones artists and "non-computer people" have been using
+throughout history--fabrication, for lack of less-loaded word. And if
+it is _written_, than we might do well to consider the issue of
+language, and the fact that, at some basic level, most software is
+WRITTEN/CREATED/BUILT/DESIGNED by using a language.
+
+Do we need to be experts on Language, or know everything that goes
+into using or understanding a language in general? As interesting as
+it may be to consider more deeply something all of us are literally
+"conversant in," a person setting out to accomplish some small or
+large task usually does not begin by considering all the rules and formal
+properties that characterize the language required by the task (and
+this goes as much for computer-based tasks as for more traditional
+tasks).
+
+However, we relative neophtyes might find it helpful to gain some
+perspective on what we do when trying to use a computer to help us
+accomplish our task, to create whatever we have in mind. And this perspective can be gained
+very quickly by considering two phrases: machine language and natural
+language. 
+
+If you are like me, you may have little memory of the process of how
+you acquired "language skills." But it almost certain that no one ever
+used the phrase "natural language" while you were learning to speak, or
+learning to read. And yet now, if we are to take this process of
+learning just HOW some piece of software that we want to use works, we
+must consider this very name for what we have been using as long as we
+can remember. Why? Because the power that computers afford us derives
+precisely from the fact that they rely on something very different
+from natural language: "machine language."
+
+The very phrase "machine language" should convey some impression of
+what would be involved in developing a complete understanding of how
+computers, and by extension, software works. For now, the best part is that
+you do not have to have to learn to speak "machine language" to
+undestand what it is, or how to tap into its power, to use software. 
+
+However, to use software that requires, or better _affords_ you,
+greater sophistication, we very much need to think about the gap
+between these two "languages." One of the key things that bridges
+that gap is another strange language: the programming language. 
+
+What do you, who desires to use some piece of free software, need to
+understand about this third kind of language? It is entirely
+dependent on your goals. AND, unfortunately perhaps, on the goals of
+the person who WROTE/CREATED/BUILT/DESIGNED the software that you are
+interested in using, or at least learning more about.
+
+Because at the time of this writing, late 2013, two distinct trends
+co-exist in the increasingly technological society you most likely
+inhabit. One is caused by this reliance on technology, and
+specifically on computers, or better, so-called _personal_
+computers. As computers continue to proliferate, there seems to be no
+shortage of demand for them. Which means that there is more demand
+for the software that drives them, and which we know--natch--is
+typically written by people like you and me. This suggests that more
+people will be involved in writing this software. 
+
+Or maybe not. Maybe it's
+just that fewer people will be involved in the kinds of activity
+which we called manual labor, but will use computers with the same
+understanding of the underlying mechanics of them that the average farmer had of
+the internal combustion engine that propelled his tractor (apologies to all
+farmers reading this who have more knowledge of the ICE than I am
+assuming). This points to the
+second trend. 
+
+As computers become ever more popular and widespread,
+one design philosophy sees to it that they are built to be "easier to use." One
+way to think about that is that more control is being built into the
+software on computers themselves, so that operating one requires as
+little knowledge as possible. One only needs to have seen a toddler
+"swipe" a touchscreen to comprehend this trend.
+
+So where should we position ourselves with respect to this dichotomy?
+Between the options of more intuitive design on the one hand and more well-versed
+users on the other? The purpose of this writing is not to take sides, or even
+think much about whether it is a legitmate questions at all. We are
+simply here to use software that allows us to do whatever we want
+with it, provided we have the requisite skills. 
+
+And so because these skills in the end do have something to do with
+language, like so many forms of our knowledge, it behooves us to
+think about the existing means we have for dealing with languages,
+and specifically dealing with them on the computer. This may not be
+the same thing as learning a programming language (which may or may
+not be equivalent to "learning to program"), but it should make it
+easier to understand some of what is involved in such languages, at
+least as far as getting the most out of free software is concerned. 
+
+So let's begin with a simple fact: in that space between machine and
+natural language that is the programming language are symbols that look vaguely familiar. Those of us
+who spent much time digging into computers or books on computing may
+even have come across things like the following:
+
+#+BEGIN_SRC C
+  insertion_sort(item s[], int n)
+  {
+    int i, j; /* counters */
+  
+    for (i=1; i<n: i++) {
+      j=i;
+      while ((j>0) && (s[j] < s[j-1])) {
+        swap(&s[j],&s[j-1]);
+        j = j-1;
+      }
+    }
+  }
+#+END_SRC 
+
+Let's state clearly at the outset: YOU DO NOT HAVE TO KNOW WHAT THIS
+MEANS IN YOUR LIFE! Just notice for now that it contains familiar words like "for" and
+"item." And keep in mind that the person who "wrote" it most likely needed to do
+what I am doing right now to accomplish the task: she had to type it on a
+keyboard. 
+
+PROBABLY OBVIOUS FACT STILL WORTH MENTIONING NOW:
+
+A ton of computing revolves around typing "words" on a keyboard! 
+
+Why does this matter? Because it should be reassuring that, in all
+likelihood, you already know something about this! Let's balance this
+reassuring fact out with something potentially less familiar and
+reassuring:
+
+Perhaps even more computing (in 2013) revolves around using something called a GUI...
+
+Yikes! Things always run smoothly until the first unpronounceable
+acronym appears. This one (pronounced "Gooey," as in warm chocolate
+chip cookies) stands for Graphical User Interface. What the hell is
+that? Well, if you have ever seen a typewriter (perhaps in an old
+movie, if not in real life), you can think about everything that's
+not the piece of paper or the typewriter itself. 
+
+Huh?
+
+One of the great revolutions in computing was the appearance of all
+the things that made it less like typing and more like...something
+else entirely. Words that had existed for centuries like "icon,"
+"window," "menu," "desktop" (ok, maybe not centuries) all of sudden
+were repurposed to refer to new "objects," objects which maybe had
+parallels in the "real world" but now appeared to have a new existence
+that was solely on the computer screen (the question of "existence" "on"
+a computer is tricky on, needless to say). 
+
+To avoid digressing into computing history, let's just say that today,
+many people may find it difficult to imagine using a computer which lacked
+these convenient things. Which thus brings us to one of the most important points so
+far. 
+
+As was said before, programming languages are our bridge between the familiar world of
+natural language--which the "more intuitive," "natural" interface (or
+GUI) of the modern personal computer serves to flesh out--and the
+human-unreadable "gibberish" of machine language. While we do not
+need to know programming languages to use free software, it doesn't
+hurt to learn about them, or the things people do with them. And
+here's the another important if not obvious fact: most programming languages are text-based. That
+means that while GUI-elements like icons and windows may have been
+involved in making the software that you want to use, the
+key components the creator/writer had to grapple with were, typically, words and symbols, just like those one might clack
+out on a typewriter.
+
+Thus, anyone who wants to use more software in a more sophisticated
+way, and especially anyone who has ever wanted to change software he
+was using in ways that its proprietor did not make readily possible, will
+need to become comfortable not just with the images and visual
+elements of the GUI,
+but with something as old-fashioned as letters and numbers and
+obscure symbols like the caret and the asterisk. Not only that, but
+such a person will eventually experience the power that a semicolon
+can yield, and conversely, the frustration that an improperly placed
+semicolon that cause. 
+
+All of this has been taking us up to another crucial acronym: the
+CLI, which, fittingly, lacks a cute pronounciation. It stands for a
+Command-Line Interface. The key difference in interfaces here is between "Command-Line"
+and "Graphical User." 
+
+Once upon a time, (which this writer can
+recall) computers were primarily accessed via something called
+"terminals," which, in my case, had one stark user-interface feature: green text on a black background. Now, no
+one should expect have to go back and learn what exactly was going on
+during that era or what the relationship between a terminal and a
+"mainframe" was. But it turns out that, to use open source software,
+being comfortable at such a "terminal" interface--which we can think
+of as a "command-line"--is actually quite useful. 
+
+Now to all readers for whom the prospect of working with a
+command-line interface is notably distressing, let me remind you of
+the first big fact mentioned at the beginning: it's all still mostly
+words on a keyboard (until it's all just
+gestures on a touchscreen!). And so a good amount of what is required to get more
+familiar with what goes on "inside" the software we want to use is to
+get comfortable with the
+underlying words and symbols that make up the menus and options of the GUI
+sported by your piece of software of choice. 
+
+Good news, again. 
+
+Unless one is using a computer solely as a kind of enhanced
+television (or as a subtitute game-console, recording studio or
+multimedia canvas), the odds are high that you have spent significant
+amounts of time typing text that
+appeared on a screen. "Word processing," it turns out, is a good preparation for
+learning more about what goes on inside your software. 
+
+Now, for anybody who ever had an animated paperclip appear on that
+screen to inform you of a problem in your writing, or for anybody who
+ever had drafted an email which disappeared into the ether, there may
+be some "baggage" loading down one's personal associations with "word
+processing." Let us then turn our attention away from such a phrase
+and think instead about a perhaps less loaded term: "text editing." 
+
+:LOGBOOK:
+CLOCK: [2013-10-22 Tue 14:09]--[2013-10-22 Tue 17:13] =>  3:04
+:END:
+[2013-10-22 Tue 14:09]
+[[file:~/org/refile.org::*long-tones][long-tones]]
+
+** reflections about reading programming
+
+One of the legimate complaints one might imagine hearing offered up
+about the learning to program, orfiguring out something on the
+computer, or just about the technological approach in general, is
+that it is boring, alienating foregin, unintuive or unnatural
+seeming.  It seems wise to acknowledge the legitmacy of tese
+reactions rather than simply mount a defense, pure and simple. Would
+that there were ways to present the neeed informatoin, to instill the
+needed skills and ways fo thinking, ways to induce the kind of
+mentality, that did not seem like brainwashing, that idd not require
+putting to sleep parts of being that keep us alive, that serve to
+make us who we are. We are in fact problem-solvers. We do relfect and
+analyze. But we do not immediately apodt new new systems of
+symbology. Learning new terms, and more importantly lerning the new
+ways those terms are strung together to form significant
+meanings--none ofeahch of these things presents quite natural
+problems, which are infrequently resolved to everyone's
+satisfaction.  This may not seem significant, or rather may seem
+simply the way it is, as it were. 
+
+But if we are to move into a the coming intellectua and culutral age,
+it strikes me that we would do well to examine the technological
+approach in a new way, one that is sympathetic both to these kind of
+plaints, but also to the misgivings about the larger import of the
+project that they represent. 
+
+Can you learn to program while reading Heidegger's QUestion
+Concerning Technology? Is there some way to maintain a poet's
+mentality while developing one's understanding of the syntax of
+various computer languages? Can one be passionate about data, as an
+artist is passionate about color, or chords? It's fair to sy that
+each of these thoughts reveals an uneasy tension at the heart of
+something like "digital humanities."
+
+And yet, if they are to succeed, to remain relevant, they must find
+ways to reconcile themselves to conditions which increasingly pervade
+our conscioousness, which make up the fabric of the world which we
+reflect on and think through artistically.  NOt with a sense of
+having lost some battle, of resigning to the harsh technological reality of the
+future, but with the desire to be there, shaping it, and particpating
+and offering our voices. And gaining something in return. Expaniding
+our awareness of the world around us, and possible ways to naviagte
+thothrough that world. Becuase ultimately every profession must
+implicitly make an argument for its continued survival, and
+relevance. Surely there are many reasons why we would want to the
+arts to persist, to "endure" and one of the simplest and most
+effective ones is that they "help." What do they help us do? 'TO know
+ourselves' has been a strong answer for an indeterminate period of
+time. 
+
+BUt now we can strive to supply another answer, one that can be more
+bound up in and congnizant of whatever has been gained amid all the
+tears toil and bloodshed of the "modern age." An art hwich only looks
+selectively around it, which only sees what has been lost and what
+has robbed will ultimately ring hollow, as people fail to identify
+with the sense of loss in their continued existence out on the plain
+of the future,  in the sanctuary of they make of the now.
+
+** putting the "source" in open source
+One of the things that explains the lengths I am going through here is
+that to gain a deeper understanding of open source it helps to be able
+to know something about what the "source" refers to exactly. 
+
+Understanding 'source' actually entails understanding something of the
+underlying instructions that make the programs we want to run do what
+we want them to do. This requires developing an understanding of a
+computer language, the one that your program is written in. But, as
+with learning any language, you'd have to devote a considerable amount
+of time and effort to learning, say, Python, well enough to be able
+know what the source is "doing."  So, if you just want the effect that
+the source provides, you may not ever feel compelled to actually begin
+the process of learning the language
+
+
+** notes on programming from how-to texts
+
+*** from SICP
+
+Is it possible that software is not like anything else, that it is meant to be discarded: that the whole point is to always see it as a soap bubble?
+
+Alan J. Perlis
+
+A computer is like a violin. You can imagine a novice trying first a phonograph and then a violin. The latter, he says, sounds terrible. That is the argument we have heard from our humanists and most of our computer scientists. Computer programs are good, they say, for particular purposes, but they aren't flexible. Neither is a violin, or a typewriter, until you learn how to use it.
+
+Marvin Minsky, ``Why Programming Is a Good
+Medium for Expressing Poorly-Understood and Sloppily-Formulated
+Ideas''
+
+First, we want to establish the idea that a computer language is not
+just a way of getting a computer to perform operations but rather that
+it is a novel formal medium for expressing ideas about
+methodology. Second, we believe that the essential material to be
+addressed by a subject at this level is...the techniques used to
+control the intellectual complexity of large software systems.
+
+Underlying our approach to this subject is our conviction that
+``computer science'' is not a science and that its significance has
+little to do with computers. The computer revolution is a revolution
+in the way we think and in the way we express what we think. The
+essence of this change is the emergence of what might best be called
+procedural epistemology -- the study of the structure of knowledge
+from an imperative point of view, as opposed to the more declarative
+point of view taken by classical mathematical subjects. Mathematics
+provides a framework for dealing precisely with notions of ``what
+is.'' Computation provides a framework for dealing precisely with
+notions of ``how to.''
+
+To [Marvin Minsky and Seymour Papert] we owe the understanding that computation provides a means of expression for exploring ideas that would otherwise be too complex to deal with precisely. They emphasize that a student's ability to write and modify programs provides a powerful medium in which exploring becomes a natural activity.

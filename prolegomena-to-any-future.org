@@ -1,0 +1,1678 @@
+<<top>>
+
+#+STARTUP: hidestars
+
+#+TITLE: Prolegomena to any future comprehensive open source media tutorial
+#+OPTIONS: H:3
+# #+OPTIONS: toc:2
+
+#+OPTIONS: toc:nil
+
+* Prolegomena to any future comprehensive open source media tutorial
+Quoting from [[http://en.wikipedia.org/wiki/Prolegomena_to_Any_Future_Metaphysics][Wikipedia:]]
+
+#+BEGIN_QUOTE
+"Kant declared that the Prolegomena are for the use of both learners
+and teachers as an heuristic way to discover a science of
+metaphysics. Unlike other sciences, metaphysics has not yet attained
+universal and permanent knowledge. There are no standards to
+distinguish truth from error. Kant asked, 'Can metaphysics even be
+possible?'"
+#+END_QUOTE
+
+Can a comprehensive tutorial for media students looking to use open
+source software even be possible?
+
+
+
+#+TOC: headlines 2 
+* Introduction
+** Statement of Purpose
+This document begins with a statement of its primary purpose: to
+acquaint media arts students with using free, open source
+software. Sounds simple, doesn't it? 
+
+The reality is, inevitably, more complicated. What exactly are "media
+arts?" Do you mean "multimedia arts?" And what kind of free software
+are we talking about? Firefox? What concepts are involved
+there--How to use a web browser? And why does it sometimes say "free"
+software and other times say "open source?" There's [[free vs. open source software--a controversy?][a difference?]]
+
+And what the hell does 'acquaint' mean?
+
+None of these questions even begin to address the assumptions being made about
+what is going to remain useful months or years from the time of this
+writing, in late 2013.
+
+So, some further explanation is needed. And to paraphrase 
+[[http://quoteinvestigator.com/2011/05/13/einstein-simple/][(Roger Sessions apparently paraphrasing)]] Albert Einstein, you want the
+simplest explanation for how to do something, "but not simpler." As that
+cryptic allusion suggests, it all turns out to be not so simple, and
+trying to explain how to use software can get complicated
+pretty fast.
+
+** some basic assumptions
+
+In light of these complications, it can help any person doing the
+explaining to have a sense of what her auditor (the explainee?) already knows, in order to
+tailor the explanation to the shared context of what you both already
+know.  Since this document can't (yet) ask you what you already know,
+we're going to make a few assumptions. You may:
+
+*** have basic digitally literacy
+
+Even if you have never heard the term, chances are you "digitally
+literate." Some internet searches for what that means in 2013 turn up things like this...
+
+What the us government has to say:
+http://www.digitalliteracy.gov
+
+What some anonymous wikipedia administrators have to say:
+http://en.wikipedia.org/wiki/Digital_literacy
+
+We can only speculate about how any of this will change in coming
+months and years ([[speculative fiction and philosophy--or what did we learn from sci-fi?][see speculative fiction--below]])
+
+*** be accustomed to so-called right-brain thinking
+Two, we are going to assume that you may have more training in "the
+arts" than in "computers." The distinction may or may not be a
+relevant one right now, but, a world where it is definitively NOT is
+probably on the way. May this document help expedite the process.
+
+*** be reading this on your own actual computer (probably a Mac)
+Three, given that two is true, we might not be wrong in thinking that
+you are working on--or at least as familiar with working on--a Mac as
+any other computer. Why? Well, see [[novelist Neal Stephenson explains some computing history][this essay]] for some background.
+
+Because this may be true, we can just for now state that there are
+some complication with using some of the more "bleeding edge" open
+source software out there, if you are only accustomed to using the
+Mac GUI (huh? see [[UNIX operating system concepts and command line skills][here]]).
+
+DO NOT LET THIS DISSUADE YOU! It just means that you are going to
+become more skilled at working with this powerful tool of metal,
+glass, plastic and silicon. And for everyone who's seen Napolean
+Dynamite, we can all attest to the importance of having skills.
+
+It'll make a difference, also, if you are using your own computer,
+as you will be need to be able to get around it (and make changes)
+freely. In short, here's one case where's it good to be an
+administrator [see jargon].
+
+** structure of document
+
+Once this document 'goes live,' and then continues to be edited and
+updated, it will probably reflect something of the structure of the
+world of free software itself--maintained by a community (at least
+potentially, [[notes about maintaining this document][see below]]) unbound by linearity, vaguely anarchic but not
+without reason. It's a thriving, bustling scene out there, with an
+order all its own; the writing here can only hope to help you find
+your place in a sometimes disorienting virtual space.
+
+It is worth mentioning at the outset that this document is primarily
+concerned with software, as opposed to technology in general. As such,
+it is not really about digital art-making itself (though there are
+relevant links in the [[links to artist's works][appendix section]]); nor does it purport to be a
+tutorial about any of the individual pieces of software mentioned.
+Instead it is meant to orient and guide the media student through a
+variety of topics that sometimes feel incidental to actually doing
+work with any of these pieces of software.
+
+With that in mind, feel free to jump to the section that lists and
+briefly describes [[selected free software][particular examples]] of such software. You may find
+that in the process, you hit upon a topic or question that might be
+addressed here.
+
+While some original writing and explanation is sprinkled throughout,
+the bulk of the documentation here will involve links to webpages to
+visit for more information on specific software and for detailed
+explanations.  
+
+Since weblinks, however, have inevitably indeterminate lifespans, 
+there will also be listed [[looking around for free software (and help)][a few hubs]] of information that are important
+right now and should be around for a while.
+
+Finally, there may even be space for some thinking about things [[Philosophy and thinking about software--The Why?][deeper]]
+than how to install software, and that we don't expect to change as
+quickly--culture, philosophy, and the way humans learn and solve
+problems. 
+
+Begin anywhere.
+
+** some suggestions on how to use this document 
+
+Since we don't know what you want to do (and you may not either!), we
+seek to present a variety of ways to start.
+
+You might be interested in a particular medium or just wish to browse
+what's available, without having to think too much about all the steps
+in involved. In which case, we direct you [[selected free software][here]]
+
+In some cases, however, the experience of others can be useful (or
+irrelevant!). We will direct you to some [[others' paths and processes][paths]] that contributors have
+described. 
+
+As with the Web itself, there is no one path that anyone should
+follow. To quote Joseph Campbell, "follow your bliss." 
+
+(BTW, For most of us just starting out, that usually means NOT
+starting [[How does programming work?][too deep]] in [[http://en.wikipedia.org/wiki/Solution_stack]["the stack."]])
+
+*** why forking paths? 
+Depending on your tastes, reading tutorials can be challenging.
+Boredom, frustration, utter incomprehension all are problems you may
+encounter.
+
+Because using your brain in only one way to scour only one problem can
+quickly produce diminishing returns, we encourage breaks. One helpful
+trick is to read stuff that is [[where does your software come from?][related,]] but not exactly what you
+need. Especially if it is something that it is easier to relate to,
+you can chalk it up to learning the culture, which may be helpful in
+the long run. 
+
+Regardless, evidence (and personal experience) suggests that we can
+often subconsciously get ideas how to work out one problem while
+consciously working on something else. And there are usually no
+shortage of interesting concepts lurking just behind some really
+tedious ones.
+
+
+
+*** others' paths and processes
+
+I encourage contributors to share a little about the path they
+followed to arrive "here," understood as broadly or narrowly as
+necessary, as well as concrete examples of any process of working
+with software that they found useful or relevant in their own work or
+research. This can simply be links to tutorials or code on github or
+some such repository; or actual code or examples of work carried
+out. The emphasis, however, should be on explaining specific aspects
+of one's thought process or manner of working--artistic "source code,"
+as it were--rather than on finished presentations of already
+documented work. 
+**** _young Cicero's path_
+[[http://cicerojones.wikispaces.com/young+cicero%27s+path][a 2011-13 PIMA student's reflections]]
+
+#+TOC: headlines 2
+
+* Specific Software--The What?
+** getting to the 'source'
+*** what is 'source code?'
+**** _some vocabulary_
+
+Terms and ideas that you may encounter in this section and that may
+require some unpacking to understand the relevance or significance
+of. 
+
+implementation
+http://en.wikipedia.org/wiki/Category:Programming_language_implementation
+
+administrator
+
+debugging
+
+dependencies
+
+bleeding edge
+
+binaries
+
+object code
+
+source code
+
+machine language
+
+compiling/compiled
+
+interpreter/ed
+
+installing 
+
+configure--make--make-install
+
+libraries
+
+version control or revisioning
+
+bytecode
+
+**** installing and using software
+
+In order to use the software that follows below, you may face a
+variety of initial challenges. Or you may find the process smooth,
+effortless and painless. It all depends on a variety of factors, some
+within and some outside your control. 
+
+If you are a student in media arts, there is a good chance you have a
+Mac and already understand something about how to download and install
+a new application, especially one that has been neatly packaged by its
+proprietor. If it has not been so packaged, you may have to dig a
+little deeper into the process of, shall we say, getting the source to
+run?
+
+[what happens when you double click on a .dmg file is usually fairly
+consistent, though what happens afterwards depends a lot on what
+approach the person who "compiled" the program choose to do insofar
+as it would affect you.
+
+Let's contrast what would happen if you were to open this with
+something other than the DiskImageMounter, which is the default
+package that deals with .dmg files. Believe it or not, you can even
+choose to open up such a file in a text-editing program, and you will
+see a good representation of what 'compiled' means. It means that you
+can't read it. At least, not as something like English in the way
+that the source code was written by someone in something at least
+resembling English, (at least it was made up of recognizable
+symbols). 
+
+This unreadable by humans characteristic is part of what makes
+compiled code, or "binaries" special. The only thing you can
+reasonably do with it is give it to the machine inside your
+machine. That is, let the underlying low-level operating system
+facilities handle it, by bringing it unto the various operations that
+make up the processor's domain (the level of architecture we can
+think of as the machine language layer, or machine layer. 
+
+The subtleties here (at least as far as the average user is
+concerned) point to the complicated nature of getting a machine to
+understand something humans try to communicate. And points to the
+fact that there is an enormous amount of stuff going on
+underneath the hood of that clean-lined, relatively static-looking
+desktop environment the Apple design team (or the KDE, or the GNOME
+team) has sweated over. Understanding how a keystroke on a keyboard
+gets translated into something down in a fancy processor and returned
+instantaneously on a screen, without us having to say much of
+anything is all part of the remarkable ballet of user-designer
+interaction. 
+
+Back to your .dmg file. Dragging the main folder of whatever window
+appears next (this is all following a Mac installation experience)
+brings the installation game to a neat conclusion. As far as the
+ordinary user is concerned, at least. And did you notice that the
+original disk image file, which was "opened" by you DiskImage
+mounter, in fact appears as a device as far as your operating system
+interface is concerned. What the hell does THAT mean?
+
+When it comes to open source software, you will eventually 
+
+ downloads. dragging to applications folder (or wherever).]
+
+***** getting 'source code' onto a Mac
+
+One of the main complications I have experienced was how to take
+published code, say, from Github, http://sourceforge.net or from
+somebody's personal website, and to get it working on my laptop, which
+was usually a Mac running OS X.
+
+The typical software user is either (depending on your perspective)
+shielded or blocked from understanding the nitty-gritty details of how
+to run software. There certainly are plausible arguments for making it as easy
+as possible for the "end user;" the appropriate shibboleth here is 'intuitive.'
+The Mac design philosophy, and as of the early 2010s, Macs are the de
+facto standard for media and design students [[novelist Neal Stephenson explains some computing history][(see Neal Stephenson's essay)]] is to make the user
+experience as smooth and "intuitive" as possible; you want people to
+have to do little more than "double-click" to get things to work.
+
+While there are many advantages to this being shielded from the
+obscure inner-workings of software installation and operation, when it
+comes time to use software which is not proprietary, and which is not
+being actively maintained by a paid support team, you are now at a
+double disadvantage. Not only do you not know what to do if something
+goes wrong (which it often does), you may not have the required skills
+to do it all, may not know even the required vocabuarly (at the very
+least you may not be comfortable with working from the command line,
+especially if you have been accustomed to the Mac GUI. Knowing a
+little bit of how it all actually works 'under the hood,' makes sense.
+
+Again, there have been and will continue to be good reasons to keep
+people from 'opening the hood:' they are less likely to put
+power-steering fluid in the radiator, for one thing. But I would make
+the argument now that artists, especially those artists for whom
+digital technology has affected their field (which is just about
+everyone), need to be among the vanguard of 'non-techies' acquiring
+the vocabulary. We need to learn how to not just benefit from but
+contribute to the free software movement. More elaborate arguments
+supporting this can be found [[some prominent voices and developers][here]]
+
+****** Xcode Unix Utilities
+On a Mac, at least in 2013, you'll probably want to get your 'hands'
+on a piece of software that you may or may not ever use much. X Code
+is the massive application that serves developers of programs for any
+Apple software. Glossing over some history and nuances, X code will
+probably help you take advantage of the "open source core" that has
+been at the heart of OS X. 
+
+If you don't know much about it, we can for now say that this has to
+do with Unix, and leave at that for the moment, until you want to
+find out [[assorted concepts][more]]
+
+**** _becoming a contributor_
+
+Another thing that may arise will be the question of how to
+contribute to these projects. One of the great things about free
+software is that it is not just free as in beer, as the saying goes
+[see FSF]. You can modify it in whatever way you want, provided you
+know how. And this is no small catch. 
+
+Part of the idea behind this document is to make it possible for
+non-programmers to eventually be able to figure out how to contribute
+to the causes represented by these various programs. But in the
+meantime, going from artist to C++ programmer just does not happen
+overnight. The path from one to the other remains worth marking out. 
+
+The odds are you'll just want to jump in to learning what's possible
+in some particular application. For good reasons, this is a way to
+go, and may eventually inspire you to want to know more about what's
+possible with the given piece of software.
+*** looking around for free software (and help)
+
+I will be linking to a handful of specific free software projects,
+mainly ones that I have either used or come across during my time in
+PIMA.
+
+The open source world, however, is significantly larger than simply listing these
+examples can even hint at. Finding out more, and just generally
+exploring this world, can be greatly aided by becoming familiar with
+a few kind of clearinghouses for this kind of stuff. 
+
+I will mention and briefly describe a few here.
+
+**** _Wikipedia itself_ 
+http://en.wikipedia.org/wiki/Portal:Free_software
+
+**** _FLOSS Manuals_
+http://en.flossmanuals.net
+
+**** _the Free Software Foundation website_
+the free software directory
+http://directory.fsf.org/wiki/Main_Page
+
+http://www.gnu.org/links/links.html#FreeGNULinuxDistributions
+As of 2013, two crucial hubs for learning about what is available and
+how to use them are FLOSS manuals and FSF.
+
+As well, because of the centrality of Linux to the open source
+culture, getting linked into that world will make you much more aware
+of how much is going on in software beyond the big names and
+commericial proprietors
+
+Additionally, there is no
+shortage of user forums, which sometimes are more rabbithole than
+beacons of edification.
+
+stackexchange
+
+*** repositories
+    eventually, you will need to understand something about version
+    control and source code repositories. What is all this? See below.
+
+**** Github, Subversion et al
+     Understanding how github works is crucial to making the most of
+     the open source world. What is github? It is just one, though one
+     of the most popular /source code repositories/. That's right,
+     it's a place where source code lives, almost literally. That is,
+     it is where source code that is constantly being updated and
+     modified by its originators and the community of developers who
+     take an interest.
+
+
+** selected free software
+
+Here are some specific "things" that have come in handy during my time an MFA in
+performance and interactive media arts. (Can't help point out that
+the grouping may remind you of a certain Roland Barthes book...)
+
+Whenever possible, I will try to be consistent in giving a blurb,
+with at least some personal/editorial content where applicable. I
+will also include a link to the home of the project and another link
+to documentation or a wikipedia page concerning the project, where applicable. If
+there happen to be tutorials or applications of the program that I
+know of, I will mention or link to those as well. 
+
+*** music/sound
+**** _Pd_
+
+a graphical, dynamic programming language or environment, originally
+written by Miller Puckette (who helped lay the foundation for Max) as
+an open source alternative to Max. See Miller Puckette's [[Miller Puckette][essay]] on his
+experience developing the software and moving towards an open source
+model. 
+
+The documentation that you can find for Pd online (and within the
+program itself) is pretty good for an open source project. 
+http://puredata.info/
+http://en.wikipedia.org/wiki/Pure_Data
+
+
+Two excellent places to look are:
+http://www.pd-tutorial.com/english/index.html
+http://flossmanuals.net/pure-data/
+
+For those especially interested, Miller Puckette's textbook on
+electronic music is available online. He illustrates many of the
+fundamental concepts of electronic music with pd patches in the book. 
+
+Lastly, pd is written in C++ and would make for a good testing ground
+to practice writing extensions to an object-oriented, patching
+environment [see how to write externals]
+
+see [[others' paths and processes][Cicero's path]] for some particular experiences working with Pd.
+
+**** _Audacity_
+one of the primary open source sound editors, in the mode of Pro
+Tools and Logic. 
+
+Working with the interface will definitely require some adjustments
+to anybody who learned non-linear audio editing on those programs. 
+
+Still, a healthy amount of documentation exists. A worthy project to
+contribute to, especially if you are a musician.
+http://audacity.sourceforge.net 
+
+**** _Supercollider_
+another popular programming environment originally designed with
+audio in mind, Supercollider is also hosted on a notable code
+repository, SourceForge, that will eventually want to become familiar
+with. 
+
+Having not personally used Supercollider, I can only attest to the
+fact that I have heard good things--both about and "from" it.
+
+http://supercollider.sourceforge.net
+**** _Csound_
+
+
+one of the earliest computer music programs, based on the C
+programming language, which is at the heart of the Unix operating
+system. 
+
+Not as interactive an environment as the Pd or Max, Csound requires
+the ability to compile your C code before you can hear
+something. Still worth investigating, especially as a means to learn
+more about C, which remains a language worth learning.
+
+http://www.csounds.com
+
+http://en.wikipedia.org/wiki/Csound
+
+**** _PWGL_
+
+a Lisp-based environment for doing algorithmic composition, somewhat
+in the Patcher tradition of Pd/Max. The focus here, is on potentially
+creating attractive scores (the GL refers to the OpenGL standard)
+using traditional and graphic notation.
+
+A project full of potential for patient composers and those inclined
+to work with Lisp. See Cicero's path for more.
+
+http://www2.siba.fi/PWGL/
+
+**** _MuseScore_
+a music notation program I found compartively easy to learn and
+begin creating scores with quickly.
+
+http://musescore.org/en
+
+http://en.wikipedia.org/wiki/Musescore
+
+**** _misc_. 
+
+just to give you an idea of how much free software is out there, and
+what the world of getting it looks like:
+http://freecode.com/tags/soundaudio
+
+*** image/video
+**** _GIMP_
+
+GIMP, whose unfortunate acronym stands for GNU Image
+Manipulation Program, has been around for a long time, as part of GNU
+package of free software. 
+
+http://www.gimp.org 
+
+http://www.gimp.org/tutorials/ 
+
+
+It may be a while before Adobe's dominance in the visual media world
+is seriously challenged, though its recent adoption of a new pricing
+scheme for its Creative Suites products has attracted some [[https://videolan.org/vlc/][criticism]].
+
+**** _Processing_
+
+An important entry into the world of open source programming
+environments for artists and non-programmers, Processing has been
+around since 2001.
+
+
+http://www.processing.org 
+
+
+http://processing.org/tutorials/
+
+see Cicero's path: can be used with Kinect via special open source
+software tools that allow access to the motion-tracking capabilities
+of the Kinect.
+**** _Blender_
+
+Another longstanding free software project, Blender is a 3D-graphics
+environment that provides a fairly complex interface, at least for
+any not already familiar with graphics software. Like many free
+software packages, it has been used in commerical ventures (Spiderman
+2, apparently). 
+
+http://www.blender.org 
+
+http://wiki.blender.org 
+**** _VLC_ media player
+
+More properly an application for streaming or playing back content in
+wide array of formats, I have found VLC most useful for capturing (transcoding)
+streams, say, from Youtube or other streaming sources.
+
+
+https://videolan.org/vlc/
+
+**** _open_ frameworks
+
+I can only say I have heard good things about openframeworks, which
+appears to be used by artists working largely with installations and
+visual media. 
+
+http://openframeworks.cc 
+
+http://openframeworks.cc/tutorials/
+*** text/other
+**** _text_ or document-oriented
+***** LibreOffice
+
+The options for non-Microsoft word processing and office suite
+software has seen some recent changes, with OpenOffice and
+LibreOffice representing a kind of reconfiguring of the scene for
+document-producing free software.
+
+LibreOffice now comes as the default package on Linux systems, so that
+is mentioned here, as I have no particular experience with it.
+
+https://www.libreoffice.org/
+
+***** Emacs
+
+
+http://www.gnu.org/software/emacs/
+
+Nominally just a text editor, Emacs is perhaps the original free software package, still actively
+developed and maintained now since the mid-70s. To understand the
+staying power of something seemingly as uninteresting as a text editor
+may require some context and history. This history is very much bound
+up in the trajectory of the free software movement (see more).
+
+Since it was actually designed to be a kind of complete operating
+system environment, it is not uncommon to hear complaints by diehard
+users of having to "leave" Emacs to work in applications. 
+
+It is primarily used now as a highly-configurable environment for developing programs
+in a huge variety of languages, especially by those who have fully
+adopted the Linux operating system. 
+
+Ignoring the hyperbole of [[http://en.wikipedia.org/wiki/Editor_wars]["editor wars,"]] it's fair to say that the
+debate of, essentially, what to type in when navigating around your
+computer has given rise to factions and strife. I can say that,
+despite its frustrations and learning curve, I am very glad for
+having taken approximately 2 years to get the point of understanding
+those who don't want to leave emacs.
+
+Like many of the tools related to programming and text here, emacs is
+most likely already installed in some form on your computer. I got
+started using it on a Mac, with an implementation, Aquamacs, that makes
+for a simplified learning experience for Mac users. 
+
+I am happy to recommend it for those who want to take their
+understanding of their computer and programming further. I am also
+compelled to encourage patience: may your forebearance know no limits.
+
+http://aquamacs.org
+
+****** org-mode
+
+There exist many "libraries" and utilities within emacs that have
+been around for a long time. These allow Emacs to continue to be
+adapted by people who still find working in raw text-based
+environments critical to their productivity. And essentially org-mode
+is one huge library within emacs that is designed to help programmers
+be productive, which usually means typing text at a keyboard. 
+
+As indication, this whole text was composed in org-mode, as kind of
+raw text file, and automatically exported to HTML by using org-mode
+facilities. 
+***** LaTeX
+
+http://www.latex-project.org
+
+Built on top of another one of the longstanding free
+software projects, LaTeX (nothing to do with the gloves--it's
+connected to the Greek word "techne") is a program for typesetting
+documents. Huh? 
+
+The purpose of typesetting at a computer may strike most casual computer
+users as odd. This is because we tend to take for granted the reality
+that the acronym "WYSIWYG" represents: "what you see is what you
+get." That is, when typing a document using a program like Microsoft
+Word, what you see on the screen is what pretty much exactly what
+your document is going to look like. 
+
+That a need for something else exists may only become apparent when
+you can't get your document to look quite the way you want. This is
+where TeX comes in, as you essentially "program a document:" working
+with a text editor, you give TeX some commands along with your
+text that will allow you greater control of precisely how you want your
+document to look. The final document is produced after processing all
+of your commands.
+
+If you ever start to really care what your documents look like,
+especially if, god forbid, some mathematical text is involved, you'll
+see the need for LaTeX, which is ubiquitous in academia. 
+
+If you have ever downloaded an article that looked like [[http://msp.ucsd.edu/Publications/isea-reprint.pdf][Miller Puckette's]] then TeX was probably involved somewhere. 
+
+***** FreeMind mind mapping software
+
+A useful tool for taking loosely-structured notes or as a project
+management tool allowing for graph-like visualizations of image and
+text.
+
+Perhaps also significant here as a software project which is hosted
+on Subversion, a website used for open source projects large and
+small. The trouble of downloading and installing via the command line
+is avoided by the availability of pre-compiled binaries [link]. But
+you can acquaint yourself with the general look and feel of a project
+maintained by a smaller community on a code repository.
+
+You could even use this as an experiment in trying to "roll your
+own;" that is "install from source" yourself. [link]
+
+http://freemind.sourceforge.net/wiki/index.php/Main_Page 
+***** wordpress.org (as opposed to wordpress.com)
+see other for more programming-specific
+
+**** _other_
+***** applications of computational approaches
+****** NetLogo
+
+Quoting from Wikipedia, "NetLogo is an agent-based programming
+language and integrated modeling environment." That is, it is useful
+as an environment for setting up a vast number of complex interactions
+among parts, which the user creates and can defines to be anything
+from virtual ants to humans. 
+
+The purpose, and it's relevance to students of interactive media, is
+to make aid the study of interactions. Used as an educational tool,
+one can run existing simulations developed by other researchers or
+create one's own.
+
+
+
+http://ccl.northwestern.edu/netlogo/ 
+****** NLTK
+
+The Natural Language ToolKit (NLTK) is designed to get you started
+exploring the area of Natural Language Processing (NLP).
+
+One of the best things about NLTK is that there is an excellent book
+freely available (NLP with NLTK) that makes it possible to find out,
+say, in what senses Jane Austen uses the word "monstrous" in Sense
+and Sensibility (you'd be surprised).
+
+NLTK is a great example of newer open source project with a
+well-supported code base, and some of the best documentation going (a
+whole textbook, published by O'Reilly). Since it is hosted on Github
+you can also begin to get familiar with that repository. And most
+important of all, it can be an easy way to start to learn how to
+program in Python, without having to do a bunch of boring and
+meaningless exercises (which appear to be all too necessary parts of
+introductory programming texts).
+
+[link] 
+
+How can I install NLTK from the source code repository?  Most users
+should install NLTK from a distribution. Please see the installation
+instructions. However, if you need an up-to-the-minute version, then
+you will have to install NLTK from the source repository. Once you've
+downloaded this, you'll need to run the top level setup.py program to
+install this version of NLTK on your machine.
+***** programming languages and environments
+****** the bash shell
+
+For Mac users, this is, for simplicity's sake, equivalent to the
+Terminal application, which you may never have had reason to use. 
+
+But, if you are going to take seriously the task of using open source
+software more and more, or even if you are just interested in
+learning more about programming, the time is nigh.
+
+Issues pertaining to understanding what a "shell" is and how to use
+it, appear elsewhere in more detail. Suffice it to say that, the Bash
+shell is already on your computer, and provides a way into the core
+of the operating system.
+
+See [link] for more details. Getting comfortable with this is important.
+****** GNU/Linux--not just any software
+
+This may be an odd term for you, but hopefully you have at least
+heard of Linux. The word 'ecosystem' usually strikes me as a bit
+dubious when applied willy-nilly to any kind of software environment,
+but it really is applicable to the Linux, or GNU/Linux world. 
+
+Skimming around the various other sections and coming back here will
+probably be best, unless you are already especially motivated to
+start using the Linux operating system. If you already are working on
+a Mac, it is not terribly difficult to actually support both
+operating systems, if you want a way to learn incrementally. [link]
+
+However, if you are not totally comfortable working at the commandline
+[link] you may want instead to start by getting used to that first,
+by say doing some exercises, reading some tutorials, and maybe
+learning to use a text editor, such as Emacs. It's a process, but one
+that will eventually lead to you getting a better understanding of
+your computer, and the real value (and challenges) of working with
+open source software. [link]
+****** Python
+
+Python is one of the more popular programming languages, and happens
+to be open source, as well. What that means when it comes to a
+programming language may be a little unclear, which is ok for the
+moment. If you are on a Mac, you most likely already "have"
+Python. 
+
+Using it with a dedicated "interpreter" [link] is probably best when
+starting out, in which case you will want to download IDLE.
+
+Here are some further (loosely organized) links to things dealing
+with Python. 
+
+
+******* "where is 'Python' and the various things it uses located?"
+
+One example:
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/nltk/metrics/distance.pyc
+
+http://geosci.uchicago.edu/~rtp1/PrinciplesPlanetaryClimate/Python/pythonPortal.html
+
+http://geosci.uchicago.edu/~rtp1/PrinciplesPlanetaryClimate/Python/pythonInstall.html
+
+file:///Library/Frameworks/Python.framework/Versions/2.7/Resources/English.lproj/Documentation/glossary.html#term-interpreted
+
+******* what is "interpreted?"
+
+Python is an interpreted language, as opposed to a compiled one,
+though the distinction can be blurry because of the presence of the
+bytecode compiler. This means that source files can be run directly
+without explicitly creating an executable which is then
+run. Interpreted languages typically have a shorter development/debug
+cycle than compiled ones, though their programs generally also run
+more slowly. See also interactive.
+
+
+Let's go one more step and write executable Python code:
+
+
+******* Python beginners stuff
+http://en.wikibooks.org/wiki/Python_Beginner_to_Expert/Structured_Python
+. It is generally advisiable to include a shebang line when writing for Unix types of systems. 2. In some Unix type environments, the interpreter may have problems with DOS type line endings.
+
+******** digging in to Libraries 
+
+installing Python libraries
+http://pypi.python.org/
+
+Can be tricky on OS X
+
+For example:
+
+http://matplotlib.org/users/installing.html
+Manually installing pre-built packages
+General instructions
+For some people, the prepackaged pythons discussed above are not an
+option. That’s OK, it’s usually pretty easy to get a custom install
+working. You will first need to find out if you have python installed
+on your machine, and if not, install it. The official python builds
+are available for download here, but OS X users please read Which
+python for OS X?.
+
+
+I highly recommend looking the NLTK section [link], especially if you
+are interested in language or writing, as a way to start learning
+about programming in Python.
+****** Clozure Common Lisp
+
+One of the oldest (and still relevant) computer languages is
+Lisp. Common Lisp is pretty much the standard version of the language
+these days, and Clozure is just one of the widely available open
+source implementations [link]. 
+
+Lisp has been around long enough that its fortunes have risen and
+fallen with those of various corners of the computing world. For our
+purposes, its importance can be gauged by its influence on Emacs
+(which is written in its own version of Lisp. Knowing Lisp allows you
+to make virtually any modification and extension to the program you
+want). Additionally, for musicians, PWGL makes possible getting into
+Lisp programming in a musical setting akin to Max/MSP and Pd. 
+
+Please see some of the essays and authors below for more context and
+history behind using Lisp. [link]
+
+The availability of a great tutorial makes starting to learn
+programming in Common Lisp much more feasible. 
+
+[link] Seibel
+****** Lua
+
+I don't have first hand knowledge of this programming/scripting
+[link] language. But its hook into Max has made it be a part of many
+PIMA students introduction to programming languages.
+
+
+http://www.lua.org 
+***** code repositories
+
+At some point, you will discover that somebody has written some kind of
+extension to a program that you already use, and you'd like to try
+out this extension. But if they are not company, even if they are a
+community and not a single person, they need to make this code
+available, and not just to people who want to use the extension they've
+created. The great innovation of free software projects is that they
+take advantage of a community's ability to discover problems and
+develop emendations in a way that's impossible for individuals. Is it
+better for these teams or informal communities to take responsibility
+for this process or for a company of paid individuals? Good luck
+sorting that one out [link]
+
+In the meantime, you will eventually need to learn how to use these
+systems that make these large coordinated efforts at code-sharing and
+revising possible. Here's several of them.
+
+You will need to develop you understanding of [link] revisioning
+systems to make much use of these things, in most cases. 
+
+Content management systems, or "package managers," are typically
+another command-line reality to deal with for Mac users looking for
+free software.
+
+github
+
+subversion
+
+homebrew
+
+macports
+
+http://code.google.com 
+***** designing algorithms, programs and languages
+
+If you want to be able to write your own program or modify someone
+else's, you will greatly aided by understanding at least a little bit
+about how these things work at a pretty fundamental level.
+
+Though these links have virtually nothing to do with art per se, they
+all can play a part in helping you crystallize the understanding of
+process that lies at the heart of creating a program, and especially
+of designing an algorithm (whatever the hell that means). 
+
+It is safe to say that this section is really for the person who is
+especially motivated to study the science (or is it an art? [link]
+see SICP) of programming.
+
+One of the oldest, still widely admired textbooks on programming,
+freely available on line. While not for the mathematically faint of
+heart, there are many gems in here for the general user or thinker
+about software. 
+
+Since SICP has been around as long as it has, you may be able to guess
+what language it depends on. 
+
+SICP
+
+The Lisp language has evolved greatly in the 50-odd years since it's
+creation. For some purposes, people prefer a more streamlined,
+"elegant" version.
+
+Scheme-Racket
+
+In order to solve a problem, or just to get to know your tools that
+are available, you may want to work on exercises that simply hone
+your skills rather than create "living, breathing" programs for use in
+the world. 
+
+rosetta-code [link]
+
+euler
+
+#+TOC: headlines 2 
+* Gaining a deeper understanding--The How?
+** everyone's an autodidact, or finding out what you need to know
+*** the process (and science) of learning 
+
+There can be a lot to learn when trying to get comfortable and get
+done what you need to get done with software. Some meditations on
+cognition, mindfulness and problem-solving can be helpful, if only to
+distract you from your problem long enough to figure it out
+subconsciously. 
+
+Some advice and ideas to think about:
+
+Rather than reading something in isolation when we are learning a new
+language or technique, we can take advantage of the immediate feedback
+that working with an interactive environment provides. Since the
+tutorials that are available often just skim the surface of what we're
+really interested in, you may find that you get an idea about what
+you'd really like to be able to do. this could either be the beginning
+of brilliant idea and concrete learned outcome (as they might say in
+an educational psychology classroom) or it might be a frustrating
+digression through countless vaguely inspiring but ultimately
+unhelpful online forums and help pages, since the needed technique
+hasn't exactly been mentioned yet. 
+
+Be a good steward of your time and know when to back-off the more
+ambitious idea. You'll figure it out eventually. Better to get back
+to the more narrow path you were being led down by the tutorial.
+
+**** food for thought
+
+http://en.wikipedia.org/wiki/Metacognition
+
+http://en.wikipedia.org/wiki/Learning_styles
+
+
+The emphasis--and preference--here is freely available
+information. Here's one notable exception, a book written about the
+psychology of learning. The general idea behing the book, that there
+is an approach to learning that we are usually not taught that may be
+helpful. Thinking about thinking, metacognition, is a good way to get
+where you need to go in as painless a way as possible.
+
+http://www.amazon.com/gp/product/0201339919
+
+For example:
+
+She states the myths of conventional learning:
+
+1.The basics must be learned so well that they become second nature.
+
+2.Paying attention means being focused on one thing at a time.
+
+3.Delaying gratification is important.
+
+4.Rote memorization is necessary.
+
+5.Forgetting is a problem.
+
+6.Intelligence is knowing "what's out there."
+
+7.There are right and wrong answers.
+
+
+*** online resources
+
+there's no shortage of websites and blogs devoted to teaching you
+how to code, or at least talking about it long enought to capture your
+attention and potentially monetize it. Such is the way of the
+world. In general, the depth that full-blown books provide can be
+advantageous. But the free availablity of information has its own
+charm, (and more importantly, in many cases, moral weight).
+
+http://happyhacker.org/gtmhh/gtmhh2.shtml#program
+
+codeacademy[link]
+
+http://programmersheaven.com/categories
+
+
+** How does programming work? 
+this is a potentially enormous subject. the least you might need to
+know would be what is involved in how to get some source code that someone has
+assembled to work on your computer. 
+*** assorted concepts
+**** _it's (a) Terminal_
+
+Working on a Mac, you have access to something whose usefulness has
+just not faded, despite the near-universal preference for colorful
+visual interfaces mixing pictures and icons and all that we associate
+with the modern operating system [link]
+
+That people still use text-based interfaces, or even prefer them, may
+strike many of us as a sign of self-imposed austerity. Why wouldn't
+you want to use a mouse and see little icons and dropdown menus for
+everything? 
+
+The austere appearance of a command line interface, which the
+Terminal is an example of, can intimidate or frustrate; it can seem
+like a step back. 
+
+Well, coming to see the value in another viewpoint when it comes to
+interfaces may not happen immediately. But be aware that, despite the
+lack of an appealing GUI, the CLI and the system of organization that
+it exposes to you, embodies a certain clarity (at least for machines running Mac
+OS X and Linux, which have a core based on the Unix operating
+system) that won't make much sense right away. But just keep this
+phrase in mind "everything is a file." [link]
+
+http://ph7spot.com/musings/in-unix-everything-is-a-file
+
+
+[[FLOSS Manuals tutorial on the GNU/Linux Command line]]
+
+
+**** _compilation_
+Right now this section is primarily links, and in some cases large
+copied-in chunks of text. Compilation is not a subject that most
+casual Mac users will be very familiar with. Feel free to return to
+this section, or work through some of the Mac developer tutorials, to
+help get your bearings down the road.
+***** what's a compiler? 
+http://www.compilers.net/paedia/compiler/index.htm
+****** configure; make; make install
+http://tldp.org/LDP/LG/current/smith.html
+
+
+   configure; make; make install
+
+Submitted by Willy on Saturday, November 22, 2003 - 12:55
+ 
+Over and over I have heard people say that you just use the usual configure, make, make install sequence to get a program running. Unfortunately, most people using computers today have never used a compiler or written a line of program code. With the advent of graphical user interfaces and applications builders, there are lots of serious programmers who have never done this.
+
+What you have are three steps, each of which will use a whole host of programs to get a new program up and running. Running configure is relatively new compared with the use of make. But, each step has a very distinct purpose. I am going to explain the second and third steps first, then come back to configure.
+
+The make utility is embedded in UNIX history. It is designed to decrease a programmer's need to remember things. I guess that is actually the nice way of saying it decreases a programmer's need to document. In any case, the idea is that if you establish a set of rules to create a program in a format make understands, you don't have to remember them again.
+
+To make this even easier, the make utility has a set of built-in rules so you only need to tell it what new things it needs to know to build your particular utility. For example, if you typed in make love, make would first look for some new rules from you. If you didn't supply it any then it would look at its built-in rules. One of those built-in rules tells make that it can run the linker (ld) on a program name ending in .o to produce the executable program.
+
+So, make would look for a file named love.o. But, it wouldn't stop there. Even if it found the .o file, it has some other rules that tell it to make sure the .o file is up to date. In other words, newer than the source program. The most common source program on Linux systems is written in C and its file name ends in .c.
+
+If make finds the .c file (love.c in our example) as well as the .o file, it would check their timestamps to make sure the .o was newer. If it was not newer or did not exist, it would use another built-in rule to build a new .o from the .c (using the C compiler). This same type of situation exists for other programming languages. The end result, in any case, is that when make is done, assuming it can find the right pieces, the executable program will be built and up to date.
+
+The old UNIX joke, by the way, is what early versions of make said when it could not find the necessary files. In the example above, if there was no love.o, love.c or any other source format, the program would have said:
+make: don't know how to make love. Stop.
+
+Getting back to the task at hand, the default file for additional rules in Makefile in the current directory. If you have some source files for a program and there is a Makefile file there, take a look. It is just text. The lines that have a word followed by a colon are targets. That is, these are words you can type following the make command name to do various things. If you just type make with no target, the first target will be executed.
+
+What you will likely see at the beginning of most Makefile files are what look like some assignment statements. That is, lines with a couple of fields with an equal sign between them. Surprise, that is what they are. They set internal variables in make. Common things to set are the location of the C compiler (yes, there is a default), version numbers of the program and such.
+
+This now beings up back to configure. On different systems, the C compiler might be in a different place, you might be using ZSH instead of BASH as your shell, the program might need to know your host name, it might use a dbm library and need to know if the system had gdbm or ndbm and a whole bunch of other things. You used to do this configuring by editing Makefile. Another pain for the programmer and it also meant that any time you wanted to install software on a new system you needed to do a complete inventory of what was where.
+
+As more and more software became available and more and more POSIX-compliant platforms appeared, this got harder and harder. This is where configure comes in. It is a shell script (generally written by GNU Autoconf) that goes up and looks for software and even tries various things to see what works. It then takes its instructions from Makefile.in and builds Makefile (and possibly some other files) that work on the current system.
+
+Background work done, let me put the pieces together.
+
+You run configure (you usually have to type ./configure as most people don't have the current directory in their search path). This builds a new Makefile.
+Type make This builds the program. That is, make would be executed, it would look for the first target in Makefile and do what the instructions said. The expected end result would be to build an executable program.
+Now, as root, type make install. This again invokes make, make finds the target install in Makefile and files the directions to install the program.
+This is a very simplified explanation but, in most cases, this is what
+you need to know. With most programs, there will be a file named
+INSTALL that contains installation instructions that will fill you in
+on other considerations. For example, it is common to supply some
+options to the configure command to change the final location of the
+executable program. There are also other make targets such as clean
+that remove unneeded files after an install and, in some cases test
+which allows you to test the software between the make and make
+install steps.
+
+****** Understanding software Installation (configure, make, make install)
+http://www.codecoffee.com/tipsforlinux/articles/27.html
+
+>> Understanding software Installation (configure, make, make install)
+
+This tutorial is aimed at those who have just started using Linux. Generally when users from the Windows background enter the Linux scene,they are totally stumped by the software installation method. They were used to the luxury of double clicking on a single file and getting their software installed. But now they have to type cryptic commands to do the same.
+
+Though the installation instructions tell them what to do, they have no idea what those steps actually do. This article shall explain the basics of software installation. After reading this article you would feel more at home when installing your next software.
+
+Generally beginners tend to search desperately for RPMs since installing RPMs is a real simple task. But this article doesn't talk about RPMs. It deals with the softwares that you generally get in the zipped formats as tarballs.
+
+
+Details :
+
+Generally you would get Linux software in the tarball format (.tgz) This file has to be uncompressed into any directory using tar command. In case you download a new tarball by the name game.tgz, then you would have to type the following command
+
+$ tar xfvz game.tgz
+
+This would create a directory within the current directory and unzip all the files within that new directory. Once this is complete the installation instructions ask you to execute the 3 (now famous) commands : configure, make & make install. Most of the users do this and successfully install their softwares. But most of the newbies have no idea what this really does. The rest of the article shall explain the meaning of these 3 commands
+
+Each software comes with a few files which are solely for the purpose of installation sake. One of them is the configure script. The user has to run the following command at the prompt
+
+$ ./configure
+
+The above command makes the shell run the script named ' configure ' which exists in the current directory. The configure script basically consists of many lines which are used to check some details about the machine on which the software is going to be installed. This script checks for lots of dependencies on your system. For the particular software to work properly, it may be requiring a lot of things to be existing on your machine already. When you run the configure script you would see a lot of output on the screen , each being some sort of question and a respective yes/no as the reply. If any of the major requirements are missing on your system, the configure script would exit and you cannot proceed with the installation, until you get those required things. 
+
+The main job of the configure script is to create a ' Makefile ' . This is a very important file for the installation process. Depending on the results of the tests (checks) that the configure script performed it would write down the various steps that need to be taken (while compiling the software) in the file named Makefile.
+
+If you get no errors and the configure script runs successfully (if there is any error the last few lines of the output would glaringly be stating the error) then you can proceed with the next command which is
+
+$ make
+
+' make ' is actually a utility which exists on almost all Unix systems. For make utility to work it requires a file named Makefile in the same directory in which you run make. As we have seen the configure script's main job was to create a file named Makefile to be used with make utility. (Sometimes the Makefile is named as makefile also)
+
+make would use the directions present in the Makefile and proceed with the installation. The Makefile indicates the sequence, that Linux must follow to build various components / sub-programs of your software. The sequence depends on the way the software is designed as well as many other factors.
+
+The Makefile actually has a lot of labels (sort of names for different sections). Hence depending on what needs to be done the control would be passed to the different sections within the Makefile Or it is possible that at the end of one of the section there is a command to go to some next section.
+
+Basically the make utility compiles all your program code and creates the executables. For particular section of the program to complete might require some other part of the code already ready, this is what the Makefile does. It sets the sequence for the events so that your program does not complain about missing dependencies.
+
+One of the labels present in the Makefile happens to be named ' install ' .
+
+If make ran successfully then you are almost done with the installation. Only the last step remains which is
+
+$ make install
+
+As indicated before make uses the file named Makefile in the same directory. When you run make without any parameters, the instruction in the Makefile begin executing from the start and as per the rules defined within the Makefile (particular sections of the code may execute after one another..thats why labels are used..to jump from one section to another). But when you run make with install as the parameter, the make utility searches for a label named install within the Makefile, and executes only that section of the Makefile.
+
+The install section happens to be only a part where the executables and other required files created during the last step (i.e. make) are copied into the required final directories on your machine. E.g. the executable that the user runs may be copied to the /usr/local/bin so that all users are able to run the software. Similarly all the other files are also copied to the standard directories in Linux. Remember that when you ran make, all the executables were created in the temporary directory where you had unzipped your original tarball. So when you run make install, these executables are copied to the final directories.
+
+Thats it !! Now the installation process must be clear to you. You surely will feel more at home when you begin your next software installation.
+***** Introduction to Porting UNIX/Linux Applications to OS X
+https://developer.apple.com/library/mac/documentation/porting/conceptual/portingunix/intro/intro.html#//apple_ref/doc/uid/TP40002847-TPXREF101
+***** Shell Scripting Primer
+https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268
+***** mac technology overview
+https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/About/About.html#//apple_ref/doc/uid/TP40001067
+***** mac open source development
+https://developer.apple.com/opensource/
+
+***** developing mac apps 
+https://developer.apple.com/library/mac/referencelibrary/GettingStarted/RoadMapOSX/chapters/02_SetUp.html
+
+***** ubuntu compiling software
+https://help.ubuntu.com/community/CompilingSoftware
+ 
+
+***** scientific computing on os x
+http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Unix_and_OS_X:_Third-Party_Unix_Software
+***** [[http://en.flossmanuals.net/command-line/ch030_installing-software/][installing and compiling walk-through]]
+:PROPERTIES:
+:ID: D619ACC5-191C-43C4-8D53-B9BEBAF5E4D9
+:END:
+
+**** _operating systems_
+[[novelist Neal Stephenson explains some computing history]] 
+
+[[Mac installation guides on about.com][http://macs.about.com/od/MountainLion/tp/Os-X-Mountain-Lion-Installation-Guides.htm]]
+The clean install process on a non-startup drive assumes that your target drive doesn't contain an OS. For this guide, we'll also assume that you've recently completely erased the target drive, so that this is truly a clean install.
+**** _algorithms_
+[[designing algorithms, programs and languages]]
+**** _data_
+see [[others' paths and processes][Cicero's path]]
+**** _software development_
+***** qualities of a good programmer
+taken straight from this blog entry
+https://www.hackerschool.com/blog/27-fundamental-qualities-of-good-programmers
+
+****** Knowing one programming language really well
+
+Programming languages are just tools for telling computers what to do. It is better to have a strong command of one than a weak command of a bunch. Good programmers have at least one language that they know inside and out and can reach for to easily solve whatever problem is at hand.1
+
+****** Being a systematic debugger
+
+Being a systematic debugger means that you have a good mental model of your code and that when you run into a bug—that is, when your program doesn't work as expected—you generate hypotheses about what's wrong, instead of blindly changing things until your program works.
+
+****** Having a good mental model of your programming environment
+
+Most programs interact with the outside world, so having an understanding of your environment is important. This includes the I/O and concurrency primitives that your language provides, the way your language finds, loads, compiles, and runs code, the way that your program gets info from the outside world (e.g., environmental variables and command line arguments), and the way your OS handles file access, device access, search paths, etc.
+
+****** Having a good mental model of the hardware you use
+
+Knowing how your hardware works makes it easier to write efficient programs. Even if you are writing programs in a higher level language, understanding things like the call stack, the MMU, the cost of context switching, the memory hierarchy, and the characteristics of the network you are connected to will inform your programming decisions.
+
+****** Being comfortable with algorithmic thinking
+
+A lot of people confuse algorithmic thinking with knowing a bunch of particular algorithms like quicksort or binary search.
+
+An algorithm is a set of steps describing a calculation. Much of programming is simply describing algorithms to a computer. Being comfortable with algorithmic thinking means having good intuition for how to store and manipulate your data, being able to think both iteratively and recursively, and being able to reason about the performance characteristics of the code you write.
+
+****** Being comfortable with mathematical thinking
+
+Programming is not as math-heavy as many non-programmers think, but as you start tackling tougher problems, you'll find that being comfortable with math comes in handy. Many interesting areas of programming like computer graphics, signal processing, and cryptography require a deep understanding of math. Even just measuring the performance of your code can require some statistical thinking.
+
+****** Being able to write a program from scratch
+
+It is hard to imagine a good programmer who cannot write a program from scratch.
+
+****** Being able to work on a small piece of a large program
+
+Most of the time you're not writing a program from scratch. Instead, you're working with other programmers on a large project.
+
+****** Knowing how to structure your code
+
+Well-structured code allows you to easily navigate up and down through layers of abstraction. In a well-structured program, you can ignore implementation details when they don't matter and modify the implementation without having to make changes in all the places where the code is used.
+
+****** Having a large code radius
+
+Code radius is a term that Alan came up with. Your code radius is the size of the largest program you're comfortable writing from scratch. Increasing your code radius takes practice. The structural tools that work well for a 500 line program are not necessarily the same as the ones that work for a 5,000 line program or a 50,000 line program.
+
+****** Being able to code quickly
+
+Often times it's faster to try out a few different solutions and decide which is the most elegant than to figure out the correct one just by thinking about it. If you find "quickly" to be too subjective, consider the inverse: It's hard to imagine a good programmer who is slow.
+
+****** Being productive with your tools
+
+Good programmers use their tools effectively. This doesn't mean you have to use all the tools available to you in order to be a good programmer—not everyone likes IDEs and plenty of good programmers prefer printf to a debugger—just that good programmers are productive with the tools they choose to use.
+** some history, context and terminology
+*** novelist Neal Stephenson explains some computing history
+with annotations from 2004
+http://garote.bdmonkeys.net/commandline/
+*** terminology
+also see [[_some vocabulary_]]
+**** _software architecture_
+front-end/back-end terminology
+   [[http://en.wikipedia.org/wiki/Front-end]["software
+   architecture"]] 
+**** _explaining common things we encounter e.g. file types, file-endings_
+if you are seeing .app, or .dmg or .tar or .gz or .txt or NO
+ending(?!) what does this mean? If you have been using different
+applications on a mac that seem to consistently open some files with
+a certain ending exclusively, then you have a nascent sense of what
+file endings mean. And that means you are in a good position to
+understand what compilation means. And what building means. And what
+configuring means. And what installing means. And at least what
+USING, most importantly for us as artists, means. 
+
+***** more file extensions in tables
+So what other file extensions can you name, and what do you
+understand about what they mean? 
+| .html | webpages           | these are read by "web browsers" |
+| .mp3  | compressed audio   | audio players                    |
+| .wav  | uncompressed audio | "                                |
+| .aiff | uncompressed audio | "                                |
+| .mpeg | video              | media players                    |
+| .mov  | video              | "                                |
+| .jpg  | images             | image-viewing programs           |
+.
+
+
+**** _other technical jargon_
+
+In doing reading about a particular technology or technique you will
+likely be exposed to some terms that are being bandied about as if
+they meant something to everybody. Here are some such terms; you may
+encounter them elsewhere in this document.
+
+Additionally, I've copied in some randomly gatherd statements that may contain
+language that seems slightly jargon-laden. Despite their
+disconnection, we can use them to grow our familiarity with the kind
+of language used in tech-oriented writing.
+
+***** *integrated development environment*
+
+***** some random statements for explaining
+
+****** *statically typed, free-form, multi-paradigm and compiled.* 
+
+****** *It is regarded as an intermediate-level language, as it comprises both*
+high-level and low-level language features.
+
+http://en.wikipedia.org/wiki/Programming_paradigm
+
+****** *HTML5 and CSS3, the Latest HTML proposed standard, combined with the*
+latest proposed standard for CSS, natively supports much of the
+client-side functionality provided by other frameworks such as Flash
+and Silverlight
+
+****** *Arduino is an open-source electronics prototyping platform based on*
+flexible, easy-to-use hardware and software. It's intended for
+artists, designers, hobbyists and anyone interested in creating
+interactive objects or environments. 
+
+****** *PHP, (PHP: Hypertext Preprocessor, a recursive acronym) is a*
+server-side scripting language designed for web development but also
+used as a general-purpose programming language. 
+
+****** *Lua combines simple procedural syntax with powerful data description*
+constructs based on associative arrays and extensible semantics. Lua
+is dynamically typed, runs by interpreting bytecode for a
+register-based virtual machine, and has automatic memory management
+with incremental garbage collection, making it ideal for
+configuration, scripting, and rapid prototyping. 
+
+
+****** *The language is entirely implemented into the Scriptol to C++ compiler.*
+- Embedding inside Web page is possible only with the Scriptol to PHP compiler.
+- The XML data-structure is not available in the scriptol-php compiler for now.
+- The interpreter at scriptol.com is limited and recognizes only a subset of the language for now (see at the change page for details).
+- XML is handled by the interpreter as static and dynamic data-structure.
+- XML is handled by the compiler (C++) as dynamic classe named "dom"
+  described in the "dom.html" file. This is compatible with the format
+  of the interpreter (see examples on scriptol.com). In a near future,
+  the XML format of the interpreter will be extended to the two
+  compilers. 
+
+cygwin 
+** UNIX operating system concepts and command line skills
+*** value of working with text/CLI, say, via emacs
+See emacs entry [link] neal stephenson, and it's a terminal
+
+For one thing, emacs keybindings are used on Mac keyboards. Have you ever
+deleted whole words back by using option-DEL while writing an email?
+
+(Becoming excited by keyboard shortcuts is a sign that you are
+becoming a kind of conoisseur of computing)
+**** _FLOSS Manuals tutorial on the GNU/Linux Command line_
+   [[http://en.flossmanuals.net/command-line/][FLOSS]]
+**** _CLI on Mac--Darwin and Mac Bible guides_
+There are some books, which may not be freely available, in addition
+to online tutorials that may help clarify aspects of using your
+computer. In particular, for Mac users, there may be certain chapters
+of the following books that make clear how to use the Terminal, and
+understand the Unix, or "Darwin core," in OS X.
+#+TOC: headlines 2 
+* Philosophy and thinking about software--The Why?
+** where does your software come from? 
+*** free vs. open source software--a controversy?
+In this document I have generally tried to abide by a convention of
+using both the terms "free software" and "open source." (My rule of
+thumb is to prefer "free" in front of the word "software" and "open
+source" in front of other nouns, like "world" or "model," thus trying
+to emphasize that "free" designates software with "limited
+restrictions," rather "than provided at no cost").
+
+You may not need to worry much about making distinctions
+when speaking informally, but don't let [[some prominent voices and developers][Richard Stallman]] hear you.
+
+
+http://www.gnu.org/philosophy/free-sw.html
+
+http://www.gnu.org/philosophy/open-source-misses-the-point.html
+
+
+http://opensource.org/docs/osd
+
+http://opensource.org/history
+
+
+*** some prominent voices and developers
+**** _Miller Puckette_
+The designer of the Max/MSP programming environment talks about the
+experiences and thinking behind his creation of Pd, the open source
+alternative. 
+
+http://msp.ucsd.edu
+
+http://msp.ucsd.edu/Publications/isea-reprint.pdf
+
+**** _Richard Stallman interviews and FSF essays_
+
+There is no shortage of lucid, and sometime polemical, writing from
+one of the key driving forces between the free software movement. As
+well, Stallman was instrumental in [[_text_ or document-oriented][emacs]] and the GNU component
+of the Linux system.
+
+http://www.gnu.org/philosophy/philosophy.html
+
+http://www.gnu.org/gnu/manifesto.html
+
+**** _Eric Raymond_
+
+Another key figure in the free software, er...open source
+movement. See Raymond's comments on Lisp
+
+The Cathedral and the Bazaar
+http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
+
+Homesteading the Noosphere
+http://www.catb.org/~esr/writings/cathedral-bazaar/homesteading/
+**** _Paul Graham_
+
+Of a different generation than the other two hackers, Graham is a
+notable voice who has published many essays about the software world
+that have a clarity of exposition and philosophical perspective that
+makes them worthwhile reading for artists. As well, another prominent
+Lisp programmer.
+
+http://www.paulgraham.com/articles.html
+
+Hackers and Painters
+
+#+BEGIN_QUOTE
+"Painting was not, in Leonardo's time, as cool as his work helped make
+it. How cool hacking turns out to be will depend on what we can do
+with this new medium. " 
+#+END_QUOTE
+http://www.paulgraham.com/hp.html
+
+*** misc. studies and writings
+
+Questions from an economic perspective about the role of FLOSS are
+worth considering, especially for how they either align or diverge
+from the more radical model imagined by Stallman. Though this seemingly takes
+us rather far afield from art-making, its relevance to the ways we get
+our art-related softwar should be apparent. 
+
+http://ocw.mit.edu/courses/sloan-school-of-management/15-352-managing-innovation-emerging-trends-spring-2005/readings/lakhaniwolf.pdf
+** open source culture and organizaions
+*** the broader 'open source' movement
+**** _Wikipedia links_
+
+Since thinking about software alone can get a little dry for many
+people, knowing about some important figures who have been honored by
+the FSF can cast the larger project in a more human light.
+
+http://en.wikipedia.org/wiki/Free_Software_Foundation_Award_for_the_Advancement_of_Free_Software
+
+***** misc.
+
+http://freedomdefined.org/Definition
+
+**** _Mark Tribe_ 
+
+A professor who teaches a course, which would fit well within PIMA,
+on this very notion of open source culture. He posts many source
+materials that should be of interest to your average PIMA MFA.
+
+https://wiki.brown.edu/confluence/display/MarkTribe/Open+Source+Culture+Mediography
+
+https://wiki.brown.edu/confluence/display/MarkTribe/Mark+Tribe%27s+Teaching+Wiki
+
+https://wiki.brown.edu/confluence/display/mcm1700n/Open+Source+Culture+Fall+12-+Syllabus
+*** EFF
+
+If you do not know the name Lawrence Lessig, be aware that he, and
+many others at the Electronic Frontier Foundation, are defending your digital rights.
+https://www.eff.org
+
+Another prominent voice defending freedom, in the software world and beyond.
+john gilmore
+http://www.toad.com/gnu/index.html
+*** FSF
+see [[some prominent voices and developers][richard stallman]]
+*** OSI
+see [[some prominent voices and developers][Eric Raymond]]
+http://opensource.org/osi-open-source-education
+** critical perspectives from philosophy and elsewhere
+
+in some cases, this section serves to share some books that I think
+are worth knowing about, especially if you are interested in the role
+of computing in the humanities. In other cases, there are links to
+particular thinkers or writers who voices seem to be prominent in the
+ongoing evolution of the "digital everything" trend.
+
+*** 'digital culture and philosophy:' some proponents, influential figures and critics
+**** _Scientists in computation, information theory and AI_
+***** Wolfram
+***** Kurzweil
+***** Shannon-Weaver
+***** Winograd
+**** _Journalists and technologists_
+***** Lanier
+***** Morozov
+[[http://www.evgenymorozov.com][Morozov]]
+
+http://www.newrepublic.com/article/books-and-arts/magazine/105703/the-naked-and-the-ted-khanna
+
+http://www.nytimes.com/2013/03/17/opinion/sunday/morozov-open-and-closed.html?_r=0
+
+***** Clay Shirky
+***** Kevin Kelley
+
+http://kk.org/outofcontrol/contents.php
+
+***** CUNY's Lev Manovich
+***** Eben Moglen
+http://moglen.law.columbia.edu
+**** _websites, periodicals and aggregators_
+***** edge.org
+see jaron lanier
+***** Wired
+see Kevin Kelly
+***** lifehacker
+http://lifehacker.com
+*** the role of technology in the Western philosophical tradition
+
+http://plato.stanford.edu/entries/technology/
+
+http://plato.stanford.edu/entries/episteme-techne/
+
+existentialism and Heidegger's Question Concerning Technology
+Marshall McLuhan
+Marx and alienation
+** reflections specifically on art and computation 
+*** questions of aesthetics in the 21st Century 
+
+** before and after
+*** precursors and progenitors
+
+MIT Media Lab
+
+John C. Lilly
+http://en.wikipedia.org/wiki/Human_biocomputer
+http://deoxy.org/h_lilly.htm
+
+Stewart Brand
+http://en.wikipedia.org/wiki/Whole_Earth_Catalog
+
+Systems Theory
+http://en.wikipedia.org/wiki/Gregory_Bateson
+*** speculative fiction and philosophy--or what did we learn from sci-fi?
+the singularity, Moore's law and the end of everything
+William Gibson et al
+
+
+#+TOC: headlines 2p
+* notes about maintaining this document
+
+** document management
+Since the internet can make possible both breadth and depth of
+research in a way like no other, there may end up being a quite a
+number of links to many disparate things. One small goal, however, is
+to avoid simply accumulating of links, especially to that rich and
+dangerous pandora's box that is wikipedia. It is of course as good a
+place as any to quickly find out what something is. But we are hoping
+here to make use of a tailored approach. Wherever possible, some
+editorial shaping of content that may be helpful to a media student
+is to be preferred over a "link dump," (which nevertheless may be
+inevitable at first, especially in the philosophy or finding out more
+sections), until more "curated content" can be provided.
+
+Particularly, it can be very easy to simply click links and skim
+webpages, leaving a trail of open tabs overflowing one's
+webbrowser. Isn't it better to deeply engage with one or two really
+helpful sources, rather than know about the endless proliferation of
+sites that may or may not be helpful? As such, we strive to, as much
+as possible, share a link to something based on an a positive or edifying
+experience with that thing. 
+
+So, for example, if you think of a topic and a link that you think
+might be relevant, try to say what you know about it or why it might
+useful in as pithy a way as possible. If any kind of neutrality is
+going to be hard, consider creating a link to a personal page where
+you can expand on your idea, and let your enthusiasm pour forth.
+
+** set up the portal pages to be pithy so that they can link to more
+ detailed or elaborated pages elsewhere, say in my path.
+** quicknotes, concepts, and discussions
+a place to quickly jot down potentially useful information that
+should be refiled above (before too long)
+
+*** future entries or entries requiring attention
+
+pure data FLOSS tutorials
+
+general FLOSS tutorials
+
+how to use the terminal to deal with downloading and installing OSS
+
+understanding Darwin's filesystems enough to find things
+
+using a text editor like emacs or Aquamacs
+
+learning to use Processing and related libraries for Kinect
+
+using NLTK and Python for working with Natural Language Processing
+
+notes on cognition: interleaving; consolidation (sub/unconscious)
+priming; drilling and review;    
+
+*** existing online syllabi for courses looking at digital/culture intersection
+very possible for these links to go out-of-date
+
+http://itp.nyu.edu/varwiki/Syllabus/LearningBitbyBitS10
+
+See Mark Tribe [link]
+
+https://wiki.brown.edu/confluence/display/mcm1700n/Open+Source+Culture+Fall+12-+Outline
+
+** finding out more about "digital art"
+
+while the focus in this document is on things that might bear on an
+artist's ability to make sense of the world of open source software,
+it seems reasonable to collect some things that are maybe just off to
+the side of that focus. Where and how to incorporate such information
+remains a question, if "feature creep" and info-bloat is to be
+avoided. With that in mind, I propose thinking about this whole
+section as a kind of Appendix, where such miscellanies that pertain
+more exclusively to artists and digital art-making in the PIMA,
+Brooklyn College community can have an healthy, unobtrusive home.
+
+One easy thing to do is to provide some resources to find out more
+about existing work at the intersection of art and
+technology.
+
+This is one place to list links to relevant artists and organizations.
+*** links within Brooklyn College/PIMA
+This page contains a kind of relevant software chart. However, it
+almost uniformly concentrates on commercial software, and could use
+some attention.
+
+http://pima-mfa.wikispaces.com/PIMA+Students+2013-15
+*** links to organizations
+
+Harvestworks
+http://www.harvestworks.org
+
+eyebeam
+http://eyebeam.org
+
+NYCresistor
+
+rhizome
+http://rhizome.org/
+
+leonardo
+http://www.leonardo.info/isast/isastinfo.html
+
+connected via leonardo
+ http://artshumanities.netsci2013.net
+
+school for poetic computation
+http://sfpc.io/faq/
+
+siggraph
+http://www.siggraph.org 
+
+gecco
+http://eadcc.geccocompetitions.com/submissions/
+
+evolutionary computing and art
+http://evostar.dei.uc.pt/2012/call-for-contributions/evomusart/
+*** links to artist's works
+http://nymediaartsmap.org
+http://en.wikipedia.org/wiki/New_media_art
+
+[[top][top]] [[Specific Software--The What?][The What?]] [[Gaining a deeper
+understanding--The How?][The How?]] [[Philosophy and thinking about software--The Why?][The Why?]]
+
