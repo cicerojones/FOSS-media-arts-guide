@@ -1,12 +1,10 @@
-<<top>>
-
 #+STARTUP: hidestars
 
 #+TITLE: Prolegomena to any future comprehensive open source media tutorial
 #+OPTIONS: H:3
-# #+OPTIONS: toc:2
+#+OPTIONS: toc:2
 
-#+OPTIONS: toc:nil
+# #+OPTIONS: toc:nil
 
 * Prolegomena to any future comprehensive open source media tutorial
 Quoting from [[http://en.wikipedia.org/wiki/Prolegomena_to_Any_Future_Metaphysics][Wikipedia:]]
@@ -1069,11 +1067,10 @@ OS X and Linux, which have a core based on the Unix operating
 system) that won't make much sense right away. But just keep this
 phrase in mind "everything is a file." [link]
 
+[[http://en.flossmanuals.net/command-line/][FLOSS Manuals tutorial on the GNU/Linux Command line]]
+
+
 http://ph7spot.com/musings/in-unix-everything-is-a-file
-
-
-[[FLOSS Manuals tutorial on the GNU/Linux Command line]]
-
 
 **** _compilation_
 Right now this section is primarily links, and in some cases large
