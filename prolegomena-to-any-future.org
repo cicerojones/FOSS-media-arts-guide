@@ -39,7 +39,7 @@ software and other times say "open source?" There's [[free vs. open source softw
 And what the hell does 'acquaint' mean?
 
 None of these questions even begin to address the assumptions being made about
-what is going to remain useful months or years from the time of this
+what is going to remain useful months or years from the time of this initial
 writing, in late 2013.
 
 So, some further explanation is needed. And to paraphrase 
@@ -58,7 +58,7 @@ context of what you both already know. Since this document can't
 (yet!) ask you what you already know, we're going to make a few
 assumptions. You may:
 
-*** have basic digitally literacy
+*** you have basic digitally literacy
 
 Even if you have never heard the term, chances are you "digitally
 literate." Some internet searches for what that means in 2013 turn up things like this...
@@ -72,13 +72,13 @@ http://en.wikipedia.org/wiki/Digital_literacy
 We can only speculate about how any of this will change in coming
 months and years ([[speculative fiction and philosophy--or what did we learn from sci-fi?][see speculative fiction--below]])
 
-*** be accustomed to so-called right-brain thinking
+*** you may be accustomed to so-called right-brain thinking
 Two, we are going to assume that you may have more training in "the
 arts" than in "computers." The distinction may or may not be a
 relevant one right now, but, a world where it is definitively NOT is
 probably on the way. May this document help expedite the process.
 
-*** be reading this on your own actual computer (probably a Mac)
+*** you may be reading this on your own actual computer (probably a Mac)
 Three, given that two is true, we might not be wrong in thinking that
 you are working on--or at least as familiar with working on--a Mac as
 any other computer. Why? Well, see [[novelist Neal Stephenson explains some computing history][this essay]] for some background.
@@ -86,7 +86,7 @@ any other computer. Why? Well, see [[novelist Neal Stephenson explains some comp
 Because this may be true, we can just for now state that there are
 some extra complications with using some of the more "bleeding edge"
 open source software out there, especially if you are only accustomed
-to using the Mac GUI (huh? see [[UNIX operating system concepts and command line skills][here]]).
+to using the Mac GUI (huh? see [[some history, context and terminology][here]]).
 
 DO NOT LET THIS DISSUADE YOU! It just means that you are going to
 become more skilled at working with this powerful tool of metal,
@@ -190,7 +190,8 @@ of one's thought process or manner of working--artistic "source code,"
 as it were--rather than on finished presentations of already
 documented work. 
 **** _young Cicero's path_
-[[http://cicerojones.wikispaces.com/young+cicero%27s+path][a 2011-13 PIMA student's reflections]]
+
+[[https://github.com/cicerojones/FOSS-media-arts-guide/blob/master/young-ciceros-path.org][a 2011-13 PIMA student's reflections]]
 
 #+TOC: headlines 2
 
@@ -310,8 +311,7 @@ software really works. There certainly are plausible arguments for making it
 as easy as possible for the "end user;" the appropriate shibboleth
 here is 'intuitive.' The Mac design philosophy, and as of the early
 2010s, Macs are the de facto standard for media and design students 
-[[novelist Neal Stephenson explains some computing
- history][(see Neal Stephenson's essay)]] is to make the user experience as smooth
+[[some history, context and terminology][(see Neal Stephenson's essay)]] is to make the user experience as smooth
 and "intuitive" as possible; you want people to have to do little more
 than "double-click" to get things to work.
 
