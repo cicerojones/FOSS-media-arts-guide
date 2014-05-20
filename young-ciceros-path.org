@@ -1,4 +1,5 @@
 * drafts of sections
+this is, unsurprisingly, a work very much in progress. Potholes abound.
 ** quick outline
 began far back (early 80s), chugged around (friends with computers)
 until the 90s and music editing software. Exploded my brain (2008),
