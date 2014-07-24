@@ -56,21 +56,19 @@ explaining to have a sense of what her auditor (the explainee?)
 already knows, in order to tailor the explanation to the shared
 context of what you both already know. Since this document can't
 (yet!) ask you what you already know, we're going to make a few
-assumptions. You may:
+assumptions:
 
 *** you have basic digitally literacy
 
 Even if you have never heard the term, chances are you "digitally
 literate." Some internet searches for what that means in 2013 turn up things like this...
 
-What the us government has to say:
-http://www.digitalliteracy.gov
+- What the us government has to say: http://www.digitalliteracy.gov
+- What some anonymous wikipedia administrators have to say:
+  http://en.wikipedia.org/wiki/Digital_literacy
 
-What some anonymous wikipedia administrators have to say:
-http://en.wikipedia.org/wiki/Digital_literacy
-
-We can only speculate about how any of this will change in coming
-months and years ([[speculative fiction and philosophy--or what did we learn from sci-fi?][see speculative fiction--below]])
+We can only speculate about how our understanding of this will change
+in coming months and years ([[speculative fiction and philosophy--or what did we learn from sci-fi?][see speculative fiction--below]])
 
 *** you may be accustomed to so-called right-brain thinking
 Two, we are going to assume that you may have more training in "the
@@ -94,7 +92,7 @@ glass, plastic and silicon. And for everyone who's seen Napolean
 Dynamite, we can all attest to the importance of having skills.
 
 It'll make a difference, also, if you are using your own computer,
-as you will be need to be able to get around it (and make changes)
+as you will need to be able to get around it (and make changes)
 freely. In short, here's one case where's it good to be an
 administrator [see jargon].
 
@@ -120,19 +118,20 @@ work with any of these pieces of software.
 With that in mind, feel free to jump to the section that lists and
 briefly describes [[selected free software][particular examples]] of such software. You may find
 that in the process, you hit upon a topic or question that might be
-addressed elsewhere in the document.
+addressed elsewhere in this document.
 
-While some original writing and explanation is sprinkled throughout,
-the bulk of the documentation here will involve links to webpages to
-visit for more information on specific software and for detailed
-explanations.  
+While some original writing and explanation is sprinkled liberally
+throughout, the ultimate purpose of this documentation is to help you
+grapple with what you find when you start visiting the relevant
+webpages for more information on specific software and for detailed
+explanations.
 
 Since weblinks, however, have inevitably indeterminate lifespans, 
 there will also be listed [[looking around for free software (and help)][a few hubs]] of information that are important
 right now and should be around for a while.
 
 Finally, there may even be space for some thinking about things [[Philosophy and thinking about software--The Why?][deeper]]
-than how to install software, and that we don't expect to change as
+than how to install software, things we don't expect to change as
 quickly--culture, philosophy, and the way humans learn and solve
 problems. 
 
@@ -196,243 +195,12 @@ documented work.
 #+TOC: headlines 2
 
 * Specific Software--The What?
-** getting to the 'source'
-*** what is 'source code?'
-**** _some vocabulary_
-
-Terms and ideas that you may encounter in this section and that may
-require some unpacking to understand the relevance or significance
-of. 
-
-implementation
-http://en.wikipedia.org/wiki/Category:Programming_language_implementation
-
-administrator
-
-debugging
-
-dependencies
-
-bleeding edge
-
-binaries
-
-object code
-
-source code
-
-machine language
-
-compiling/compiled
-
-interpreter/ed
-
-installing 
-
-configure--make--make-install
-
-libraries
-
-version control or revisioning
-
-bytecode
-
-**** installing and using software
-
-In order to use the software that follows below, you may face a
-variety of initial challenges. Or you may find the process smooth,
-effortless and painless. It all depends on a variety of factors, some
-within and some outside your control. 
-
-If you are a student in media arts, there is a good chance you have a
-Mac and already understand something about how to download and install
-a new application, especially one that has been neatly packaged by its
-proprietor. If it has not been so packaged, you may have to dig a
-little deeper into the process of, shall we say, getting the source to
-run?
-
-[what happens when you double click on a .dmg file is usually fairly
-consistent, though what happens afterwards depends a lot on what
-approach the person who "compiled" the program choose to do insofar
-as it would affect you.
-
-Let's contrast what would happen if you were to open this with
-something other than the DiskImageMounter, which is the default
-package that deals with .dmg files. Believe it or not, you can even
-choose to open up such a file in a text-editing program, and you will
-see a good representation of what 'compiled' means. It means that you
-can't read it. At least, not as something like English in the way
-that the source code was written by someone in something at least
-resembling English, (or at least as it was made up of recognizable
-symbols using a Latin alphabet). 
-
-This unreadable by humans characteristic is part of what makes
-compiled code, or "binaries" special. The only thing you can
-reasonably do with it is give it to the machine inside your
-machine. That is, let the underlying low-level operating system
-facilities handle it, by bringing it unto the various operations that
-make up the processor's domain (the level of architecture we can
-think of as the machine language layer, or machine layer). 
-
-The subtleties here (at least as far as the average user is
-concerned) point to the complicated nature of getting a machine to
-understand something humans try to communicate. Which points to the
-fact that there is an enormous amount of stuff going on
-underneath the hood of that clean-lined, relatively static-looking
-desktop environment the Apple design team (or the KDE, or the GNOME
-team) has sweated over. Understanding how a keystroke on a keyboard
-gets translated into something down in a fancy processor and returned
-instantaneously on a screen, without us having to say much of
-anything, is all part of the remarkable ballet of user-designer
-interaction. 
-
-Back to your .dmg file. Dragging the main folder of whatever window
-appears next into the Applications folder (this is all following a Mac
-installation experience) brings the installation game to a neat
-conclusion. As far as the ordinary user is concerned, at least. And
-did you notice that the original disk image file, which was "opened"
-by you DiskImage mounter, in fact appears as a device as far as your
-operating system interface is concerned. What the hell does THAT mean?
-
-When it comes to open source software, you will eventually realizable
-that any number of assumptions you had about how the above process is
-supposed to work may not be borne out.]
-
-***** getting 'source code' onto a Mac
-
-One of the main complications I have experienced was how to take
-published code, say, from [[Github, Subversion et al][Github]], http://sourceforge.net or from
-somebody's personal website, and to get it working on my laptop, which
-was usually a Mac running OS X.
-
-The typical software user is either (depending on your perspective)
-shielded or blocked from understanding the nitty-gritty details of how
-software really works. There certainly are plausible arguments for making it
-as easy as possible for the "end user;" the appropriate shibboleth
-here is 'intuitive.' The Mac design philosophy, and as of the early
-2010s, Macs are the de facto standard for media and design students 
-[[some history, context and terminology][(see Neal Stephenson's essay)]] is to make the user experience as smooth
-and "intuitive" as possible; you want people to have to do little more
-than "double-click" to get things to work.
-
-While there are many advantages to this being shielded from the
-obscure inner-workings of software installation and operation, when it
-comes time to use software which is not proprietary, and which is not
-being actively maintained by a paid support team, you are now at a
-double disadvantage. Not only do you not know what to do if something
-goes wrong (which it often does), you may not have the required skills
-to do it at all, may not know even the required vocabuarly (at the very
-least you may not be comfortable with working from the command line,
-especially if you have been accustomed to the Mac GUI). Knowing a
-little bit of how it all actually works 'under the hood' makes sense.
-
-Again, there have been and will continue to be good reasons to keep
-people from 'opening the hood:' they are less likely to put
-power-steering fluid in the radiator, for one thing. But I would make
-the argument now that artists, especially those artists for whom
-digital technology has affected their field (which is just about
-everyone), need to be among the vanguard of 'non-techies' acquiring
-the vocabulary. We need to learn how to not just benefit from but
-contribute to the free software movement. More elaborate arguments
-supporting this can be found [[some prominent voices and developers][here]]
-
-****** homebrew, macports et al
-Because there continues to be a sizeable demand for open source
-software by Mac users, there is a particular set of command line tools
-that you will perhaps be pleased to know about and learn. As of 2014,
-I can say that homebrew appears to be in the ascendancy as far as
-being a /package manager/ where Macs are concerned. Just as Macports
-may have been the main game in town in previous years, this too may
-change. But in the meantime, you'll want to begin to understand how to
-use the command line in order to take advantage of homebrew.
-
-****** Xcode Unix Utilities
-On a Mac, at least in 2013, you'll probably want to get your 'hands'
-on a piece of software that you may or may not ever use much. X Code
-is the massive application that serves developers of programs for any
-Apple software. Glossing over some history and nuances, X code will
-probably help you take advantage of the "open source core" that has
-been at the heart of OS X. 
-
-If you don't know much about it, we can for now say that this has to
-do with Unix, and leave at that for the moment, until you want to
-find out [[assorted concepts][more]]
-
-**** _becoming a contributor_
-
-Another thing that may arise will be the question of how to
-contribute to these projects. One of the great things about free
-software is that it is not just free as in beer, as the saying goes
-[see FSF]. You can modify it in whatever way you want, provided you
-know how. And this is no small catch. 
-
-Part of the idea behind this document is to make it possible for
-non-programmers to eventually be able to figure out how to contribute
-to the causes represented by these various programs. But in the
-meantime, going from artist to C++ programmer just does not happen
-overnight. The path from one to the other remains worth marking out. 
-
-The odds are you'll just want to jump in to learning what's possible
-in some particular application. For good reasons, this is a way to
-go, and may eventually inspire you to want to know more about what's
-possible with the given piece of software.
-*** looking around for free software (and help)
-
-I will be linking to a handful of specific free software projects,
-mainly ones that I have either used or come across during my time in
-PIMA.
-
-The open source world, however, is significantly larger than simply listing these
-examples can even hint at. Finding out more, and just generally
-exploring this world, can be greatly aided by becoming familiar with
-a few kind of clearinghouses for this kind of stuff. 
-
-I will mention and briefly describe a few here.
-
-**** _Wikipedia itself_ 
-http://en.wikipedia.org/wiki/Portal:Free_software
-
-**** _FLOSS Manuals_
-http://en.flossmanuals.net
-
-**** _the Free Software Foundation website_
-the free software directory
-http://directory.fsf.org/wiki/Main_Page
-
-http://www.gnu.org/links/links.html#FreeGNULinuxDistributions
-As of 2013, two crucial hubs for learning about what is available and
-how to use them are FLOSS manuals and FSF.
-
-As well, because of the centrality of Linux to the open source
-culture, getting linked into that world will make you much more aware
-of how much is going on in software beyond the big names and
-commericial proprietors
-
-Additionally, there is no
-shortage of user forums, which sometimes are more rabbithole than
-beacons of edification.
-
-stackexchange
-
-*** repositories
-    eventually, you will need to understand something about version
-    control and source code repositories. What is all this? See below.
-
-**** Github, Subversion et al
-     Understanding how github works is crucial to making the most of
-     the open source world. What is github? It is just one, though one
-     of the most popular /source code repositories/. That's right,
-     it's a place where source code lives, almost literally. That is,
-     it is where source code that is constantly being updated and
-     modified by its originators and the community of developers who
-     take an interest.
-
-
 ** selected free software
 
-Here are some specific "things" that have come in handy during my time an MFA in
-performance and interactive media arts. (Can't help point out that
-the grouping may remind you of a certain Roland Barthes book...)
+Here are some specific "things" that have come in handy during my time
+in an MFA program in performance and interactive media arts. (Can't
+help point out that the grouping may remind you of a certain Roland
+Barthes book...)
 
 Whenever possible, I will try to be consistent in giving a blurb,
 with at least some personal/editorial content where applicable. I
@@ -959,6 +727,266 @@ rosetta-code [link]
 euler
 
 #+TOC: headlines 2 
+** getting to the 'source'
+It may happen that, at some point along the way in your trying to deal
+with installing and using some of the above pieces of software, you
+brush up against the fact that your favorite app is "written" and
+"maintained" by an actual entity, which may be a person or may be a
+community; heck, it may even be a company (the horror). Understanding
+just what is entailed by all that is the key to becoming a savvy user
+of open-source software.
+*** what is 'source code?'
+You may not think about it often, but everything that appears in front
+of you on your computer, whatever it may be, exists in another form
+that you don't usually see (unless you've taken to the idea of being a
+"developer"). What is that form? It's called "source code." Learning
+just how it works may be more than most of us have time for, but
+regardless, it's good to be aware that that cool app on your phone or
+your computer has an underlying basis that you potentially could
+understand and alter, had you the time and the inclination.
+**** _some vocabulary_
+
+Terms and ideas that you may encounter in this section and that may
+require some unpacking to understand the relevance or significance
+of. 
+
+implementation
+http://en.wikipedia.org/wiki/Category:Programming_language_implementation
+
+administrator
+
+debugging
+
+dependencies
+
+bleeding edge
+
+binaries
+
+object code
+
+source code
+
+machine language
+
+compiling/compiled
+
+interpreter/ed
+
+installing 
+
+configure--make--make-install
+
+libraries
+
+version control or revisioning
+
+bytecode
+
+**** installing and using software
+
+In order to use the software that follows below, you may face a
+variety of initial challenges. Or you may find the process smooth,
+effortless and painless. It all depends on a variety of factors, some
+within and some outside your control. 
+
+If you are a student in media arts, there is a good chance you have a
+Mac and already understand something about how to download and install
+a new application, especially one that has been neatly packaged by its
+proprietor. If it has not been so packaged, you may have to dig a
+little deeper into the process of, shall we say, getting the source to
+run?
+
+[what happens when you double click on a .dmg file is usually fairly
+consistent, though what happens afterwards depends a lot on what
+approach the person who "compiled" the program choose to do insofar
+as it would affect you.
+
+Let's contrast what would happen if you were to open this with
+something other than the DiskImageMounter, which is the default
+package that deals with .dmg files. Believe it or not, you can even
+choose to open up such a file in a text-editing program, and you will
+see a good representation of what 'compiled' means. It means that you
+can't read it. At least, not as something like English in the way
+that the source code was written by someone in something at least
+resembling English, (or at least as it was made up of recognizable
+symbols using a Latin alphabet). 
+
+This unreadable by humans characteristic is part of what makes
+compiled code, or "binaries" special. The only thing you can
+reasonably do with it is give it to the machine inside your
+machine. That is, let the underlying low-level operating system
+facilities handle it, by bringing it unto the various operations that
+make up the processor's domain (the level of architecture we can
+think of as the machine language layer, or machine layer). 
+
+The subtleties here (at least as far as the average user is
+concerned) point to the complicated nature of getting a machine to
+understand something humans try to communicate. Which points to the
+fact that there is an enormous amount of stuff going on
+underneath the hood of that clean-lined, relatively static-looking
+desktop environment the Apple design team (or the KDE, or the GNOME
+team) has sweated over. Understanding how a keystroke on a keyboard
+gets translated into something down in a fancy processor and returned
+instantaneously on a screen, without us having to say much of
+anything, is all part of the remarkable ballet of user-designer
+interaction. 
+
+Back to your .dmg file. Dragging the main folder of whatever window
+appears next into the Applications folder (this is all following a Mac
+installation experience) brings the installation game to a neat
+conclusion. As far as the ordinary user is concerned, at least. And
+did you notice that the original disk image file, which was "opened"
+by you DiskImage mounter, in fact appears as a device as far as your
+operating system interface is concerned. What the hell does THAT mean?
+
+When it comes to open source software, you will eventually realizable
+that any number of assumptions you had about how the above process is
+supposed to work may not be borne out.]
+
+***** getting 'source code' onto a Mac
+
+One of the main complications I have experienced was how to take
+published code, say, from [[Github, Subversion et al][Github]], http://sourceforge.net or from
+somebody's personal website, and to get it working on my laptop, which
+was usually a Mac running OS X.
+
+The typical software user is either (depending on your perspective)
+shielded or blocked from understanding the nitty-gritty details of how
+software really works. There certainly are plausible arguments for making it
+as easy as possible for the "end user;" the appropriate shibboleth
+here is 'intuitive.' The Mac design philosophy, and as of the early
+2010s, Macs are the de facto standard for media and design students 
+[[some history, context and terminology][(see Neal Stephenson's essay)]] is to make the user experience as smooth
+and "intuitive" as possible; you want people to have to do little more
+than "double-click" to get things to work.
+
+While there are many advantages to this being shielded from the
+obscure inner-workings of software installation and operation, when it
+comes time to use software which is not proprietary, and which is not
+being actively maintained by a paid support team, you are now at a
+double disadvantage. Not only do you not know what to do if something
+goes wrong (which it often does), you may not have the required skills
+to do it at all, may not know even the required vocabuarly (at the very
+least you may not be comfortable with working from the command line,
+especially if you have been accustomed to the Mac GUI). Knowing a
+little bit of how it all actually works 'under the hood' makes sense.
+
+Again, there have been and will continue to be good reasons to keep
+people from 'opening the hood:' they are less likely to put
+power-steering fluid in the radiator, for one thing. But I would make
+the argument now that artists, especially those artists for whom
+digital technology has affected their field (which is just about
+everyone), need to be among the vanguard of 'non-techies' acquiring
+the vocabulary. We need to learn how to not just benefit from but
+contribute to the free software movement. More elaborate arguments
+supporting this can be found [[some prominent voices and developers][here]]
+
+****** homebrew, macports et al
+Because there continues to be a sizeable demand for open source
+software by Mac users, there is a particular set of command line tools
+that you will perhaps be pleased to know about and learn. As of 2014,
+I can say that homebrew appears to be in the ascendancy as far as
+being a /package manager/ where Macs are concerned. Just as Macports
+may have been the main game in town in previous years, this too may
+change. But in the meantime, you'll want to begin to understand how to
+use the command line in order to take advantage of homebrew.
+
+****** Xcode Unix Utilities
+On a Mac, at least in 2013, you'll probably want to get your 'hands'
+on a piece of software that you may or may not ever use much. X Code
+is the massive application that serves developers of programs for any
+Apple software. Glossing over some history and nuances, X code will
+probably help you take advantage of the "open source core" that has
+been at the heart of OS X. 
+
+If you don't know much about it, we can for now say that this has to
+do with Unix, and leave at that for the moment, until you want to
+find out [[assorted concepts][more]]
+
+**** _becoming a contributor_
+
+Another thing that may arise will be the question of how to
+contribute to these projects. One of the great things about free
+software is that it is not just free as in beer, as the saying goes
+[see FSF]. You can modify it in whatever way you want, provided you
+know how. And this is no small catch. 
+
+Part of the idea behind this document is to make it possible for
+non-programmers to eventually be able to figure out how to contribute
+to the causes represented by these various programs. But in the
+meantime, going from artist to C++ programmer just does not happen
+overnight. The path from one to the other remains worth marking out. 
+
+The odds are you'll just want to jump in to learning what's possible
+in some particular application. For good reasons, this is a way to
+go, and may eventually inspire you to want to know more about what's
+possible with the given piece of software.
+*** looking around for free software (and help)
+
+I will be linking to a handful of specific free software projects,
+mainly ones that I have either used or come across during my time in
+PIMA.
+
+The open source world, however, is significantly larger than simply listing these
+examples can even hint at. Finding out more, and just generally
+exploring this world, can be greatly aided by becoming familiar with
+a few kind of clearinghouses for this kind of stuff. 
+
+I will mention and briefly describe a few here.
+
+**** _Wikipedia itself_ 
+http://en.wikipedia.org/wiki/Portal:Free_software
+
+**** _FLOSS Manuals_
+http://en.flossmanuals.net
+
+**** _the Free Software Foundation website_
+the free software directory
+http://directory.fsf.org/wiki/Main_Page
+
+http://www.gnu.org/links/links.html#FreeGNULinuxDistributions
+As of 2013, two crucial hubs for learning about what is available and
+how to use them are FLOSS manuals and FSF.
+
+As well, because of the centrality of Linux to the open source
+culture, getting linked into that world will make you much more aware
+of how much is going on in software beyond the big names and
+commericial proprietors
+
+Additionally, there is no shortage of user forums, which sometimes are
+more rabbithole than beacons of edification.
+
+stackexchange
+
+*** repositories
+    eventually, you will need to understand something about version
+    control and source code repositories. What is all this? See below.
+
+**** public code "repos" 
+At some point, you will discover that there exists an intriguing extension to a program that you already use, and you'd like to try out this extension. If the author of the extension is not a company, if they are a community and not even a single person, they will make this code available in its raw form anyone who's interested, both users and developers. What's the difference? The difference is increasingly blurred.
+
+The great innovation of this approach–indeed, of free software projects–is that they take advantage of a community's ability to discover problems and develop emendations in a way that's impossible for lonely laboring individuals. Is it ultimately better for these teams or informal communities to take responsibility for this process or for a company of paid individuals? Good luck sorting that one out (see 5).
+
+In the meantime, you will eventually need to learn how to use the robust and intricate systems that make these large coordinated efforts at code-sharing and revising possible. Several of them are listed below.
+
+You will need to develop your understanding of the command line interface, version control and compiling source code to participate fully in the glory that are these systems. However, there are GUI-based apps (at least for Macs) that try to make it easier.
+
+Content management systems, or "package managers," are typically another command-line reality to deal with for Mac users looking for free software. At the time of this writing, Homebrew is the one I am most familiar with and seems to have quite a bit of currency.
+
+
+**** Github, Bitbucket, Subversion et al
+     Understanding how github and friends works is crucial to making the most of
+     the open source world. What is github? It is just one--though one
+     of the most popular--/source code repository/. That's right,
+     it's a place where source code lives, almost literally. That is,
+     it is where source code is constantly being updated and
+     modified by its originators and the community of developers who
+     take an interest.
+
+     Getting this far means you will probably need to deal with the
+     stuff in the [[How does programming work?][next section.]] Don't worry, it's gonna be great! Most
+     of the time...
 * Gaining a deeper understanding--The How?
 ** everyone's an autodidact, or finding out what you need to know
 *** the process (and science) of learning 

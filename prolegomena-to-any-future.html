@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Prolegomena to any future comprehensive open source media tutorial</title>
-<!-- 2013-12-17 Tue 03:04 -->
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-<meta name="generator" content="Org-mode"/>
-<meta name="author" content="WORZONE"/>
+<!-- 2014-07-24 Thu 15:27 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="a" />
 <style type="text/css">
  <!--/*--><![CDATA[/*><!--*/
   .title  { text-align: center; }
@@ -54,6 +55,8 @@
   pre.src-sql:before   { content: 'SQL'; }
 
   table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
   td, th { vertical-align:top;  }
   th.right  { text-align: center;  }
   th.left   { text-align: center;   }
@@ -90,7 +93,7 @@
 @licstart  The following is the entire license notice for the
 JavaScript code in this tag.
 
-Copyright (C) 2012  Free Software Foundation, Inc.
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
 
 The JavaScript code in this tag is free software: you can
 redistribute it and/or modify it under the terms of the GNU
@@ -135,9 +138,53 @@ for the JavaScript code in this tag.
 <body>
 <div id="content">
 <h1 class="title">Prolegomena to any future comprehensive open source media tutorial</h1>
-<p>
-<a id="top" name="top"></a>
-</p>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1. Prolegomena to any future comprehensive open source media tutorial</a></li>
+<li><a href="#sec-2">2. Introduction</a>
+<ul>
+<li><a href="#sec-2-1">2.1. Statement of Purpose</a></li>
+<li><a href="#sec-2-2">2.2. some basic assumptions</a></li>
+<li><a href="#sec-2-3">2.3. structure of document</a></li>
+<li><a href="#sec-2-4">2.4. some suggestions on how to use this document</a></li>
+</ul>
+</li>
+<li><a href="#sec-3">3. Specific Software&#x2013;The What?</a>
+<ul>
+<li><a href="#sec-3-1">3.1. selected free software</a></li>
+<li><a href="#sec-3-2">3.2. getting to the 'source'</a></li>
+</ul>
+</li>
+<li><a href="#sec-4">4. Gaining a deeper understanding&#x2013;The How?</a>
+<ul>
+<li><a href="#sec-4-1">4.1. everyone's an autodidact, or finding out what you need to know</a></li>
+<li><a href="#sec-4-2">4.2. How does programming work?</a></li>
+<li><a href="#sec-4-3">4.3. some history, context and terminology</a></li>
+<li><a href="#sec-4-4">4.4. UNIX operating system concepts and command line skills</a></li>
+</ul>
+</li>
+<li><a href="#sec-5">5. Philosophy and thinking about software&#x2013;The Why?</a>
+<ul>
+<li><a href="#sec-5-1">5.1. where does your software come from?</a></li>
+<li><a href="#sec-5-2">5.2. open source culture and organizaions</a></li>
+<li><a href="#sec-5-3">5.3. critical perspectives from philosophy and elsewhere</a></li>
+<li><a href="#sec-5-4">5.4. reflections specifically on art and computation</a></li>
+<li><a href="#sec-5-5">5.5. before and after</a></li>
+</ul>
+</li>
+<li><a href="#sec-6">6. notes about maintaining this document</a>
+<ul>
+<li><a href="#sec-6-1">6.1. document management</a></li>
+<li><a href="#sec-6-2">6.2. set up the portal pages to be pithy so that they can link to more</a></li>
+<li><a href="#sec-6-3">6.3. quicknotes, concepts, and discussions</a></li>
+<li><a href="#sec-6-4">6.4. finding out more about "digital art"</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
 
 <div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1"><span class="section-number-2">1</span> Prolegomena to any future comprehensive open source media tutorial</h2>
@@ -179,8 +226,8 @@ source software even be possible?
 </li>
 <li><a href="#sec-3">3. Specific Software&#x2013;The What?</a>
 <ul>
-<li><a href="#sec-3-1">3.1. getting to the 'source'</a></li>
-<li><a href="#sec-3-2">3.2. selected free software</a></li>
+<li><a href="#sec-3-1">3.1. selected free software</a></li>
+<li><a href="#sec-3-2">3.2. getting to the 'source'</a></li>
 </ul>
 </li>
 <li><a href="#sec-4">4. Gaining a deeper understanding&#x2013;The How?</a>
@@ -240,7 +287,7 @@ And what the hell does 'acquaint' mean?
 
 <p>
 None of these questions even begin to address the assumptions being made about
-what is going to remain useful months or years from the time of this
+what is going to remain useful months or years from the time of this initial
 writing, in late 2013.
 </p>
 
@@ -259,39 +306,38 @@ pretty fast.
 <div class="outline-text-3" id="text-2-2">
 <p>
 In light of these complications, it can help any person doing the
-explaining to have a sense of what her auditor (the explainee?) already knows, in order to
-tailor the explanation to the shared context of what you both already
-know.  Since this document can't (yet) ask you what you already know,
-we're going to make a few assumptions. You may:
+explaining to have a sense of what her auditor (the explainee?)
+already knows, in order to tailor the explanation to the shared
+context of what you both already know. Since this document can't
+(yet!) ask you what you already know, we're going to make a few
+assumptions:
 </p>
 </div>
 
 <div id="outline-container-sec-2-2-1" class="outline-4">
-<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> have basic digitally literacy</h4>
+<h4 id="sec-2-2-1"><span class="section-number-4">2.2.1</span> you have basic digitally literacy</h4>
 <div class="outline-text-4" id="text-2-2-1">
 <p>
 Even if you have never heard the term, chances are you "digitally
 literate." Some internet searches for what that means in 2013 turn up things like this&#x2026;
 </p>
 
-<p>
-What the us government has to say:
-<a href="http://www.digitalliteracy.gov">http://www.digitalliteracy.gov</a>
-</p>
+<ul class="org-ul">
+<li>What the us government has to say: <a href="http://www.digitalliteracy.gov">http://www.digitalliteracy.gov</a>
+</li>
+<li>What some anonymous wikipedia administrators have to say:
+  <a href="http://en.wikipedia.org/wiki/Digital_literacy">http://en.wikipedia.org/wiki/Digital_literacy</a>
+</li>
+</ul>
 
 <p>
-What some anonymous wikipedia administrators have to say:
-<a href="http://en.wikipedia.org/wiki/Digital_literacy">http://en.wikipedia.org/wiki/Digital_literacy</a>
-</p>
-
-<p>
-We can only speculate about how any of this will change in coming
-months and years (<a href="#sec-5-5-2">see speculative fiction&#x2013;below</a>)
+We can only speculate about how our understanding of this will change
+in coming months and years (<a href="#sec-5-5-2">see speculative fiction&#x2013;below</a>)
 </p>
 </div>
 </div>
 <div id="outline-container-sec-2-2-2" class="outline-4">
-<h4 id="sec-2-2-2"><span class="section-number-4">2.2.2</span> be accustomed to so-called right-brain thinking</h4>
+<h4 id="sec-2-2-2"><span class="section-number-4">2.2.2</span> you may be accustomed to so-called right-brain thinking</h4>
 <div class="outline-text-4" id="text-2-2-2">
 <p>
 Two, we are going to assume that you may have more training in "the
@@ -302,7 +348,7 @@ probably on the way. May this document help expedite the process.
 </div>
 </div>
 <div id="outline-container-sec-2-2-3" class="outline-4">
-<h4 id="sec-2-2-3"><span class="section-number-4">2.2.3</span> be reading this on your own actual computer (probably a Mac)</h4>
+<h4 id="sec-2-2-3"><span class="section-number-4">2.2.3</span> you may be reading this on your own actual computer (probably a Mac)</h4>
 <div class="outline-text-4" id="text-2-2-3">
 <p>
 Three, given that two is true, we might not be wrong in thinking that
@@ -312,9 +358,9 @@ any other computer. Why? Well, see <a href="#sec-4-3-1">this essay</a> for some 
 
 <p>
 Because this may be true, we can just for now state that there are
-some complication with using some of the more "bleeding edge" open
-source software out there, if you are only accustomed to using the
-Mac GUI (huh? see <a href="#sec-4-4">here</a>).
+some extra complications with using some of the more "bleeding edge"
+open source software out there, especially if you are only accustomed
+to using the Mac GUI (huh? see <a href="#sec-4-3">here</a>).
 </p>
 
 <p>
@@ -326,7 +372,7 @@ Dynamite, we can all attest to the importance of having skills.
 
 <p>
 It'll make a difference, also, if you are using your own computer,
-as you will be need to be able to get around it (and make changes)
+as you will need to be able to get around it (and make changes)
 freely. In short, here's one case where's it good to be an
 administrator [see jargon].
 </p>
@@ -359,27 +405,28 @@ work with any of these pieces of software.
 
 <p>
 With that in mind, feel free to jump to the section that lists and
-briefly describes <a href="#sec-3-2">particular examples</a> of such software. You may find
+briefly describes <a href="#sec-3-1">particular examples</a> of such software. You may find
 that in the process, you hit upon a topic or question that might be
-addressed here.
+addressed elsewhere in this document.
 </p>
 
 <p>
-While some original writing and explanation is sprinkled throughout,
-the bulk of the documentation here will involve links to webpages to
-visit for more information on specific software and for detailed
-explanations.  
+While some original writing and explanation is sprinkled liberally
+throughout, the ultimate purpose of this documentation is to help you
+grapple with what you find when you start visiting the relevant
+webpages for more information on specific software and for detailed
+explanations.
 </p>
 
 <p>
 Since weblinks, however, have inevitably indeterminate lifespans, 
-there will also be listed <a href="#sec-3-1-2">a few hubs</a> of information that are important
+there will also be listed <a href="#sec-3-2-2">a few hubs</a> of information that are important
 right now and should be around for a while.
 </p>
 
 <p>
 Finally, there may even be space for some thinking about things <a href="#sec-5">deeper</a>
-than how to install software, and that we don't expect to change as
+than how to install software, things we don't expect to change as
 quickly&#x2013;culture, philosophy, and the way humans learn and solve
 problems. 
 </p>
@@ -400,13 +447,13 @@ seek to present a variety of ways to start.
 <p>
 You might be interested in a particular medium or just wish to browse
 what's available, without having to think too much about all the steps
-in involved. In which case, we direct you <a href="#sec-3-2">here</a>
+in involved. In which case, we direct you <a href="#sec-3-1">here</a>.
 </p>
 
 <p>
 In some cases, however, the experience of others can be useful (or
-irrelevant!). We will direct you to some <a href="#sec-2-4-2">paths</a> that contributors have
-described. 
+fascinatingly irrelevant!). We will direct you to some <a href="#sec-2-4-2">paths</a> that
+contributors have described.
 </p>
 
 <p>
@@ -443,7 +490,7 @@ Regardless, evidence (and personal experience) suggests that we can
 often subconsciously get ideas how to work out one problem while
 consciously working on something else. And there are usually no
 shortage of interesting concepts lurking just behind some really
-tedious ones.
+tedious ones. So <a href="#sec-3-2-3">branch</a> and fork away!
 </p>
 </div>
 </div>
@@ -465,9 +512,9 @@ as it were&#x2013;rather than on finished presentations of already
 documented work. 
 </p>
 </div>
-<ol class="org-ol"><li><span class="underline">young Cicero's path</span><br/><div class="outline-text-5" id="text-2-4-2-1">
+<ol class="org-ol"><li><span class="underline">young Cicero's path</span><br  /><div class="outline-text-5" id="text-2-4-2-1">
 <p>
-<a href="http://cicerojones.wikispaces.com/young+cicero%27s+path">a 2011-13 PIMA student's reflections</a>
+<a href="https://github.com/cicerojones/FOSS-media-arts-guide/blob/master/young-ciceros-path.org">a 2011-13 PIMA student's reflections</a>
 </p>
 
 <div id="table-of-contents">
@@ -485,8 +532,8 @@ documented work.
 </li>
 <li><a href="#sec-3">3. Specific Software&#x2013;The What?</a>
 <ul>
-<li><a href="#sec-3-1">3.1. getting to the 'source'</a></li>
-<li><a href="#sec-3-2">3.2. selected free software</a></li>
+<li><a href="#sec-3-1">3.1. selected free software</a></li>
+<li><a href="#sec-3-2">3.2. getting to the 'source'</a></li>
 </ul>
 </li>
 <li><a href="#sec-4">4. Gaining a deeper understanding&#x2013;The How?</a>
@@ -526,323 +573,13 @@ documented work.
 <h2 id="sec-3"><span class="section-number-2">3</span> Specific Software&#x2013;The What?</h2>
 <div class="outline-text-2" id="text-3">
 </div><div id="outline-container-sec-3-1" class="outline-3">
-<h3 id="sec-3-1"><span class="section-number-3">3.1</span> getting to the 'source'</h3>
+<h3 id="sec-3-1"><span class="section-number-3">3.1</span> selected free software</h3>
 <div class="outline-text-3" id="text-3-1">
-</div><div id="outline-container-sec-3-1-1" class="outline-4">
-<h4 id="sec-3-1-1"><span class="section-number-4">3.1.1</span> what is 'source code?'</h4>
-<div class="outline-text-4" id="text-3-1-1">
-</div><ol class="org-ol"><li><span class="underline">some vocabulary</span><br/><div class="outline-text-5" id="text-3-1-1-1">
 <p>
-Terms and ideas that you may encounter in this section and that may
-require some unpacking to understand the relevance or significance
-of. 
-</p>
-
-<p>
-implementation
-<a href="http://en.wikipedia.org/wiki/Category:Programming_language_implementation">http://en.wikipedia.org/wiki/Category:Programming_language_implementation</a>
-</p>
-
-<p>
-administrator
-</p>
-
-<p>
-debugging
-</p>
-
-<p>
-dependencies
-</p>
-
-<p>
-bleeding edge
-</p>
-
-<p>
-binaries
-</p>
-
-<p>
-object code
-</p>
-
-<p>
-source code
-</p>
-
-<p>
-machine language
-</p>
-
-<p>
-compiling/compiled
-</p>
-
-<p>
-interpreter/ed
-</p>
-
-<p>
-installing 
-</p>
-
-<p>
-configure&#x2013;make&#x2013;make-install
-</p>
-
-<p>
-libraries
-</p>
-
-<p>
-version control or revisioning
-</p>
-
-<p>
-bytecode
-</p>
-</div>
-</li>
-<li>installing and using software<br/><div class="outline-text-5" id="text-3-1-1-2">
-<p>
-In order to use the software that follows below, you may face a
-variety of initial challenges. Or you may find the process smooth,
-effortless and painless. It all depends on a variety of factors, some
-within and some outside your control. 
-</p>
-
-<p>
-If you are a student in media arts, there is a good chance you have a
-Mac and already understand something about how to download and install
-a new application, especially one that has been neatly packaged by its
-proprietor. If it has not been so packaged, you may have to dig a
-little deeper into the process of, shall we say, getting the source to
-run?
-</p>
-
-<p>
-[what happens when you double click on a .dmg file is usually fairly
-consistent, though what happens afterwards depends a lot on what
-approach the person who "compiled" the program choose to do insofar
-as it would affect you.
-</p>
-
-<p>
-Let's contrast what would happen if you were to open this with
-something other than the DiskImageMounter, which is the default
-package that deals with .dmg files. Believe it or not, you can even
-choose to open up such a file in a text-editing program, and you will
-see a good representation of what 'compiled' means. It means that you
-can't read it. At least, not as something like English in the way
-that the source code was written by someone in something at least
-resembling English, (at least it was made up of recognizable
-symbols). 
-</p>
-
-<p>
-This unreadable by humans characteristic is part of what makes
-compiled code, or "binaries" special. The only thing you can
-reasonably do with it is give it to the machine inside your
-machine. That is, let the underlying low-level operating system
-facilities handle it, by bringing it unto the various operations that
-make up the processor's domain (the level of architecture we can
-think of as the machine language layer, or machine layer. 
-</p>
-
-<p>
-The subtleties here (at least as far as the average user is
-concerned) point to the complicated nature of getting a machine to
-understand something humans try to communicate. And points to the
-fact that there is an enormous amount of stuff going on
-underneath the hood of that clean-lined, relatively static-looking
-desktop environment the Apple design team (or the KDE, or the GNOME
-team) has sweated over. Understanding how a keystroke on a keyboard
-gets translated into something down in a fancy processor and returned
-instantaneously on a screen, without us having to say much of
-anything is all part of the remarkable ballet of user-designer
-interaction. 
-</p>
-
-<p>
-Back to your .dmg file. Dragging the main folder of whatever window
-appears next (this is all following a Mac installation experience)
-brings the installation game to a neat conclusion. As far as the
-ordinary user is concerned, at least. And did you notice that the
-original disk image file, which was "opened" by you DiskImage
-mounter, in fact appears as a device as far as your operating system
-interface is concerned. What the hell does THAT mean?
-</p>
-
-<p>
-downloads. dragging to applications folder (or wherever).]
-</p>
-</div>
-
-
-<ol class="org-ol"><li>getting 'source code' onto a Mac<br/><div class="outline-text-6" id="text-3-1-1-2-1">
-<p>
-One of the main complications I have experienced was how to take
-published code, say, from Github, <a href="http://sourceforge.net">http://sourceforge.net</a> or from
-somebody's personal website, and to get it working on my laptop, which
-was usually a Mac running OS X.
-</p>
-
-<p>
-The typical software user is either (depending on your perspective)
-shielded or blocked from understanding the nitty-gritty details of how
-to run software. There certainly are plausible arguments for making it as easy
-as possible for the "end user;" the appropriate shibboleth here is 'intuitive.'
-The Mac design philosophy, and as of the early 2010s, Macs are the de
-facto standard for media and design students <a href="#sec-4-3-1">(see Neal Stephenson's essay)</a> is to make the user
-experience as smooth and "intuitive" as possible; you want people to
-have to do little more than "double-click" to get things to work.
-</p>
-
-<p>
-While there are many advantages to this being shielded from the
-obscure inner-workings of software installation and operation, when it
-comes time to use software which is not proprietary, and which is not
-being actively maintained by a paid support team, you are now at a
-double disadvantage. Not only do you not know what to do if something
-goes wrong (which it often does), you may not have the required skills
-to do it all, may not know even the required vocabuarly (at the very
-least you may not be comfortable with working from the command line,
-especially if you have been accustomed to the Mac GUI. Knowing a
-little bit of how it all actually works 'under the hood,' makes sense.
-</p>
-
-<p>
-Again, there have been and will continue to be good reasons to keep
-people from 'opening the hood:' they are less likely to put
-power-steering fluid in the radiator, for one thing. But I would make
-the argument now that artists, especially those artists for whom
-digital technology has affected their field (which is just about
-everyone), need to be among the vanguard of 'non-techies' acquiring
-the vocabulary. We need to learn how to not just benefit from but
-contribute to the free software movement. More elaborate arguments
-supporting this can be found <a href="#sec-5-1-2">here</a>
-</p>
-</div>
-
-<ol class="org-ol"><li>Xcode Unix Utilities<br/><div class="outline-text-7" id="text-3-1-1-2-1-1">
-<p>
-On a Mac, at least in 2013, you'll probably want to get your 'hands'
-on a piece of software that you may or may not ever use much. X Code
-is the massive application that serves developers of programs for any
-Apple software. Glossing over some history and nuances, X code will
-probably help you take advantage of the "open source core" that has
-been at the heart of OS X. 
-</p>
-
-<p>
-If you don't know much about it, we can for now say that this has to
-do with Unix, and leave at that for the moment, until you want to
-find out <a href="#sec-4-2-1">more</a>
-</p>
-</div>
-</li></ol>
-</li></ol>
-</li>
-<li><span class="underline">becoming a contributor</span><br/><div class="outline-text-5" id="text-3-1-1-3">
-<p>
-Another thing that may arise will be the question of how to
-contribute to these projects. One of the great things about free
-software is that it is not just free as in beer, as the saying goes
-[see FSF]. You can modify it in whatever way you want, provided you
-know how. And this is no small catch. 
-</p>
-
-<p>
-Part of the idea behind this document is to make it possible for
-non-programmers to eventually be able to figure out how to contribute
-to the causes represented by these various programs. But in the
-meantime, going from artist to C++ programmer just does not happen
-overnight. The path from one to the other remains worth marking out. 
-</p>
-
-<p>
-The odds are you'll just want to jump in to learning what's possible
-in some particular application. For good reasons, this is a way to
-go, and may eventually inspire you to want to know more about what's
-possible with the given piece of software.
-</p>
-</div>
-</li></ol>
-</div>
-
-<div id="outline-container-sec-3-1-2" class="outline-4">
-<h4 id="sec-3-1-2"><span class="section-number-4">3.1.2</span> looking around for free software (and help)</h4>
-<div class="outline-text-4" id="text-3-1-2">
-<p>
-I will be linking to a handful of specific free software projects,
-mainly ones that I have either used or come across during my time in
-PIMA.
-</p>
-
-<p>
-The open source world, however, is significantly larger than simply listing these
-examples can even hint at. Finding out more, and just generally
-exploring this world, can be greatly aided by becoming familiar with
-a few kind of clearinghouses for this kind of stuff. 
-</p>
-
-<p>
-I will mention and briefly describe a few here.
-</p>
-</div>
-
-<ol class="org-ol"><li><span class="underline">Wikipedia itself</span><br/><div class="outline-text-5" id="text-3-1-2-1">
-<p>
-<a href="http://en.wikipedia.org/wiki/Portal:Free_software">http://en.wikipedia.org/wiki/Portal:Free_software</a>
-</p>
-</div>
-</li>
-<li><span class="underline">FLOSS Manuals</span><br/><div class="outline-text-5" id="text-3-1-2-2">
-<p>
-<a href="http://en.flossmanuals.net">http://en.flossmanuals.net</a>
-</p>
-</div>
-</li>
-<li><span class="underline">the Free Software Foundation website</span><br/><div class="outline-text-5" id="text-3-1-2-3">
-<p>
-the free software directory
-<a href="http://directory.fsf.org/wiki/Main_Page">http://directory.fsf.org/wiki/Main_Page</a>
-</p>
-
-<p>
-<a href="http://www.gnu.org/links/links.html#FreeGNULinuxDistributions">http://www.gnu.org/links/links.html#FreeGNULinuxDistributions</a>
-As of 2013, two crucial hubs for learning about what is available and
-how to use them are FLOSS manuals and FSF.
-</p>
-
-<p>
-As well, because of the centrality of Linux to the open source
-culture, getting linked into that world will make you much more aware
-of how much is going on in software beyond the big names and
-commericial proprietors
-</p>
-
-<p>
-Additionally, there is no
-shortage of user forums, which sometimes are more rabbithole than
-beacons of edification.
-</p>
-
-<p>
-stackexchange
-</p>
-</div>
-</li></ol>
-</div>
-</div>
-<div id="outline-container-sec-3-2" class="outline-3">
-<h3 id="sec-3-2"><span class="section-number-3">3.2</span> selected free software</h3>
-<div class="outline-text-3" id="text-3-2">
-<p>
-Here are some specific "things" that have come in handy during my time an MFA in
-performance and interactive media arts. (Can't help point out that
-the grouping may remind you of a certain Roland Barthes book&#x2026;)
+Here are some specific "things" that have come in handy during my time
+in an MFA program in performance and interactive media arts. (Can't
+help point out that the grouping may remind you of a certain Roland
+Barthes book&#x2026;)
 </p>
 
 <p>
@@ -855,10 +592,10 @@ know of, I will mention or link to those as well.
 </p>
 </div>
 
-<div id="outline-container-sec-3-2-1" class="outline-4">
-<h4 id="sec-3-2-1"><span class="section-number-4">3.2.1</span> music/sound</h4>
-<div class="outline-text-4" id="text-3-2-1">
-</div><ol class="org-ol"><li><span class="underline">Pd</span><br/><div class="outline-text-5" id="text-3-2-1-1">
+<div id="outline-container-sec-3-1-1" class="outline-4">
+<h4 id="sec-3-1-1"><span class="section-number-4">3.1.1</span> music/sound</h4>
+<div class="outline-text-4" id="text-3-1-1">
+</div><ol class="org-ol"><li><span class="underline">Pd</span><br  /><div class="outline-text-5" id="text-3-1-1-1">
 <p>
 a graphical, dynamic programming language or environment, originally
 written by Miller Puckette (who helped lay the foundation for Max) as
@@ -898,8 +635,7 @@ see <a href="#sec-2-4-2">Cicero's path</a> for some particular experiences worki
 </p>
 </div>
 </li>
-
-<li><span class="underline">Audacity</span><br/><div class="outline-text-5" id="text-3-2-1-2">
+<li><span class="underline">Audacity</span><br  /><div class="outline-text-5" id="text-3-1-1-2">
 <p>
 one of the primary open source sound editors, in the mode of Pro
 Tools and Logic. 
@@ -917,8 +653,7 @@ contribute to, especially if you are a musician.
 </p>
 </div>
 </li>
-
-<li><span class="underline">Supercollider</span><br/><div class="outline-text-5" id="text-3-2-1-3">
+<li><span class="underline">Supercollider</span><br  /><div class="outline-text-5" id="text-3-1-1-3">
 <p>
 another popular programming environment originally designed with
 audio in mind, Supercollider is also hosted on a notable code
@@ -937,7 +672,7 @@ fact that I have heard good things&#x2013;both about and "from" it.
 </div>
 </li>
 
-<li><span class="underline">Csound</span><br/><div class="outline-text-5" id="text-3-2-1-4">
+<li><span class="underline">Csound</span><br  /><div class="outline-text-5" id="text-3-1-1-4">
 <p>
 one of the earliest computer music programs, based on the C
 programming language, which is at the heart of the Unix operating
@@ -960,7 +695,7 @@ more about C, which remains a language worth learning.
 </p>
 </div>
 </li>
-<li><span class="underline">PWGL</span><br/><div class="outline-text-5" id="text-3-2-1-5">
+<li><span class="underline">PWGL</span><br  /><div class="outline-text-5" id="text-3-1-1-5">
 <p>
 a Lisp-based environment for doing algorithmic composition, somewhat
 in the Patcher tradition of Pd/Max. The focus here, is on potentially
@@ -978,8 +713,7 @@ to work with Lisp. See Cicero's path for more.
 </p>
 </div>
 </li>
-
-<li><span class="underline">MuseScore</span><br/><div class="outline-text-5" id="text-3-2-1-6">
+<li><span class="underline">MuseScore</span><br  /><div class="outline-text-5" id="text-3-1-1-6">
 <p>
 a music notation program I found compartively easy to learn and
 begin creating scores with quickly.
@@ -994,7 +728,7 @@ begin creating scores with quickly.
 </p>
 </div>
 </li>
-<li><span class="underline">misc</span>.<br/><div class="outline-text-5" id="text-3-2-1-7">
+<li><span class="underline">misc</span>.<br  /><div class="outline-text-5" id="text-3-1-1-7">
 <p>
 just to give you an idea of how much free software is out there, and
 what the world of getting it looks like:
@@ -1003,10 +737,10 @@ what the world of getting it looks like:
 </div>
 </li></ol>
 </div>
-<div id="outline-container-sec-3-2-2" class="outline-4">
-<h4 id="sec-3-2-2"><span class="section-number-4">3.2.2</span> image/video</h4>
-<div class="outline-text-4" id="text-3-2-2">
-</div><ol class="org-ol"><li><span class="underline">GIMP</span><br/><div class="outline-text-5" id="text-3-2-2-1">
+<div id="outline-container-sec-3-1-2" class="outline-4">
+<h4 id="sec-3-1-2"><span class="section-number-4">3.1.2</span> image/video</h4>
+<div class="outline-text-4" id="text-3-1-2">
+</div><ol class="org-ol"><li><span class="underline">GIMP</span><br  /><div class="outline-text-5" id="text-3-1-2-1">
 <p>
 GIMP, whose unfortunate acronym stands for GNU Image
 Manipulation Program, has been around for a long time, as part of GNU
@@ -1029,10 +763,7 @@ scheme for its Creative Suites products has attracted some <a href="https://vide
 </p>
 </div>
 </li>
-
-
-
-<li><span class="underline">Processing</span><br/><div class="outline-text-5" id="text-3-2-2-2">
+<li><span class="underline">Processing</span><br  /><div class="outline-text-5" id="text-3-1-2-2">
 <p>
 An important entry into the world of open source programming
 environments for artists and non-programmers, Processing has been
@@ -1057,7 +788,7 @@ of the Kinect.
 </div>
 </li>
 
-<li><span class="underline">Blender</span><br/><div class="outline-text-5" id="text-3-2-2-3">
+<li><span class="underline">Blender</span><br  /><div class="outline-text-5" id="text-3-1-2-3">
 <p>
 Another longstanding free software project, Blender is a 3D-graphics
 environment that provides a fairly complex interface, at least for
@@ -1076,7 +807,7 @@ software packages, it has been used in commerical ventures (Spiderman
 </div>
 </li>
 
-<li><span class="underline">VLC</span> media player<br/><div class="outline-text-5" id="text-3-2-2-4">
+<li><span class="underline">VLC</span> media player<br  /><div class="outline-text-5" id="text-3-1-2-4">
 <p>
 More properly an application for streaming or playing back content in
 wide array of formats, I have found VLC most useful for capturing (transcoding)
@@ -1089,8 +820,7 @@ streams, say, from Youtube or other streaming sources.
 </p>
 </div>
 </li>
-
-<li><span class="underline">open</span> frameworks<br/><div class="outline-text-5" id="text-3-2-2-5">
+<li><span class="underline">open</span> frameworks<br  /><div class="outline-text-5" id="text-3-1-2-5">
 <p>
 I can only say I have heard good things about openframeworks, which
 appears to be used by artists working largely with installations and
@@ -1108,10 +838,10 @@ visual media.
 </li></ol>
 </div>
 
-<div id="outline-container-sec-3-2-3" class="outline-4">
-<h4 id="sec-3-2-3"><span class="section-number-4">3.2.3</span> text/other</h4>
-<div class="outline-text-4" id="text-3-2-3">
-</div><ol class="org-ol"><li><span class="underline">text</span> or document-oriented<br/><ol class="org-ol"><li>LibreOffice<br/><div class="outline-text-6" id="text-3-2-3-1-1">
+<div id="outline-container-sec-3-1-3" class="outline-4">
+<h4 id="sec-3-1-3"><span class="section-number-4">3.1.3</span> text/other</h4>
+<div class="outline-text-4" id="text-3-1-3">
+</div><ol class="org-ol"><li><span class="underline">text</span> or document-oriented<br  /><ol class="org-ol"><li>LibreOffice<br  /><div class="outline-text-6" id="text-3-1-3-1-1">
 <p>
 The options for non-Microsoft word processing and office suite
 software has seen some recent changes, with OpenOffice and
@@ -1129,7 +859,7 @@ is mentioned here, as I have no particular experience with it.
 </p>
 </div>
 </li>
-<li>Emacs<br/><div class="outline-text-6" id="text-3-2-3-1-2">
+<li>Emacs<br  /><div class="outline-text-6" id="text-3-1-3-1-2">
 <p>
 <a href="http://www.gnu.org/software/emacs/">http://www.gnu.org/software/emacs/</a>
 </p>
@@ -1181,7 +911,7 @@ compelled to encourage patience: may your forebearance know no limits.
 </p>
 </div>
 
-<ol class="org-ol"><li>org-mode<br/><div class="outline-text-7" id="text-3-2-3-1-2-1">
+<ol class="org-ol"><li>org-mode<br  /><div class="outline-text-7" id="text-3-1-3-1-2-1">
 <p>
 There exist many "libraries" and utilities within emacs that have
 been around for a long time. These allow Emacs to continue to be
@@ -1200,7 +930,7 @@ facilities.
 </li></ol>
 </li>
 
-<li>LaTeX<br/><div class="outline-text-6" id="text-3-2-3-1-3">
+<li>LaTeX<br  /><div class="outline-text-6" id="text-3-1-3-1-3">
 <p>
 <a href="http://www.latex-project.org">http://www.latex-project.org</a>
 </p>
@@ -1242,8 +972,7 @@ If you have ever downloaded an article that looked like <a href="http://msp.ucsd
 </p>
 </div>
 </li>
-
-<li>FreeMind mind mapping software<br/><div class="outline-text-6" id="text-3-2-3-1-4">
+<li>FreeMind mind mapping software<br  /><div class="outline-text-6" id="text-3-1-3-1-4">
 <p>
 A useful tool for taking loosely-structured notes or as a project
 management tool allowing for graph-like visualizations of image and
@@ -1270,14 +999,14 @@ own;" that is "install from source" yourself. [link]
 </div>
 </li>
 
-<li>wordpress.org (as opposed to wordpress.com)<br/><div class="outline-text-6" id="text-3-2-3-1-5">
+<li>wordpress.org (as opposed to wordpress.com)<br  /><div class="outline-text-6" id="text-3-1-3-1-5">
 <p>
 see other for more programming-specific
 </p>
 </div>
 </li></ol>
 </li>
-<li><span class="underline">other</span><br/><ol class="org-ol"><li>applications of computational approaches<br/><ol class="org-ol"><li>NetLogo<br/><div class="outline-text-7" id="text-3-2-3-2-1-1">
+<li><span class="underline">other</span><br  /><ol class="org-ol"><li>applications of computational approaches<br  /><ol class="org-ol"><li>NetLogo<br  /><div class="outline-text-7" id="text-3-1-3-2-1-1">
 <p>
 Quoting from Wikipedia, "NetLogo is an agent-based programming
 language and integrated modeling environment." That is, it is useful
@@ -1301,7 +1030,7 @@ create one's own.
 </div>
 </li>
 
-<li>NLTK<br/><div class="outline-text-7" id="text-3-2-3-2-1-2">
+<li>NLTK<br  /><div class="outline-text-7" id="text-3-1-3-2-1-2">
 <p>
 The Natural Language ToolKit (NLTK) is designed to get you started
 exploring the area of Natural Language Processing (NLP).
@@ -1341,7 +1070,7 @@ install this version of NLTK on your machine.
 </li></ol>
 </li>
 
-<li>programming languages and environments<br/><ol class="org-ol"><li>the bash shell<br/><div class="outline-text-7" id="text-3-2-3-2-2-1">
+<li>programming languages and environments<br  /><ol class="org-ol"><li>the bash shell<br  /><div class="outline-text-7" id="text-3-1-3-2-2-1">
 <p>
 For Mac users, this is, for simplicity's sake, equivalent to the
 Terminal application, which you may never have had reason to use. 
@@ -1366,7 +1095,7 @@ See [link] for more details. Getting comfortable with this is important.
 </div>
 </li>
 
-<li>GNU/Linux&#x2013;not just any software<br/><div class="outline-text-7" id="text-3-2-3-2-2-2">
+<li>GNU/Linux&#x2013;not just any software<br  /><div class="outline-text-7" id="text-3-1-3-2-2-2">
 <p>
 This may be an odd term for you, but hopefully you have at least
 heard of Linux. The word 'ecosystem' usually strikes me as a bit
@@ -1394,7 +1123,7 @@ open source software. [link]
 </div>
 </li>
 
-<li>Python<br/><div class="outline-text-7" id="text-3-2-3-2-2-3">
+<li>Python<br  /><div class="outline-text-7" id="text-3-1-3-2-2-3">
 <p>
 Python is one of the more popular programming languages, and happens
 to be open source, as well. What that means when it comes to a
@@ -1415,7 +1144,7 @@ with Python.
 </div>
 
 
-<ol class="org-ol"><li>"where is 'Python' and the various things it uses located?"<br/><div class="outline-text-8" id="text-3-2-3-2-2-3-1">
+<ol class="org-ol"><li>"where is 'Python' and the various things it uses located?"<br  /><div class="outline-text-8" id="text-3-1-3-2-2-3-1">
 <p>
 One example:
 /Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/nltk/metrics/distance.pyc
@@ -1430,11 +1159,11 @@ One example:
 </p>
 
 <p>
-<a href="file:////Library/Frameworks/Python.framework/Versions/2.7/Resources/English.lproj/Documentation/glossary.html#term-interpreted">file:////Library/Frameworks/Python.framework/Versions/2.7/Resources/English.lproj/Documentation/glossary.html#term-interpreted</a>
+<a href="file:///Library/Frameworks/Python.framework/Versions/2.7/Resources/English.lproj/Documentation/glossary.html#term-interpreted">file:///Library/Frameworks/Python.framework/Versions/2.7/Resources/English.lproj/Documentation/glossary.html#term-interpreted</a>
 </p>
 </div>
 </li>
-<li>what is "interpreted?"<br/><div class="outline-text-8" id="text-3-2-3-2-2-3-2">
+<li>what is "interpreted?"<br  /><div class="outline-text-8" id="text-3-1-3-2-2-3-2">
 <p>
 Python is an interpreted language, as opposed to a compiled one,
 though the distinction can be blurry because of the presence of the
@@ -1452,14 +1181,14 @@ Let's go one more step and write executable Python code:
 </div>
 </li>
 
-<li>Python beginners stuff<br/><div class="outline-text-8" id="text-3-2-3-2-2-3-3">
+<li>Python beginners stuff<br  /><div class="outline-text-8" id="text-3-1-3-2-2-3-3">
 <p>
 <a href="http://en.wikibooks.org/wiki/Python_Beginner_to_Expert/Structured_Python">http://en.wikibooks.org/wiki/Python_Beginner_to_Expert/Structured_Python</a>
 . It is generally advisiable to include a shebang line when writing for Unix types of systems. 2. In some Unix type environments, the interpreter may have problems with DOS type line endings.
 </p>
 </div>
 
-<ol class="org-ol"><li>digging in to Libraries<br/><div class="outline-text-9" id="text-3-2-3-2-2-3-3-1">
+<ol class="org-ol"><li>digging in to Libraries<br  /><div class="outline-text-9" id="text-3-1-3-2-2-3-3-1">
 <p>
 installing Python libraries
 <a href="http://pypi.python.org/">http://pypi.python.org/</a>
@@ -1496,7 +1225,7 @@ about programming in Python.
 </li></ol>
 </li>
 
-<li>Clozure Common Lisp<br/><div class="outline-text-7" id="text-3-2-3-2-2-4">
+<li>Clozure Common Lisp<br  /><div class="outline-text-7" id="text-3-1-3-2-2-4">
 <p>
 One of the oldest (and still relevant) computer languages is
 Lisp. Common Lisp is pretty much the standard version of the language
@@ -1530,7 +1259,7 @@ programming in Common Lisp much more feasible.
 </div>
 </li>
 
-<li>Lua<br/><div class="outline-text-7" id="text-3-2-3-2-2-5">
+<li>Lua<br  /><div class="outline-text-7" id="text-3-1-3-2-2-5">
 <p>
 I don't have first hand knowledge of this programming/scripting
 [link] language. But its hook into Max has made it be a part of many
@@ -1545,7 +1274,7 @@ PIMA students introduction to programming languages.
 </li></ol>
 </li>
 
-<li>code repositories<br/><div class="outline-text-6" id="text-3-2-3-2-3">
+<li>code repositories<br  /><div class="outline-text-6" id="text-3-1-3-2-3">
 <p>
 At some point, you will discover that somebody has written some kind of
 extension to a program that you already use, and you'd like to try
@@ -1599,7 +1328,7 @@ macports
 </div>
 </li>
 
-<li>designing algorithms, programs and languages<br/><div class="outline-text-6" id="text-3-2-3-2-4">
+<li>designing algorithms, programs and languages<br  /><div class="outline-text-6" id="text-3-1-3-2-4">
 <p>
 If you want to be able to write your own program or modify someone
 else's, you will greatly aided by understanding at least a little bit
@@ -1675,8 +1404,8 @@ euler
 </li>
 <li><a href="#sec-3">3. Specific Software&#x2013;The What?</a>
 <ul>
-<li><a href="#sec-3-1">3.1. getting to the 'source'</a></li>
-<li><a href="#sec-3-2">3.2. selected free software</a></li>
+<li><a href="#sec-3-1">3.1. selected free software</a></li>
+<li><a href="#sec-3-2">3.2. getting to the 'source'</a></li>
 </ul>
 </li>
 <li><a href="#sec-4">4. Gaining a deeper understanding&#x2013;The How?</a>
@@ -1709,6 +1438,404 @@ euler
 </div>
 </div>
 </li></ol>
+</li></ol>
+</div>
+</div>
+
+<div id="outline-container-sec-3-2" class="outline-3">
+<h3 id="sec-3-2"><span class="section-number-3">3.2</span> getting to the 'source'</h3>
+<div class="outline-text-3" id="text-3-2">
+<p>
+It may happen that, at some point along the way in your trying to deal
+with installing and using some of the above pieces of software, you
+brush up against the fact that your favorite app is "written" and
+"maintained" by an actual entity, which may be a person or may be a
+community; heck, it may even be a company (the horror). Understanding
+just what is entailed by all that is the key to becoming a savvy user
+of open-source software.
+</p>
+</div>
+<div id="outline-container-sec-3-2-1" class="outline-4">
+<h4 id="sec-3-2-1"><span class="section-number-4">3.2.1</span> what is 'source code?'</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<p>
+You may not think about it often, but everything that appears in front
+of you on your computer, whatever it may be, exists in another form
+that you don't usually see (unless you've taken to the idea of being a
+"developer"). What is that form? It's called "source code." Learning
+just how it works may be more than most of us have time for, but
+regardless, it's good to be aware that that cool app on your phone or
+your computer has an underlying basis that you potentially could
+understand and alter, had you the time and the inclination.
+</p>
+</div>
+<ol class="org-ol"><li><span class="underline">some vocabulary</span><br  /><div class="outline-text-5" id="text-3-2-1-1">
+<p>
+Terms and ideas that you may encounter in this section and that may
+require some unpacking to understand the relevance or significance
+of. 
+</p>
+
+<p>
+implementation
+<a href="http://en.wikipedia.org/wiki/Category:Programming_language_implementation">http://en.wikipedia.org/wiki/Category:Programming_language_implementation</a>
+</p>
+
+<p>
+administrator
+</p>
+
+<p>
+debugging
+</p>
+
+<p>
+dependencies
+</p>
+
+<p>
+bleeding edge
+</p>
+
+<p>
+binaries
+</p>
+
+<p>
+object code
+</p>
+
+<p>
+source code
+</p>
+
+<p>
+machine language
+</p>
+
+<p>
+compiling/compiled
+</p>
+
+<p>
+interpreter/ed
+</p>
+
+<p>
+installing 
+</p>
+
+<p>
+configure&#x2013;make&#x2013;make-install
+</p>
+
+<p>
+libraries
+</p>
+
+<p>
+version control or revisioning
+</p>
+
+<p>
+bytecode
+</p>
+</div>
+</li>
+<li>installing and using software<br  /><div class="outline-text-5" id="text-3-2-1-2">
+<p>
+In order to use the software that follows below, you may face a
+variety of initial challenges. Or you may find the process smooth,
+effortless and painless. It all depends on a variety of factors, some
+within and some outside your control. 
+</p>
+
+<p>
+If you are a student in media arts, there is a good chance you have a
+Mac and already understand something about how to download and install
+a new application, especially one that has been neatly packaged by its
+proprietor. If it has not been so packaged, you may have to dig a
+little deeper into the process of, shall we say, getting the source to
+run?
+</p>
+
+<p>
+[what happens when you double click on a .dmg file is usually fairly
+consistent, though what happens afterwards depends a lot on what
+approach the person who "compiled" the program choose to do insofar
+as it would affect you.
+</p>
+
+<p>
+Let's contrast what would happen if you were to open this with
+something other than the DiskImageMounter, which is the default
+package that deals with .dmg files. Believe it or not, you can even
+choose to open up such a file in a text-editing program, and you will
+see a good representation of what 'compiled' means. It means that you
+can't read it. At least, not as something like English in the way
+that the source code was written by someone in something at least
+resembling English, (or at least as it was made up of recognizable
+symbols using a Latin alphabet). 
+</p>
+
+<p>
+This unreadable by humans characteristic is part of what makes
+compiled code, or "binaries" special. The only thing you can
+reasonably do with it is give it to the machine inside your
+machine. That is, let the underlying low-level operating system
+facilities handle it, by bringing it unto the various operations that
+make up the processor's domain (the level of architecture we can
+think of as the machine language layer, or machine layer). 
+</p>
+
+<p>
+The subtleties here (at least as far as the average user is
+concerned) point to the complicated nature of getting a machine to
+understand something humans try to communicate. Which points to the
+fact that there is an enormous amount of stuff going on
+underneath the hood of that clean-lined, relatively static-looking
+desktop environment the Apple design team (or the KDE, or the GNOME
+team) has sweated over. Understanding how a keystroke on a keyboard
+gets translated into something down in a fancy processor and returned
+instantaneously on a screen, without us having to say much of
+anything, is all part of the remarkable ballet of user-designer
+interaction. 
+</p>
+
+<p>
+Back to your .dmg file. Dragging the main folder of whatever window
+appears next into the Applications folder (this is all following a Mac
+installation experience) brings the installation game to a neat
+conclusion. As far as the ordinary user is concerned, at least. And
+did you notice that the original disk image file, which was "opened"
+by you DiskImage mounter, in fact appears as a device as far as your
+operating system interface is concerned. What the hell does THAT mean?
+</p>
+
+<p>
+When it comes to open source software, you will eventually realizable
+that any number of assumptions you had about how the above process is
+supposed to work may not be borne out.]
+</p>
+</div>
+
+<ol class="org-ol"><li>getting 'source code' onto a Mac<br  /><div class="outline-text-6" id="text-3-2-1-2-1">
+<p>
+One of the main complications I have experienced was how to take
+published code, say, from <i>Github</i>, <a href="http://sourceforge.net">http://sourceforge.net</a> or from
+somebody's personal website, and to get it working on my laptop, which
+was usually a Mac running OS X.
+</p>
+
+<p>
+The typical software user is either (depending on your perspective)
+shielded or blocked from understanding the nitty-gritty details of how
+software really works. There certainly are plausible arguments for making it
+as easy as possible for the "end user;" the appropriate shibboleth
+here is 'intuitive.' The Mac design philosophy, and as of the early
+2010s, Macs are the de facto standard for media and design students 
+<a href="#sec-4-3">(see Neal Stephenson's essay)</a> is to make the user experience as smooth
+and "intuitive" as possible; you want people to have to do little more
+than "double-click" to get things to work.
+</p>
+
+<p>
+While there are many advantages to this being shielded from the
+obscure inner-workings of software installation and operation, when it
+comes time to use software which is not proprietary, and which is not
+being actively maintained by a paid support team, you are now at a
+double disadvantage. Not only do you not know what to do if something
+goes wrong (which it often does), you may not have the required skills
+to do it at all, may not know even the required vocabuarly (at the very
+least you may not be comfortable with working from the command line,
+especially if you have been accustomed to the Mac GUI). Knowing a
+little bit of how it all actually works 'under the hood' makes sense.
+</p>
+
+<p>
+Again, there have been and will continue to be good reasons to keep
+people from 'opening the hood:' they are less likely to put
+power-steering fluid in the radiator, for one thing. But I would make
+the argument now that artists, especially those artists for whom
+digital technology has affected their field (which is just about
+everyone), need to be among the vanguard of 'non-techies' acquiring
+the vocabulary. We need to learn how to not just benefit from but
+contribute to the free software movement. More elaborate arguments
+supporting this can be found <a href="#sec-5-1-2">here</a>
+</p>
+</div>
+
+<ol class="org-ol"><li>homebrew, macports et al<br  /><div class="outline-text-7" id="text-3-2-1-2-1-1">
+<p>
+Because there continues to be a sizeable demand for open source
+software by Mac users, there is a particular set of command line tools
+that you will perhaps be pleased to know about and learn. As of 2014,
+I can say that homebrew appears to be in the ascendancy as far as
+being a <i>package manager</i> where Macs are concerned. Just as Macports
+may have been the main game in town in previous years, this too may
+change. But in the meantime, you'll want to begin to understand how to
+use the command line in order to take advantage of homebrew.
+</p>
+</div>
+</li>
+<li>Xcode Unix Utilities<br  /><div class="outline-text-7" id="text-3-2-1-2-1-2">
+<p>
+On a Mac, at least in 2013, you'll probably want to get your 'hands'
+on a piece of software that you may or may not ever use much. X Code
+is the massive application that serves developers of programs for any
+Apple software. Glossing over some history and nuances, X code will
+probably help you take advantage of the "open source core" that has
+been at the heart of OS X. 
+</p>
+
+<p>
+If you don't know much about it, we can for now say that this has to
+do with Unix, and leave at that for the moment, until you want to
+find out <a href="#sec-4-2-1">more</a>
+</p>
+</div>
+</li></ol>
+</li></ol>
+</li>
+<li><span class="underline">becoming a contributor</span><br  /><div class="outline-text-5" id="text-3-2-1-3">
+<p>
+Another thing that may arise will be the question of how to
+contribute to these projects. One of the great things about free
+software is that it is not just free as in beer, as the saying goes
+[see FSF]. You can modify it in whatever way you want, provided you
+know how. And this is no small catch. 
+</p>
+
+<p>
+Part of the idea behind this document is to make it possible for
+non-programmers to eventually be able to figure out how to contribute
+to the causes represented by these various programs. But in the
+meantime, going from artist to C++ programmer just does not happen
+overnight. The path from one to the other remains worth marking out. 
+</p>
+
+<p>
+The odds are you'll just want to jump in to learning what's possible
+in some particular application. For good reasons, this is a way to
+go, and may eventually inspire you to want to know more about what's
+possible with the given piece of software.
+</p>
+</div>
+</li></ol>
+</div>
+
+<div id="outline-container-sec-3-2-2" class="outline-4">
+<h4 id="sec-3-2-2"><span class="section-number-4">3.2.2</span> looking around for free software (and help)</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<p>
+I will be linking to a handful of specific free software projects,
+mainly ones that I have either used or come across during my time in
+PIMA.
+</p>
+
+<p>
+The open source world, however, is significantly larger than simply listing these
+examples can even hint at. Finding out more, and just generally
+exploring this world, can be greatly aided by becoming familiar with
+a few kind of clearinghouses for this kind of stuff. 
+</p>
+
+<p>
+I will mention and briefly describe a few here.
+</p>
+</div>
+
+<ol class="org-ol"><li><span class="underline">Wikipedia itself</span><br  /><div class="outline-text-5" id="text-3-2-2-1">
+<p>
+<a href="http://en.wikipedia.org/wiki/Portal:Free_software">http://en.wikipedia.org/wiki/Portal:Free_software</a>
+</p>
+</div>
+</li>
+<li><span class="underline">FLOSS Manuals</span><br  /><div class="outline-text-5" id="text-3-2-2-2">
+<p>
+<a href="http://en.flossmanuals.net">http://en.flossmanuals.net</a>
+</p>
+</div>
+</li>
+<li><span class="underline">the Free Software Foundation website</span><br  /><div class="outline-text-5" id="text-3-2-2-3">
+<p>
+the free software directory
+<a href="http://directory.fsf.org/wiki/Main_Page">http://directory.fsf.org/wiki/Main_Page</a>
+</p>
+
+<p>
+<a href="http://www.gnu.org/links/links.html#FreeGNULinuxDistributions">http://www.gnu.org/links/links.html#FreeGNULinuxDistributions</a>
+As of 2013, two crucial hubs for learning about what is available and
+how to use them are FLOSS manuals and FSF.
+</p>
+
+<p>
+As well, because of the centrality of Linux to the open source
+culture, getting linked into that world will make you much more aware
+of how much is going on in software beyond the big names and
+commericial proprietors
+</p>
+
+<p>
+Additionally, there is no shortage of user forums, which sometimes are
+more rabbithole than beacons of edification.
+</p>
+
+<p>
+stackexchange
+</p>
+</div>
+</li></ol>
+</div>
+<div id="outline-container-sec-3-2-3" class="outline-4">
+<h4 id="sec-3-2-3"><span class="section-number-4">3.2.3</span> repositories</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<p>
+eventually, you will need to understand something about version
+control and source code repositories. What is all this? See below.
+</p>
+</div>
+
+<ol class="org-ol"><li>public code "repos"<br  /><div class="outline-text-5" id="text-3-2-3-1">
+<p>
+At some point, you will discover that there exists an intriguing extension to a program that you already use, and you'd like to try out this extension. If the author of the extension is not a company, if they are a community and not even a single person, they will make this code available in its raw form anyone who's interested, both users and developers. What's the difference? The difference is increasingly blurred.
+</p>
+
+<p>
+The great innovation of this approach–indeed, of free software projects–is that they take advantage of a community's ability to discover problems and develop emendations in a way that's impossible for lonely laboring individuals. Is it ultimately better for these teams or informal communities to take responsibility for this process or for a company of paid individuals? Good luck sorting that one out (see 5).
+</p>
+
+<p>
+In the meantime, you will eventually need to learn how to use the robust and intricate systems that make these large coordinated efforts at code-sharing and revising possible. Several of them are listed below.
+</p>
+
+<p>
+You will need to develop your understanding of the command line interface, version control and compiling source code to participate fully in the glory that are these systems. However, there are GUI-based apps (at least for Macs) that try to make it easier.
+</p>
+
+<p>
+Content management systems, or "package managers," are typically another command-line reality to deal with for Mac users looking for free software. At the time of this writing, Homebrew is the one I am most familiar with and seems to have quite a bit of currency.
+</p>
+</div>
+</li>
+
+<li>Github, Bitbucket, Subversion et al<br  /><div class="outline-text-5" id="text-3-2-3-2">
+<p>
+Understanding how github and friends works is crucial to making the most of
+the open source world. What is github? It is just one&#x2013;though one
+of the most popular&#x2013;/source code repository/. That's right,
+it's a place where source code lives, almost literally. That is,
+it is where source code is constantly being updated and
+modified by its originators and the community of developers who
+take an interest.
+</p>
+
+<p>
+Getting this far means you will probably need to deal with the
+stuff in the <a href="#sec-4-2">next section.</a> Don't worry, it's gonna be great! Most
+of the time&#x2026;
+</p>
+</div>
 </li></ol>
 </div>
 </div>
@@ -1756,7 +1883,7 @@ to the more narrow path you were being led down by the tutorial.
 </p>
 </div>
 
-<ol class="org-ol"><li>food for thought<br/><div class="outline-text-5" id="text-4-1-1-1">
+<ol class="org-ol"><li>food for thought<br  /><div class="outline-text-5" id="text-4-1-1-1">
 <p>
 <a href="http://en.wikipedia.org/wiki/Metacognition">http://en.wikipedia.org/wiki/Metacognition</a>
 </p>
@@ -1857,7 +1984,7 @@ assembled to work on your computer.
 <div id="outline-container-sec-4-2-1" class="outline-4">
 <h4 id="sec-4-2-1"><span class="section-number-4">4.2.1</span> assorted concepts</h4>
 <div class="outline-text-4" id="text-4-2-1">
-</div><ol class="org-ol"><li><span class="underline">it's (a) Terminal</span><br/><div class="outline-text-5" id="text-4-2-1-1">
+</div><ol class="org-ol"><li><span class="underline">it's (a) Terminal</span><br  /><div class="outline-text-5" id="text-4-2-1-1">
 <p>
 Working on a Mac, you have access to something whose usefulness has
 just not faded, despite the near-universal preference for colorful
@@ -1889,17 +2016,16 @@ phrase in mind "everything is a file." [link]
 </p>
 
 <p>
-<a href="http://ph7spot.com/musings/in-unix-everything-is-a-file">http://ph7spot.com/musings/in-unix-everything-is-a-file</a>
+<a href="http://en.flossmanuals.net/command-line/">FLOSS Manuals tutorial on the GNU/Linux Command line</a>
 </p>
 
 
 <p>
-<i>FLOSS Manuals tutorial on the GNU/Linux Command line</i>
+<a href="http://ph7spot.com/musings/in-unix-everything-is-a-file">http://ph7spot.com/musings/in-unix-everything-is-a-file</a>
 </p>
 </div>
 </li>
-
-<li><span class="underline">compilation</span><br/><div class="outline-text-5" id="text-4-2-1-2">
+<li><span class="underline">compilation</span><br  /><div class="outline-text-5" id="text-4-2-1-2">
 <p>
 Right now this section is primarily links, and in some cases large
 copied-in chunks of text. Compilation is not a subject that most
@@ -1908,12 +2034,12 @@ this section, or work through some of the Mac developer tutorials, to
 help get your bearings down the road.
 </p>
 </div>
-<ol class="org-ol"><li>what's a compiler?<br/><div class="outline-text-6" id="text-4-2-1-2-1">
+<ol class="org-ol"><li>what's a compiler?<br  /><div class="outline-text-6" id="text-4-2-1-2-1">
 <p>
 <a href="http://www.compilers.net/paedia/compiler/index.htm">http://www.compilers.net/paedia/compiler/index.htm</a>
 </p>
 </div>
-<ol class="org-ol"><li>configure; make; make install<br/><div class="outline-text-7" id="text-4-2-1-2-1-1">
+<ol class="org-ol"><li>configure; make; make install<br  /><div class="outline-text-7" id="text-4-2-1-2-1-1">
 <p>
 <a href="http://tldp.org/LDP/LG/current/smith.html">http://tldp.org/LDP/LG/current/smith.html</a>
 </p>
@@ -1992,7 +2118,7 @@ install steps.
 </p>
 </div>
 </li>
-<li>Understanding software Installation (configure, make, make install)<br/><div class="outline-text-7" id="text-4-2-1-2-1-2">
+<li>Understanding software Installation (configure, make, make install)<br  /><div class="outline-text-7" id="text-4-2-1-2-1-2">
 <p>
 <a href="http://www.codecoffee.com/tipsforlinux/articles/27.html">http://www.codecoffee.com/tipsforlinux/articles/27.html</a>
 </p>
@@ -2097,110 +2223,115 @@ Thats it !! Now the installation process must be clear to you. You surely will f
 </li></ol>
 </li>
 
-<li>Introduction to Porting UNIX/Linux Applications to OS X<br/><div class="outline-text-6" id="text-4-2-1-2-2">
+<li>Introduction to Porting UNIX/Linux Applications to OS X<br  /><div class="outline-text-6" id="text-4-2-1-2-2">
 <p>
 <a href="https://developer.apple.com/library/mac/documentation/porting/conceptual/portingunix/intro/intro.html#//apple_ref/doc/uid/TP40002847-TPXREF101">https://developer.apple.com/library/mac/documentation/porting/conceptual/portingunix/intro/intro.html#//apple_ref/doc/uid/TP40002847-TPXREF101</a>
 </p>
 </div>
 </li>
 
-<li>Shell Scripting Primer<br/><div class="outline-text-6" id="text-4-2-1-2-3">
+<li>Shell Scripting Primer<br  /><div class="outline-text-6" id="text-4-2-1-2-3">
 <p>
 <a href="https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268">https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268</a>
 </p>
 </div>
 </li>
 
-<li>mac technology overview<br/><div class="outline-text-6" id="text-4-2-1-2-4">
+<li>mac technology overview<br  /><div class="outline-text-6" id="text-4-2-1-2-4">
 <p>
 <a href="https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/About/About.html#//apple_ref/doc/uid/TP40001067">https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/About/About.html#//apple_ref/doc/uid/TP40001067</a>
 </p>
 </div>
 </li>
 
-<li>mac open source development<br/><div class="outline-text-6" id="text-4-2-1-2-5">
+<li>mac open source development<br  /><div class="outline-text-6" id="text-4-2-1-2-5">
 <p>
 <a href="https://developer.apple.com/opensource/">https://developer.apple.com/opensource/</a>
 </p>
 </div>
 </li>
-<li>developing mac apps<br/><div class="outline-text-6" id="text-4-2-1-2-6">
+<li>developing mac apps<br  /><div class="outline-text-6" id="text-4-2-1-2-6">
 <p>
 <a href="https://developer.apple.com/library/mac/referencelibrary/GettingStarted/RoadMapOSX/chapters/02_SetUp.html">https://developer.apple.com/library/mac/referencelibrary/GettingStarted/RoadMapOSX/chapters/02_SetUp.html</a>
 </p>
 </div>
 </li>
-<li>ubuntu compiling software<br/><div class="outline-text-6" id="text-4-2-1-2-7">
+<li>ubuntu compiling software<br  /><div class="outline-text-6" id="text-4-2-1-2-7">
 <p>
 <a href="https://help.ubuntu.com/community/CompilingSoftware">https://help.ubuntu.com/community/CompilingSoftware</a>
 </p>
 </div>
 </li>
 
-<li>scientific computing on os x<br/><div class="outline-text-6" id="text-4-2-1-2-8">
+<li>scientific computing on os x<br  /><div class="outline-text-6" id="text-4-2-1-2-8">
 <p>
 <a href="http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Unix_and_OS_X:_Third-Party_Unix_Software">http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Unix_and_OS_X:_Third-Party_Unix_Software</a>
 </p>
 </div>
 </li>
 
-<li><a href="http://en.flossmanuals.net/command-line/ch030_installing-software/">installing and compiling walk-through</a><br/><div class="outline-text-6" id="text-4-2-1-2-9">
+<li><a href="http://en.flossmanuals.net/command-line/ch030_installing-software/">installing and compiling walk-through</a><br  /><div class="outline-text-6" id="text-4-2-1-2-9">
 </div>
 </li></ol>
 </li>
-<li><span class="underline">operating systems</span><br/><div class="outline-text-5" id="text-4-2-1-3">
+<li><span class="underline">operating systems</span><br  /><div class="outline-text-5" id="text-4-2-1-3">
 <p>
-<a href="#sec-4-3-1">4.3.1</a>
+<a href="#sec-4-3-1">4.3.1</a> 
+</p>
+
+<p>
+<i><a href="http://macs.about.com/od/MountainLion/tp/Os-X-Mountain-Lion-Installation-Guides.htm">http://macs.about.com/od/MountainLion/tp/Os-X-Mountain-Lion-Installation-Guides.htm</a></i>
+The clean install process on a non-startup drive assumes that your target drive doesn't contain an OS. For this guide, we'll also assume that you've recently completely erased the target drive, so that this is truly a clean install.
 </p>
 </div>
 </li>
 
-<li><span class="underline">algorithms</span><br/><div class="outline-text-5" id="text-4-2-1-4">
+<li><span class="underline">algorithms</span><br  /><div class="outline-text-5" id="text-4-2-1-4">
 <p>
-<a href="#sec-3-2-3-2-4">3.2.3.2.4</a>
+<a href="#sec-3-1-3-2-4">3.1.3.2.4</a>
 </p>
 </div>
 </li>
 
-<li><span class="underline">data</span><br/><div class="outline-text-5" id="text-4-2-1-5">
+<li><span class="underline">data</span><br  /><div class="outline-text-5" id="text-4-2-1-5">
 <p>
 see <a href="#sec-2-4-2">Cicero's path</a>
 </p>
 </div>
 </li>
 
-<li><span class="underline">software development</span><br/><ol class="org-ol"><li>qualities of a good programmer<br/><div class="outline-text-6" id="text-4-2-1-6-1">
+<li><span class="underline">software development</span><br  /><ol class="org-ol"><li>qualities of a good programmer<br  /><div class="outline-text-6" id="text-4-2-1-6-1">
 <p>
 taken straight from this blog entry
 <a href="https://www.hackerschool.com/blog/27-fundamental-qualities-of-good-programmers">https://www.hackerschool.com/blog/27-fundamental-qualities-of-good-programmers</a>
 </p>
 </div>
 
-<ol class="org-ol"><li>Knowing one programming language really well<br/><div class="outline-text-7" id="text-4-2-1-6-1-1">
+<ol class="org-ol"><li>Knowing one programming language really well<br  /><div class="outline-text-7" id="text-4-2-1-6-1-1">
 <p>
 Programming languages are just tools for telling computers what to do. It is better to have a strong command of one than a weak command of a bunch. Good programmers have at least one language that they know inside and out and can reach for to easily solve whatever problem is at hand.1
 </p>
 </div>
 </li>
-<li>Being a systematic debugger<br/><div class="outline-text-7" id="text-4-2-1-6-1-2">
+<li>Being a systematic debugger<br  /><div class="outline-text-7" id="text-4-2-1-6-1-2">
 <p>
 Being a systematic debugger means that you have a good mental model of your code and that when you run into a bug—that is, when your program doesn't work as expected—you generate hypotheses about what's wrong, instead of blindly changing things until your program works.
 </p>
 </div>
 </li>
-<li>Having a good mental model of your programming environment<br/><div class="outline-text-7" id="text-4-2-1-6-1-3">
+<li>Having a good mental model of your programming environment<br  /><div class="outline-text-7" id="text-4-2-1-6-1-3">
 <p>
 Most programs interact with the outside world, so having an understanding of your environment is important. This includes the I/O and concurrency primitives that your language provides, the way your language finds, loads, compiles, and runs code, the way that your program gets info from the outside world (e.g., environmental variables and command line arguments), and the way your OS handles file access, device access, search paths, etc.
 </p>
 </div>
 </li>
-<li>Having a good mental model of the hardware you use<br/><div class="outline-text-7" id="text-4-2-1-6-1-4">
+<li>Having a good mental model of the hardware you use<br  /><div class="outline-text-7" id="text-4-2-1-6-1-4">
 <p>
 Knowing how your hardware works makes it easier to write efficient programs. Even if you are writing programs in a higher level language, understanding things like the call stack, the MMU, the cost of context switching, the memory hierarchy, and the characteristics of the network you are connected to will inform your programming decisions.
 </p>
 </div>
 </li>
-<li>Being comfortable with algorithmic thinking<br/><div class="outline-text-7" id="text-4-2-1-6-1-5">
+<li>Being comfortable with algorithmic thinking<br  /><div class="outline-text-7" id="text-4-2-1-6-1-5">
 <p>
 A lot of people confuse algorithmic thinking with knowing a bunch of particular algorithms like quicksort or binary search.
 </p>
@@ -2210,43 +2341,43 @@ An algorithm is a set of steps describing a calculation. Much of programming is 
 </p>
 </div>
 </li>
-<li>Being comfortable with mathematical thinking<br/><div class="outline-text-7" id="text-4-2-1-6-1-6">
+<li>Being comfortable with mathematical thinking<br  /><div class="outline-text-7" id="text-4-2-1-6-1-6">
 <p>
 Programming is not as math-heavy as many non-programmers think, but as you start tackling tougher problems, you'll find that being comfortable with math comes in handy. Many interesting areas of programming like computer graphics, signal processing, and cryptography require a deep understanding of math. Even just measuring the performance of your code can require some statistical thinking.
 </p>
 </div>
 </li>
-<li>Being able to write a program from scratch<br/><div class="outline-text-7" id="text-4-2-1-6-1-7">
+<li>Being able to write a program from scratch<br  /><div class="outline-text-7" id="text-4-2-1-6-1-7">
 <p>
 It is hard to imagine a good programmer who cannot write a program from scratch.
 </p>
 </div>
 </li>
-<li>Being able to work on a small piece of a large program<br/><div class="outline-text-7" id="text-4-2-1-6-1-8">
+<li>Being able to work on a small piece of a large program<br  /><div class="outline-text-7" id="text-4-2-1-6-1-8">
 <p>
 Most of the time you're not writing a program from scratch. Instead, you're working with other programmers on a large project.
 </p>
 </div>
 </li>
-<li>Knowing how to structure your code<br/><div class="outline-text-7" id="text-4-2-1-6-1-9">
+<li>Knowing how to structure your code<br  /><div class="outline-text-7" id="text-4-2-1-6-1-9">
 <p>
 Well-structured code allows you to easily navigate up and down through layers of abstraction. In a well-structured program, you can ignore implementation details when they don't matter and modify the implementation without having to make changes in all the places where the code is used.
 </p>
 </div>
 </li>
-<li>Having a large code radius<br/><div class="outline-text-7" id="text-4-2-1-6-1-10">
+<li>Having a large code radius<br  /><div class="outline-text-7" id="text-4-2-1-6-1-10">
 <p>
 Code radius is a term that Alan came up with. Your code radius is the size of the largest program you're comfortable writing from scratch. Increasing your code radius takes practice. The structural tools that work well for a 500 line program are not necessarily the same as the ones that work for a 5,000 line program or a 50,000 line program.
 </p>
 </div>
 </li>
-<li>Being able to code quickly<br/><div class="outline-text-7" id="text-4-2-1-6-1-11">
+<li>Being able to code quickly<br  /><div class="outline-text-7" id="text-4-2-1-6-1-11">
 <p>
 Often times it's faster to try out a few different solutions and decide which is the most elegant than to figure out the correct one just by thinking about it. If you find "quickly" to be too subjective, consider the inverse: It's hard to imagine a good programmer who is slow.
 </p>
 </div>
 </li>
-<li>Being productive with your tools<br/><div class="outline-text-7" id="text-4-2-1-6-1-12">
+<li>Being productive with your tools<br  /><div class="outline-text-7" id="text-4-2-1-6-1-12">
 <p>
 Good programmers use their tools effectively. This doesn't mean you have to use all the tools available to you in order to be a good programmer—not everyone likes IDEs and plenty of good programmers prefer printf to a debugger—just that good programmers are productive with the tools they choose to use.
 </p>
@@ -2274,10 +2405,10 @@ with annotations from 2004
 <h4 id="sec-4-3-2"><span class="section-number-4">4.3.2</span> terminology</h4>
 <div class="outline-text-4" id="text-4-3-2">
 <p>
-also see <a href="#sec-3-1-1-1">3.1.1.1</a>
+also see <a href="#sec-3-2-1-1">3.2.1.1</a>
 </p>
 </div>
-<ol class="org-ol"><li><span class="underline">software architecture</span><br/><div class="outline-text-5" id="text-4-3-2-1">
+<ol class="org-ol"><li><span class="underline">software architecture</span><br  /><div class="outline-text-5" id="text-4-3-2-1">
 <p>
 front-end/back-end terminology
    <a href="http://en.wikipedia.org/wiki/Front-end">"software
@@ -2286,7 +2417,7 @@ front-end/back-end terminology
 </div>
 </li>
 
-<li><span class="underline">explaining common things we encounter e.g. file types, file-endings</span><br/><div class="outline-text-5" id="text-4-3-2-2">
+<li><span class="underline">explaining common things we encounter e.g. file types, file-endings</span><br  /><div class="outline-text-5" id="text-4-3-2-2">
 <p>
 if you are seeing .app, or .dmg or .tar or .gz or .txt or NO
 ending(?!) what does this mean? If you have been using different
@@ -2299,7 +2430,7 @@ USING, most importantly for us as artists, means.
 </p>
 </div>
 
-<ol class="org-ol"><li>more file extensions in tables<br/><div class="outline-text-6" id="text-4-3-2-2-1">
+<ol class="org-ol"><li>more file extensions in tables<br  /><div class="outline-text-6" id="text-4-3-2-2-1">
 <p>
 So what other file extensions can you name, and what do you
 understand about what they mean? 
@@ -2308,11 +2439,11 @@ understand about what they mean?
 
 
 <colgroup>
-<col class="left"/>
+<col  class="left" />
 
-<col class="left"/>
+<col  class="left" />
 
-<col class="left"/>
+<col  class="left" />
 </colgroup>
 <tbody>
 <tr>
@@ -2365,7 +2496,7 @@ understand about what they mean?
 </li></ol>
 </li>
 
-<li><span class="underline">other technical jargon</span><br/><div class="outline-text-5" id="text-4-3-2-3">
+<li><span class="underline">other technical jargon</span><br  /><div class="outline-text-5" id="text-4-3-2-3">
 <p>
 In doing reading about a particular technology or technique you will
 likely be exposed to some terms that are being bandied about as if
@@ -2381,11 +2512,11 @@ of language used in tech-oriented writing.
 </p>
 </div>
 
-<ol class="org-ol"><li><b>integrated development environment</b><br/></li>
+<ol class="org-ol"><li><b>integrated development environment</b><br  /></li>
 
-<li>some random statements for explaining<br/><ol class="org-ol"><li><b>statically typed, free-form, multi-paradigm and compiled.</b><br/></li>
+<li>some random statements for explaining<br  /><ol class="org-ol"><li><b>statically typed, free-form, multi-paradigm and compiled.</b><br  /></li>
 
-<li><b>It is regarded as an intermediate-level language, as it comprises both</b><br/><div class="outline-text-7" id="text-4-3-2-3-2-2">
+<li><b>It is regarded as an intermediate-level language, as it comprises both</b><br  /><div class="outline-text-7" id="text-4-3-2-3-2-2">
 <p>
 high-level and low-level language features.
 </p>
@@ -2395,7 +2526,7 @@ high-level and low-level language features.
 </p>
 </div>
 </li>
-<li><b>HTML5 and CSS3, the Latest HTML proposed standard, combined with the</b><br/><div class="outline-text-7" id="text-4-3-2-3-2-3">
+<li><b>HTML5 and CSS3, the Latest HTML proposed standard, combined with the</b><br  /><div class="outline-text-7" id="text-4-3-2-3-2-3">
 <p>
 latest proposed standard for CSS, natively supports much of the
 client-side functionality provided by other frameworks such as Flash
@@ -2403,7 +2534,7 @@ and Silverlight
 </p>
 </div>
 </li>
-<li><b>Arduino is an open-source electronics prototyping platform based on</b><br/><div class="outline-text-7" id="text-4-3-2-3-2-4">
+<li><b>Arduino is an open-source electronics prototyping platform based on</b><br  /><div class="outline-text-7" id="text-4-3-2-3-2-4">
 <p>
 flexible, easy-to-use hardware and software. It's intended for
 artists, designers, hobbyists and anyone interested in creating
@@ -2411,14 +2542,14 @@ interactive objects or environments.
 </p>
 </div>
 </li>
-<li><b>PHP, (PHP: Hypertext Preprocessor, a recursive acronym) is a</b><br/><div class="outline-text-7" id="text-4-3-2-3-2-5">
+<li><b>PHP, (PHP: Hypertext Preprocessor, a recursive acronym) is a</b><br  /><div class="outline-text-7" id="text-4-3-2-3-2-5">
 <p>
 server-side scripting language designed for web development but also
 used as a general-purpose programming language. 
 </p>
 </div>
 </li>
-<li><b>Lua combines simple procedural syntax with powerful data description</b><br/><div class="outline-text-7" id="text-4-3-2-3-2-6">
+<li><b>Lua combines simple procedural syntax with powerful data description</b><br  /><div class="outline-text-7" id="text-4-3-2-3-2-6">
 <p>
 constructs based on associative arrays and extensible semantics. Lua
 is dynamically typed, runs by interpreting bytecode for a
@@ -2429,7 +2560,7 @@ configuration, scripting, and rapid prototyping.
 </div>
 </li>
 
-<li><b>The language is entirely implemented into the Scriptol to C++ compiler.</b><br/><div class="outline-text-7" id="text-4-3-2-3-2-7">
+<li><b>The language is entirely implemented into the Scriptol to C++ compiler.</b><br  /><div class="outline-text-7" id="text-4-3-2-3-2-7">
 <ul class="org-ul">
 <li>Embedding inside Web page is possible only with the Scriptol to PHP compiler.
 </li>
@@ -2477,14 +2608,14 @@ deleted whole words back by using option-DEL while writing an email?
 becoming a kind of conoisseur of computing)
 </p>
 </div>
-<ol class="org-ol"><li><span class="underline">FLOSS Manuals tutorial on the GNU/Linux Command line</span><br/><div class="outline-text-5" id="text-4-4-1-1">
+<ol class="org-ol"><li><span class="underline">FLOSS Manuals tutorial on the GNU/Linux Command line</span><br  /><div class="outline-text-5" id="text-4-4-1-1">
 <p>
 <a href="http://en.flossmanuals.net/command-line/">FLOSS</a>
 </p>
 </div>
 </li>
 
-<li><span class="underline">CLI on Mac&#x2013;Darwin and Mac Bible guides</span><br/><div class="outline-text-5" id="text-4-4-1-2">
+<li><span class="underline">CLI on Mac&#x2013;Darwin and Mac Bible guides</span><br  /><div class="outline-text-5" id="text-4-4-1-2">
 <p>
 There are some books, which may not be freely available, in addition
 to online tutorials that may help clarify aspects of using your
@@ -2507,8 +2638,8 @@ understand the Unix, or "Darwin core," in OS X.
 </li>
 <li><a href="#sec-3">3. Specific Software&#x2013;The What?</a>
 <ul>
-<li><a href="#sec-3-1">3.1. getting to the 'source'</a></li>
-<li><a href="#sec-3-2">3.2. selected free software</a></li>
+<li><a href="#sec-3-1">3.1. selected free software</a></li>
+<li><a href="#sec-3-2">3.2. getting to the 'source'</a></li>
 </ul>
 </li>
 <li><a href="#sec-4">4. Gaining a deeper understanding&#x2013;The How?</a>
@@ -2591,7 +2722,7 @@ when speaking informally, but don't let <a href="#sec-5-1-2">Richard Stallman</a
 <div id="outline-container-sec-5-1-2" class="outline-4">
 <h4 id="sec-5-1-2"><span class="section-number-4">5.1.2</span> some prominent voices and developers</h4>
 <div class="outline-text-4" id="text-5-1-2">
-</div><ol class="org-ol"><li><span class="underline">Miller Puckette</span><br/><div class="outline-text-5" id="text-5-1-2-1">
+</div><ol class="org-ol"><li><span class="underline">Miller Puckette</span><br  /><div class="outline-text-5" id="text-5-1-2-1">
 <p>
 The designer of the Max/MSP programming environment talks about the
 experiences and thinking behind his creation of Pd, the open source
@@ -2607,12 +2738,11 @@ alternative.
 </p>
 </div>
 </li>
-
-<li><span class="underline">Richard Stallman interviews and FSF essays</span><br/><div class="outline-text-5" id="text-5-1-2-2">
+<li><span class="underline">Richard Stallman interviews and FSF essays</span><br  /><div class="outline-text-5" id="text-5-1-2-2">
 <p>
 There is no shortage of lucid, and sometime polemical, writing from
 one of the key driving forces between the free software movement. As
-well, Stallman was instrumental in <a href="#sec-3-2-3-1">emacs</a> and the GNU component
+well, Stallman was instrumental in <a href="#sec-3-1-3-1">emacs</a> and the GNU component
 of the Linux system.
 </p>
 
@@ -2625,7 +2755,7 @@ of the Linux system.
 </p>
 </div>
 </li>
-<li><span class="underline">Eric Raymond</span><br/><div class="outline-text-5" id="text-5-1-2-3">
+<li><span class="underline">Eric Raymond</span><br  /><div class="outline-text-5" id="text-5-1-2-3">
 <p>
 Another key figure in the free software, er&#x2026;open source
 movement. See Raymond's comments on Lisp
@@ -2643,7 +2773,7 @@ Homesteading the Noosphere
 </div>
 </li>
 
-<li><span class="underline">Paul Graham</span><br/><div class="outline-text-5" id="text-5-1-2-4">
+<li><span class="underline">Paul Graham</span><br  /><div class="outline-text-5" id="text-5-1-2-4">
 <p>
 Of a different generation than the other two hackers, Graham is a
 notable voice who has published many essays about the software world
@@ -2697,7 +2827,7 @@ our art-related softwar should be apparent.
 </div><div id="outline-container-sec-5-2-1" class="outline-4">
 <h4 id="sec-5-2-1"><span class="section-number-4">5.2.1</span> the broader 'open source' movement</h4>
 <div class="outline-text-4" id="text-5-2-1">
-</div><ol class="org-ol"><li><span class="underline">Wikipedia links</span><br/><div class="outline-text-5" id="text-5-2-1-1">
+</div><ol class="org-ol"><li><span class="underline">Wikipedia links</span><br  /><div class="outline-text-5" id="text-5-2-1-1">
 <p>
 Since thinking about software alone can get a little dry for many
 people, knowing about some important figures who have been honored by
@@ -2709,14 +2839,14 @@ the FSF can cast the larger project in a more human light.
 </p>
 </div>
 
-<ol class="org-ol"><li>misc.<br/><div class="outline-text-6" id="text-5-2-1-1-1">
+<ol class="org-ol"><li>misc.<br  /><div class="outline-text-6" id="text-5-2-1-1-1">
 <p>
 <a href="http://freedomdefined.org/Definition">http://freedomdefined.org/Definition</a>
 </p>
 </div>
 </li></ol>
 </li>
-<li><span class="underline">Mark Tribe</span><br/><div class="outline-text-5" id="text-5-2-1-2">
+<li><span class="underline">Mark Tribe</span><br  /><div class="outline-text-5" id="text-5-2-1-2">
 <p>
 A professor who teaches a course, which would fit well within PIMA,
 on this very notion of open source culture. He posts many source
@@ -2780,7 +2910,7 @@ see <a href="#sec-5-1-2">Eric Raymond</a>
 <div class="outline-text-3" id="text-5-3">
 <p>
 in some cases, this section serves to share some books that I think
-are worth knowing about, especially if you are interested in the place
+are worth knowing about, especially if you are interested in the role
 of computing in the humanities. In other cases, there are links to
 particular thinkers or writers who voices seem to be prominent in the
 ongoing evolution of the "digital everything" trend.
@@ -2790,14 +2920,14 @@ ongoing evolution of the "digital everything" trend.
 <div id="outline-container-sec-5-3-1" class="outline-4">
 <h4 id="sec-5-3-1"><span class="section-number-4">5.3.1</span> 'digital culture and philosophy:' some proponents, influential figures and critics</h4>
 <div class="outline-text-4" id="text-5-3-1">
-</div><ol class="org-ol"><li><span class="underline">Scientists in computation, information theory and AI</span><br/><ol class="org-ol"><li>Wolfram<br/></li>
-<li>Kurzweil<br/></li>
-<li>Shannon-Weaver<br/></li>
-<li>Winograd<br/></li></ol>
+</div><ol class="org-ol"><li><span class="underline">Scientists in computation, information theory and AI</span><br  /><ol class="org-ol"><li>Wolfram<br  /></li>
+<li>Kurzweil<br  /></li>
+<li>Shannon-Weaver<br  /></li>
+<li>Winograd<br  /></li></ol>
 </li>
 
-<li><span class="underline">Journalists and technologists</span><br/><ol class="org-ol"><li>Lanier<br/></li>
-<li>Morozov<br/><div class="outline-text-6" id="text-5-3-1-2-2">
+<li><span class="underline">Journalists and technologists</span><br  /><ol class="org-ol"><li>Lanier<br  /></li>
+<li>Morozov<br  /><div class="outline-text-6" id="text-5-3-1-2-2">
 <p>
 <a href="http://www.evgenymorozov.com">Morozov</a>
 </p>
@@ -2811,15 +2941,15 @@ ongoing evolution of the "digital everything" trend.
 </p>
 </div>
 </li>
-<li>Clay Shirky<br/></li>
-<li>Kevin Kelley<br/><div class="outline-text-6" id="text-5-3-1-2-4">
+<li>Clay Shirky<br  /></li>
+<li>Kevin Kelley<br  /><div class="outline-text-6" id="text-5-3-1-2-4">
 <p>
 <a href="http://kk.org/outofcontrol/contents.php">http://kk.org/outofcontrol/contents.php</a>
 </p>
 </div>
 </li>
-<li>CUNY's Lev Manovich<br/></li>
-<li>Eben Moglen<br/><div class="outline-text-6" id="text-5-3-1-2-6">
+<li>CUNY's Lev Manovich<br  /></li>
+<li>Eben Moglen<br  /><div class="outline-text-6" id="text-5-3-1-2-6">
 <p>
 <a href="http://moglen.law.columbia.edu">http://moglen.law.columbia.edu</a>
 </p>
@@ -2827,21 +2957,21 @@ ongoing evolution of the "digital everything" trend.
 </li></ol>
 </li>
 
-<li><span class="underline">websites, periodicals and aggregators</span><br/><ol class="org-ol"><li>edge.org<br/><div class="outline-text-6" id="text-5-3-1-3-1">
+<li><span class="underline">websites, periodicals and aggregators</span><br  /><ol class="org-ol"><li>edge.org<br  /><div class="outline-text-6" id="text-5-3-1-3-1">
 <p>
 see jaron lanier
 </p>
 </div>
 </li>
 
-<li>Wired<br/><div class="outline-text-6" id="text-5-3-1-3-2">
+<li>Wired<br  /><div class="outline-text-6" id="text-5-3-1-3-2">
 <p>
 see Kevin Kelly
 </p>
 </div>
 </li>
 
-<li>lifehacker<br/><div class="outline-text-6" id="text-5-3-1-3-3">
+<li>lifehacker<br  /><div class="outline-text-6" id="text-5-3-1-3-3">
 <p>
 <a href="http://lifehacker.com">http://lifehacker.com</a>
 </p>
@@ -2877,7 +3007,6 @@ Marx and alienation
 <h4 id="sec-5-4-1"><span class="section-number-4">5.4.1</span> questions of aesthetics in the 21st Century</h4>
 </div>
 </div>
-
 <div id="outline-container-sec-5-5" class="outline-3">
 <h3 id="sec-5-5"><span class="section-number-3">5.5</span> before and after</h3>
 <div class="outline-text-3" id="text-5-5">
@@ -2930,8 +3059,8 @@ William Gibson et al
 </li>
 <li><a href="#sec-3">3. Specific Software&#x2013;The What?</a>
 <ul>
-<li><a href="#sec-3-1">3.1. getting to the 'source'</a></li>
-<li><a href="#sec-3-2">3.2. selected free software</a></li>
+<li><a href="#sec-3-1">3.1. selected free software</a></li>
+<li><a href="#sec-3-2">3.2. getting to the 'source'</a></li>
 </ul>
 </li>
 <li><a href="#sec-4">4. Gaining a deeper understanding&#x2013;The How?</a>
@@ -3185,7 +3314,7 @@ evolutionary computing and art
 </p>
 
 <p>
-<a href="#top">top</a> <a href="#sec-3">The What?</a> <a href="#sec-4">The How?</a> <a href="#sec-5">The Why?</a>
+<i>top</i> <a href="#sec-3">The What?</a> <a href="#sec-4">The How?</a> <a href="#sec-5">The Why?</a>
 </p>
 </div>
 </div>
@@ -3193,10 +3322,10 @@ evolutionary computing and art
 </div>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: WORZONE</p>
-<p class="date">Created: 2013-12-17 Tue 03:04</p>
-<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 23.4.1 (<a href="http://orgmode.org">Org</a> mode 8.0.7)</p>
-<p class="xhtml-validation"><a href="http://validator.w3.org/check?uri=referer">Validate XHTML 1.0</a></p>
+<p class="author">Author: a</p>
+<p class="date">Created: 2014-07-24 Thu 15:27</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.50.1 (<a href="http://orgmode.org">Org</a> mode 8.2.6)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </body>
 </html>
