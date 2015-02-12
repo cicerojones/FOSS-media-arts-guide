@@ -295,6 +295,8 @@ http://musescore.org/en
 
 http://en.wikipedia.org/wiki/Musescore
 
+**** _LMMS_
+
 **** _misc_. 
 
 just to give you an idea of how much free software is out there, and
