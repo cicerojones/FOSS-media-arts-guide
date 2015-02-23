@@ -1,0 +1,29 @@
+* How To Fork and Make Pull Requests
+
+To paraphrase Cheap Trick, I want you to want to help me!
+
+Here are some basic steps. There are some basic prereqs:
+
+- familiarity with the command line
+- very basic awareness of git (it needs to be installed)
+- an existing fork of this project
+- more than mild forebearance :)
+
+One does not automatically just learn how to do this stuff. You may
+need to guidance, and experience playing around. [Links to come!]()
+
+#+BEGIN_SRC bash
+git clone <url-of-your-fork> # you have the code on your local machine
+
+# add original as a remote named upstream
+git remote add --track master upstream https://github.com/cicerojones/FOSS-media-arts-guide.git
+
+#add the 'upstream' (original project location) as a remote branch so
+#that you can get their updates into your branch
+git branch -a # to see if anything is going on behind the scenes
+git fetch upstream # get /that/ code
+git merge upstream/master # merge it to your own project (probably already up-to-date right now)
+git branch featurebranch # switch off master to develop
+git checkout featurebranch
+git branch # confirm your branch situation
+#+END_SRC
