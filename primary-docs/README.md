@@ -9,7 +9,7 @@ Put simply--To become artists who know a thing or two about software.
 
 ## Why or how should we do that?
 
-Maybe click on [prolegomena-to-any-future.org](link) for starters.
-Then also, look at [secondary-docs](link), where there's a more
-leisurely and discursive--yet organized!--environment for thinking
-about learning to program as an artist.
+Maybe click on [prolegomena-to-any-future.org](https://github.com/cicerojones/FOSS-media-arts-guide/blob/master/primary-docs/prolegomena-to-any-future.org) for starters.
+Then also, look at [secondary-docs](https://github.com/cicerojones/FOSS-media-arts-guide/tree/master/secondary-docs/README.md), where there's a more
+leisurely and discursive--yet organized!--introduction to the environment for thinking
+about learning to program as an artist. Phew...
