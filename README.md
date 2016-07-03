@@ -8,7 +8,7 @@ The outline, which is contained as "primary" doc, is quite evidently a
 work in progress. What does that mean, exactly, for someone looking to
 get something out of it?
 
-## Proglegomena
+## Prolegomena
 
 Well, because it is perhaps overly ambitious (hence the whole quirky
 Kant "prolegomena" business), it makes sense to begin thinking about
