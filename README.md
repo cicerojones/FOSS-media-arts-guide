@@ -15,7 +15,7 @@ Kant "prolegomena" business), it makes sense to begin thinking about
 how having a sense of "the big picture" might help one make sense of
 it all. And who is that "one?"
 
-Please see the READMEs of the primary docs and secondary docs,
+Please see the [READMEs of the primary docs](https://github.com/cicerojones/FOSS-media-arts-guide/tree/master/primary-docs) and secondary docs,
 respectively, in order to begin getting a sense of the scope and more
 specific purpose of all this. For now.
 
