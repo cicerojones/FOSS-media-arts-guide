@@ -250,13 +250,10 @@ contribute to, especially if you are a musician.
 http://audacity.sourceforge.net 
 
 **** _Supercollider_
-another popular programming environment originally designed with
-audio in mind, Supercollider is also hosted on a notable code
-repository, SourceForge, that will eventually want to become familiar
-with. 
 
-Having not personally used Supercollider, I can only attest to the
-fact that I have heard good things--both about and "from" it.
+Another popular programming environment originally designed with
+audio in mind, Supercollider is now hosted on Github.
+
 
 http://supercollider.sourceforge.net
 **** _Csound_
