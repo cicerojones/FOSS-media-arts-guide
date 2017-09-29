@@ -6,7 +6,7 @@
 
 # #+OPTIONS: toc:nil
 
-* Prolegomena to any future comprehensive open source media tutorial
+
 Quoting from [[http://en.wikipedia.org/wiki/Prolegomena_to_Any_Future_Metaphysics][Wikipedia:]]
 
 #+BEGIN_QUOTE
