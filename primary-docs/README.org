@@ -1,0 +1,4 @@
+* ReStarting
+Let's figure out a better way to structure this.
+
+First of all, reconsider the "one page on github" approach.
