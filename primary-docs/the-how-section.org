@@ -1,0 +1,412 @@
+* Gaining a deeper understanding--The How?
+** everyone's an autodidact, or finding out what you need to know
+*** the process (and science) of learning 
+
+There can be a lot to learn when trying to get comfortable and get
+done what you need to get done with software. Some meditations on
+cognition, mindfulness and problem-solving can be helpful, if only to
+distract you from your problem long enough to figure it out
+subconsciously. 
+
+Some advice and ideas to think about:
+
+Rather than reading something in isolation when we are learning a new
+language or technique, we can take advantage of the immediate feedback
+that working with an interactive environment provides. Since the
+tutorials that are available often just skim the surface of what we're
+really interested in, you may find that you get an idea about what
+you'd really like to be able to do. this could either be the beginning
+of brilliant idea and concrete learned outcome (as they might say in
+an educational psychology classroom) or it might be a frustrating
+digression through countless vaguely inspiring but ultimately
+unhelpful online forums and help pages, since the needed technique
+hasn't exactly been mentioned yet. 
+
+Be a good steward of your time and know when to back-off the more
+ambitious idea. You'll figure it out eventually. Better to get back
+to the more narrow path you were being led down by the tutorial.
+
+**** food for thought
+
+http://en.wikipedia.org/wiki/Metacognition
+
+http://en.wikipedia.org/wiki/Learning_styles
+
+
+The emphasis--and preference--here is freely available
+information. Here's one notable exception, a book written about the
+psychology of learning. The general idea behing the book, that there
+is an approach to learning that we are usually not taught that may be
+helpful. Thinking about thinking, metacognition, is a good way to get
+where you need to go in as painless a way as possible.
+
+http://www.amazon.com/gp/product/0201339919
+
+For example:
+
+She states the myths of conventional learning:
+
+1.The basics must be learned so well that they become second nature.
+
+2.Paying attention means being focused on one thing at a time.
+
+3.Delaying gratification is important.
+
+4.Rote memorization is necessary.
+
+5.Forgetting is a problem.
+
+6.Intelligence is knowing "what's out there."
+
+7.There are right and wrong answers.
+
+
+*** online resources
+
+there's no shortage of websites and blogs devoted to teaching you
+how to code, or at least talking about it long enought to capture your
+attention and potentially monetize it. Such is the way of the
+world. In general, the depth that full-blown books provide can be
+advantageous. But the free availablity of information has its own
+charm, (and more importantly, in many cases, moral weight).
+
+http://happyhacker.org/gtmhh/gtmhh2.shtml#program
+
+codeacademy[link]
+
+http://programmersheaven.com/categories
+
+
+** How does programming work? 
+this is a potentially enormous subject. the least you might need to
+know would be what is involved in how to get some source code that someone has
+assembled to work on your computer. 
+*** assorted concepts
+**** _it's (a) Terminal_
+
+Working on a Mac, you have access to something whose usefulness has
+just not faded, despite the near-universal preference for colorful
+visual interfaces mixing pictures and icons and all that we associate
+with the modern operating system [link]
+
+That people still use text-based interfaces, or even prefer them, may
+strike many of us as a sign of self-imposed austerity. Why wouldn't
+you want to use a mouse and see little icons and dropdown menus for
+everything? 
+
+The austere appearance of a command line interface, which the
+Terminal is an example of, can intimidate or frustrate; it can seem
+like a step back. 
+
+Well, coming to see the value in another viewpoint when it comes to
+interfaces may not happen immediately. But be aware that, despite the
+lack of an appealing GUI, the CLI and the system of organization that
+it exposes to you, embodies a certain clarity (at least for machines running Mac
+OS X and Linux, which have a core based on the Unix operating
+system) that won't make much sense right away. But just keep this
+phrase in mind "everything is a file." [link]
+
+[[http://en.flossmanuals.net/command-line/][FLOSS Manuals tutorial on the GNU/Linux Command line]]
+
+
+http://ph7spot.com/musings/in-unix-everything-is-a-file
+
+**** _compilation_
+Right now this section is primarily links, and in some cases large
+copied-in chunks of text. Compilation is not a subject that most
+casual Mac users will be very familiar with. Feel free to return to
+this section, or work through some of the Mac developer tutorials, to
+help get your bearings down the road.
+***** what's a compiler? 
+http://www.compilers.net/paedia/compiler/index.htm
+****** configure; make; make install
+http://tldp.org/LDP/LG/current/smith.html
+
+
+   configure; make; make install
+
+Submitted by Willy on Saturday, November 22, 2003 - 12:55
+ 
+Over and over I have heard people say that you just use the usual configure, make, make install sequence to get a program running. Unfortunately, most people using computers today have never used a compiler or written a line of program code. With the advent of graphical user interfaces and applications builders, there are lots of serious programmers who have never done this.
+
+What you have are three steps, each of which will use a whole host of programs to get a new program up and running. Running configure is relatively new compared with the use of make. But, each step has a very distinct purpose. I am going to explain the second and third steps first, then come back to configure.
+
+The make utility is embedded in UNIX history. It is designed to decrease a programmer's need to remember things. I guess that is actually the nice way of saying it decreases a programmer's need to document. In any case, the idea is that if you establish a set of rules to create a program in a format make understands, you don't have to remember them again.
+
+To make this even easier, the make utility has a set of built-in rules so you only need to tell it what new things it needs to know to build your particular utility. For example, if you typed in make love, make would first look for some new rules from you. If you didn't supply it any then it would look at its built-in rules. One of those built-in rules tells make that it can run the linker (ld) on a program name ending in .o to produce the executable program.
+
+So, make would look for a file named love.o. But, it wouldn't stop there. Even if it found the .o file, it has some other rules that tell it to make sure the .o file is up to date. In other words, newer than the source program. The most common source program on Linux systems is written in C and its file name ends in .c.
+
+If make finds the .c file (love.c in our example) as well as the .o file, it would check their timestamps to make sure the .o was newer. If it was not newer or did not exist, it would use another built-in rule to build a new .o from the .c (using the C compiler). This same type of situation exists for other programming languages. The end result, in any case, is that when make is done, assuming it can find the right pieces, the executable program will be built and up to date.
+
+The old UNIX joke, by the way, is what early versions of make said when it could not find the necessary files. In the example above, if there was no love.o, love.c or any other source format, the program would have said:
+make: don't know how to make love. Stop.
+
+Getting back to the task at hand, the default file for additional rules in Makefile in the current directory. If you have some source files for a program and there is a Makefile file there, take a look. It is just text. The lines that have a word followed by a colon are targets. That is, these are words you can type following the make command name to do various things. If you just type make with no target, the first target will be executed.
+
+What you will likely see at the beginning of most Makefile files are what look like some assignment statements. That is, lines with a couple of fields with an equal sign between them. Surprise, that is what they are. They set internal variables in make. Common things to set are the location of the C compiler (yes, there is a default), version numbers of the program and such.
+
+This now beings up back to configure. On different systems, the C compiler might be in a different place, you might be using ZSH instead of BASH as your shell, the program might need to know your host name, it might use a dbm library and need to know if the system had gdbm or ndbm and a whole bunch of other things. You used to do this configuring by editing Makefile. Another pain for the programmer and it also meant that any time you wanted to install software on a new system you needed to do a complete inventory of what was where.
+
+As more and more software became available and more and more POSIX-compliant platforms appeared, this got harder and harder. This is where configure comes in. It is a shell script (generally written by GNU Autoconf) that goes up and looks for software and even tries various things to see what works. It then takes its instructions from Makefile.in and builds Makefile (and possibly some other files) that work on the current system.
+
+Background work done, let me put the pieces together.
+
+You run configure (you usually have to type ./configure as most people don't have the current directory in their search path). This builds a new Makefile.
+Type make This builds the program. That is, make would be executed, it would look for the first target in Makefile and do what the instructions said. The expected end result would be to build an executable program.
+Now, as root, type make install. This again invokes make, make finds the target install in Makefile and files the directions to install the program.
+This is a very simplified explanation but, in most cases, this is what
+you need to know. With most programs, there will be a file named
+INSTALL that contains installation instructions that will fill you in
+on other considerations. For example, it is common to supply some
+options to the configure command to change the final location of the
+executable program. There are also other make targets such as clean
+that remove unneeded files after an install and, in some cases test
+which allows you to test the software between the make and make
+install steps.
+
+****** Understanding software Installation (configure, make, make install)
+http://www.codecoffee.com/tipsforlinux/articles/27.html
+
+>> Understanding software Installation (configure, make, make install)
+
+This tutorial is aimed at those who have just started using Linux. Generally when users from the Windows background enter the Linux scene,they are totally stumped by the software installation method. They were used to the luxury of double clicking on a single file and getting their software installed. But now they have to type cryptic commands to do the same.
+
+Though the installation instructions tell them what to do, they have no idea what those steps actually do. This article shall explain the basics of software installation. After reading this article you would feel more at home when installing your next software.
+
+Generally beginners tend to search desperately for RPMs since installing RPMs is a real simple task. But this article doesn't talk about RPMs. It deals with the softwares that you generally get in the zipped formats as tarballs.
+
+
+Details :
+
+Generally you would get Linux software in the tarball format (.tgz) This file has to be uncompressed into any directory using tar command. In case you download a new tarball by the name game.tgz, then you would have to type the following command
+
+$ tar xfvz game.tgz
+
+This would create a directory within the current directory and unzip all the files within that new directory. Once this is complete the installation instructions ask you to execute the 3 (now famous) commands : configure, make & make install. Most of the users do this and successfully install their softwares. But most of the newbies have no idea what this really does. The rest of the article shall explain the meaning of these 3 commands
+
+Each software comes with a few files which are solely for the purpose of installation sake. One of them is the configure script. The user has to run the following command at the prompt
+
+$ ./configure
+
+The above command makes the shell run the script named ' configure ' which exists in the current directory. The configure script basically consists of many lines which are used to check some details about the machine on which the software is going to be installed. This script checks for lots of dependencies on your system. For the particular software to work properly, it may be requiring a lot of things to be existing on your machine already. When you run the configure script you would see a lot of output on the screen , each being some sort of question and a respective yes/no as the reply. If any of the major requirements are missing on your system, the configure script would exit and you cannot proceed with the installation, until you get those required things. 
+
+The main job of the configure script is to create a ' Makefile ' . This is a very important file for the installation process. Depending on the results of the tests (checks) that the configure script performed it would write down the various steps that need to be taken (while compiling the software) in the file named Makefile.
+
+If you get no errors and the configure script runs successfully (if there is any error the last few lines of the output would glaringly be stating the error) then you can proceed with the next command which is
+
+$ make
+
+' make ' is actually a utility which exists on almost all Unix systems. For make utility to work it requires a file named Makefile in the same directory in which you run make. As we have seen the configure script's main job was to create a file named Makefile to be used with make utility. (Sometimes the Makefile is named as makefile also)
+
+make would use the directions present in the Makefile and proceed with the installation. The Makefile indicates the sequence, that Linux must follow to build various components / sub-programs of your software. The sequence depends on the way the software is designed as well as many other factors.
+
+The Makefile actually has a lot of labels (sort of names for different sections). Hence depending on what needs to be done the control would be passed to the different sections within the Makefile Or it is possible that at the end of one of the section there is a command to go to some next section.
+
+Basically the make utility compiles all your program code and creates the executables. For particular section of the program to complete might require some other part of the code already ready, this is what the Makefile does. It sets the sequence for the events so that your program does not complain about missing dependencies.
+
+One of the labels present in the Makefile happens to be named ' install ' .
+
+If make ran successfully then you are almost done with the installation. Only the last step remains which is
+
+$ make install
+
+As indicated before make uses the file named Makefile in the same directory. When you run make without any parameters, the instruction in the Makefile begin executing from the start and as per the rules defined within the Makefile (particular sections of the code may execute after one another..thats why labels are used..to jump from one section to another). But when you run make with install as the parameter, the make utility searches for a label named install within the Makefile, and executes only that section of the Makefile.
+
+The install section happens to be only a part where the executables and other required files created during the last step (i.e. make) are copied into the required final directories on your machine. E.g. the executable that the user runs may be copied to the /usr/local/bin so that all users are able to run the software. Similarly all the other files are also copied to the standard directories in Linux. Remember that when you ran make, all the executables were created in the temporary directory where you had unzipped your original tarball. So when you run make install, these executables are copied to the final directories.
+
+Thats it !! Now the installation process must be clear to you. You surely will feel more at home when you begin your next software installation.
+***** Introduction to Porting UNIX/Linux Applications to OS X
+https://developer.apple.com/library/mac/documentation/porting/conceptual/portingunix/intro/intro.html#//apple_ref/doc/uid/TP40002847-TPXREF101
+***** Shell Scripting Primer
+https://developer.apple.com/library/mac/documentation/OpenSource/Conceptual/ShellScripting/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004268
+***** mac technology overview
+https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/OSX_Technology_Overview/About/About.html#//apple_ref/doc/uid/TP40001067
+***** mac open source development
+https://developer.apple.com/opensource/
+
+***** developing mac apps 
+https://developer.apple.com/library/mac/referencelibrary/GettingStarted/RoadMapOSX/chapters/02_SetUp.html
+
+***** ubuntu compiling software
+https://help.ubuntu.com/community/CompilingSoftware
+ 
+
+***** scientific computing on os x
+http://scottlab.ucsc.edu/~wgscott/xtal/wiki/index.php/Unix_and_OS_X:_Third-Party_Unix_Software
+***** [[http://en.flossmanuals.net/command-line/ch030_installing-software/][installing and compiling walk-through]]
+:PROPERTIES:
+:ID: D619ACC5-191C-43C4-8D53-B9BEBAF5E4D9
+:END:
+
+**** _operating systems_
+[[novelist Neal Stephenson explains some computing history]] 
+
+[[Mac installation guides on about.com][http://macs.about.com/od/MountainLion/tp/Os-X-Mountain-Lion-Installation-Guides.htm]]
+The clean install process on a non-startup drive assumes that your target drive doesn't contain an OS. For this guide, we'll also assume that you've recently completely erased the target drive, so that this is truly a clean install.
+**** _algorithms_
+[[designing algorithms, programs and languages]]
+**** _data_
+see [[others' paths and processes][Cicero's path]]
+**** _software development_
+***** qualities of a good programmer
+taken straight from this blog entry
+https://www.hackerschool.com/blog/27-fundamental-qualities-of-good-programmers
+
+****** Knowing one programming language really well
+
+Programming languages are just tools for telling computers what to do. It is better to have a strong command of one than a weak command of a bunch. Good programmers have at least one language that they know inside and out and can reach for to easily solve whatever problem is at hand.1
+
+****** Being a systematic debugger
+
+Being a systematic debugger means that you have a good mental model of your code and that when you run into a bug—that is, when your program doesn't work as expected—you generate hypotheses about what's wrong, instead of blindly changing things until your program works.
+
+****** Having a good mental model of your programming environment
+
+Most programs interact with the outside world, so having an understanding of your environment is important. This includes the I/O and concurrency primitives that your language provides, the way your language finds, loads, compiles, and runs code, the way that your program gets info from the outside world (e.g., environmental variables and command line arguments), and the way your OS handles file access, device access, search paths, etc.
+
+****** Having a good mental model of the hardware you use
+
+Knowing how your hardware works makes it easier to write efficient programs. Even if you are writing programs in a higher level language, understanding things like the call stack, the MMU, the cost of context switching, the memory hierarchy, and the characteristics of the network you are connected to will inform your programming decisions.
+
+****** Being comfortable with algorithmic thinking
+
+A lot of people confuse algorithmic thinking with knowing a bunch of particular algorithms like quicksort or binary search.
+
+An algorithm is a set of steps describing a calculation. Much of programming is simply describing algorithms to a computer. Being comfortable with algorithmic thinking means having good intuition for how to store and manipulate your data, being able to think both iteratively and recursively, and being able to reason about the performance characteristics of the code you write.
+
+****** Being comfortable with mathematical thinking
+
+Programming is not as math-heavy as many non-programmers think, but as you start tackling tougher problems, you'll find that being comfortable with math comes in handy. Many interesting areas of programming like computer graphics, signal processing, and cryptography require a deep understanding of math. Even just measuring the performance of your code can require some statistical thinking.
+
+****** Being able to write a program from scratch
+
+It is hard to imagine a good programmer who cannot write a program from scratch.
+
+****** Being able to work on a small piece of a large program
+
+Most of the time you're not writing a program from scratch. Instead, you're working with other programmers on a large project.
+
+****** Knowing how to structure your code
+
+Well-structured code allows you to easily navigate up and down through layers of abstraction. In a well-structured program, you can ignore implementation details when they don't matter and modify the implementation without having to make changes in all the places where the code is used.
+
+****** Having a large code radius
+
+Code radius is a term that Alan came up with. Your code radius is the size of the largest program you're comfortable writing from scratch. Increasing your code radius takes practice. The structural tools that work well for a 500 line program are not necessarily the same as the ones that work for a 5,000 line program or a 50,000 line program.
+
+****** Being able to code quickly
+
+Often times it's faster to try out a few different solutions and decide which is the most elegant than to figure out the correct one just by thinking about it. If you find "quickly" to be too subjective, consider the inverse: It's hard to imagine a good programmer who is slow.
+
+****** Being productive with your tools
+
+Good programmers use their tools effectively. This doesn't mean you have to use all the tools available to you in order to be a good programmer—not everyone likes IDEs and plenty of good programmers prefer printf to a debugger—just that good programmers are productive with the tools they choose to use.
+** some history, context and terminology
+*** novelist Neal Stephenson explains some computing history
+with annotations from 2004
+http://garote.bdmonkeys.net/commandline/
+*** terminology
+also see [[_some vocabulary_]]
+**** _software architecture_
+front-end/back-end terminology
+   [[http://en.wikipedia.org/wiki/Front-end]["software
+   architecture"]] 
+**** _explaining common things we encounter e.g. file types, file-endings_
+if you are seeing .app, or .dmg or .tar or .gz or .txt or NO
+ending(?!) what does this mean? If you have been using different
+applications on a mac that seem to consistently open some files with
+a certain ending exclusively, then you have a nascent sense of what
+file endings mean. And that means you are in a good position to
+understand what compilation means. And what building means. And what
+configuring means. And what installing means. And at least what
+USING, most importantly for us as artists, means. 
+
+***** more file extensions in tables
+So what other file extensions can you name, and what do you
+understand about what they mean? 
+| .html | webpages           | these are read by "web browsers" |
+| .mp3  | compressed audio   | audio players                    |
+| .wav  | uncompressed audio | "                                |
+| .aiff | uncompressed audio | "                                |
+| .mpeg | video              | media players                    |
+| .mov  | video              | "                                |
+| .jpg  | images             | image-viewing programs           |
+.
+
+
+**** _other technical jargon_
+
+In doing reading about a particular technology or technique you will
+likely be exposed to some terms that are being bandied about as if
+they meant something to everybody. Here are some such terms; you may
+encounter them elsewhere in this document.
+
+Additionally, I've copied in some randomly gatherd statements that may contain
+language that seems slightly jargon-laden. Despite their
+disconnection, we can use them to grow our familiarity with the kind
+of language used in tech-oriented writing.
+
+***** *integrated development environment*
+
+***** some random statements for explaining
+
+****** *statically typed, free-form, multi-paradigm and compiled.* 
+
+****** *It is regarded as an intermediate-level language, as it comprises both*
+high-level and low-level language features.
+
+http://en.wikipedia.org/wiki/Programming_paradigm
+
+****** *HTML5 and CSS3, the Latest HTML proposed standard, combined with the*
+latest proposed standard for CSS, natively supports much of the
+client-side functionality provided by other frameworks such as Flash
+and Silverlight
+
+****** *Arduino is an open-source electronics prototyping platform based on*
+flexible, easy-to-use hardware and software. It's intended for
+artists, designers, hobbyists and anyone interested in creating
+interactive objects or environments. 
+
+****** *PHP, (PHP: Hypertext Preprocessor, a recursive acronym) is a*
+server-side scripting language designed for web development but also
+used as a general-purpose programming language. 
+
+****** *Lua combines simple procedural syntax with powerful data description*
+constructs based on associative arrays and extensible semantics. Lua
+is dynamically typed, runs by interpreting bytecode for a
+register-based virtual machine, and has automatic memory management
+with incremental garbage collection, making it ideal for
+configuration, scripting, and rapid prototyping. 
+
+
+****** *The language is entirely implemented into the Scriptol to C++ compiler.*
+- Embedding inside Web page is possible only with the Scriptol to PHP compiler.
+- The XML data-structure is not available in the scriptol-php compiler for now.
+- The interpreter at scriptol.com is limited and recognizes only a subset of the language for now (see at the change page for details).
+- XML is handled by the interpreter as static and dynamic data-structure.
+- XML is handled by the compiler (C++) as dynamic classe named "dom"
+  described in the "dom.html" file. This is compatible with the format
+  of the interpreter (see examples on scriptol.com). In a near future,
+  the XML format of the interpreter will be extended to the two
+  compilers. 
+
+cygwin 
+** UNIX operating system concepts and command line skills
+*** value of working with text/CLI, say, via emacs
+See emacs entry [link] neal stephenson, and it's a terminal
+
+For one thing, emacs keybindings are used on Mac keyboards. Have you ever
+deleted whole words back by using option-DEL while writing an email?
+
+(Becoming excited by keyboard shortcuts is a sign that you are
+becoming a kind of conoisseur of computing)
+**** _FLOSS Manuals tutorial on the GNU/Linux Command line_
+   [[http://en.flossmanuals.net/command-line/][FLOSS]]
+**** _CLI on Mac--Darwin and Mac Bible guides_
+There are some books, which may not be freely available, in addition
+to online tutorials that may help clarify aspects of using your
+computer. In particular, for Mac users, there may be certain chapters
+of the following books that make clear how to use the Terminal, and
+understand the Unix, or "Darwin core," in OS X.
+#+TOC: headlines 2 

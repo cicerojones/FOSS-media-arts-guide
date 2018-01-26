@@ -1,0 +1,170 @@
+* Introduction
+** Statement of Purpose
+This document begins with a statement of its primary purpose: to
+acquaint media arts students with using free, open source
+software. Sounds simple, doesn't it? 
+
+The reality is, inevitably, more complicated. What exactly are "media
+arts?" Do you mean "multimedia arts?" And what kind of free software
+are we talking about? Firefox? What concepts are involved
+there--How to use a web browser? And why does it sometimes say "free"
+software and other times say "open source?" There's [[free vs. open source software--a controversy?][a difference?]]
+
+And what the hell does 'acquaint' mean?
+
+None of these questions even begin to address the assumptions being made about
+what is going to remain useful months or years from the time of this initial
+writing, in late 2013.
+
+So, some further explanation is needed. And to paraphrase 
+[[http://quoteinvestigator.com/2011/05/13/einstein-simple/][(Roger Sessions apparently paraphrasing)]] Albert Einstein, you want the
+simplest explanation for how to do something, "but not simpler." As that
+cryptic allusion suggests, it all turns out to be not so simple, and
+trying to explain how to use software can get complicated
+pretty fast.
+
+** some basic assumptions
+
+In light of these complications, it can help any person doing the
+explaining to have a sense of what her auditor (the explainee?)
+already knows, in order to tailor the explanation to the shared
+context of what you both already know. Since this document can't
+(yet!) ask you what you already know, we're going to make a few
+assumptions:
+
+*** you have basic digitally literacy
+
+Even if you have never heard the term, chances are you "digitally
+literate." Some internet searches for what that means in 2013 turn up things like this...
+
+- What the us government has to say: http://www.digitalliteracy.gov
+- What some anonymous wikipedia administrators have to say:
+  http://en.wikipedia.org/wiki/Digital_literacy
+
+We can only speculate about how our understanding of this will change
+in coming months and years ([[speculative fiction and philosophy--or what did we learn from sci-fi?][see speculative fiction--below]])
+
+*** you may be accustomed to so-called right-brain thinking
+Two, we are going to assume that you may have more training in "the
+arts" than in "computers." The distinction may or may not be a
+relevant one right now, but, a world where it is definitively NOT is
+probably on the way. May this document help expedite the process.
+
+*** you may be reading this on your own actual computer (probably a Mac)
+Three, given that two is true, we might not be wrong in thinking that
+you are working on--or at least as familiar with working on--a Mac as
+any other computer. Why? Well, see [[novelist Neal Stephenson explains some computing history][this essay]] for some background.
+
+Because this may be true, we can just for now state that there are
+some extra complications with using some of the more "bleeding edge"
+open source software out there, especially if you are only accustomed
+to using the Mac GUI (huh? see [[some history, context and terminology][here]]).
+
+DO NOT LET THIS DISSUADE YOU! It just means that you are going to
+become more skilled at working with this powerful tool of metal,
+glass, plastic and silicon. And for everyone who's seen Napolean
+Dynamite, we can all attest to the importance of having skills.
+
+It'll make a difference, also, if you are using your own computer,
+as you will need to be able to get around it (and make changes)
+freely. In short, here's one case where's it good to be an
+administrator [see jargon].
+
+** structure of document
+
+Once this document 'goes live,' and then continues to be edited and
+updated, it will probably reflect something of the structure of the
+world of free software itself--maintained by a community (at least
+potentially, [[notes about maintaining this document][see below]]) unbound by linearity, vaguely anarchic but not
+without reason. It's a thriving, bustling scene out there, with an
+order all its own; the writing here can only hope to help you find
+your place in a sometimes disorienting virtual space.
+
+It is worth mentioning at the outset that this document is primarily
+concerned with software, as opposed to technology in general. As such,
+it is not really about digital art-making itself (though there are
+relevant links in the [[links to artist's works][appendix section]]); nor does it purport to be a
+tutorial about any of the individual pieces of software mentioned.
+Instead it is meant to orient and guide the media student through a
+variety of topics that sometimes feel incidental to actually doing
+work with any of these pieces of software.
+
+With that in mind, feel free to jump to the section that lists and
+briefly describes [[selected free software][particular examples]] of such software. You may find
+that in the process, you hit upon a topic or question that might be
+addressed elsewhere in this document.
+
+While some original writing and explanation is sprinkled liberally
+throughout, the ultimate purpose of this documentation is to help you
+grapple with what you find when you start visiting the relevant
+webpages for more information on specific software and for detailed
+explanations.
+
+Since weblinks, however, have inevitably indeterminate lifespans, 
+there will also be listed [[looking around for free software (and help)][a few hubs]] of information that are important
+right now and should be around for a while.
+
+Finally, there may even be space for some thinking about things [[Philosophy and thinking about software--The Why?][deeper]]
+than how to install software, things we don't expect to change as
+quickly--culture, philosophy, and the way humans learn and solve
+problems. 
+
+Begin anywhere.
+
+** some suggestions on how to use this document 
+
+Since we don't know what you want to do (and you may not either!), we
+seek to present a variety of ways to start.
+
+You might be interested in a particular medium or just wish to browse
+what's available, without having to think too much about all the steps
+in involved. In which case, we direct you [[selected free software][here]].
+
+In some cases, however, the experience of others can be useful (or
+fascinatingly irrelevant!). We will direct you to some [[others' paths and processes][paths]] that
+contributors have described.
+
+As with the Web itself, there is no one path that anyone should
+follow. To quote Joseph Campbell, "follow your bliss." 
+
+(BTW, For most of us just starting out, that usually means NOT
+starting [[How does programming work?][too deep]] in [[http://en.wikipedia.org/wiki/Solution_stack]["the stack."]])
+
+*** why forking paths? 
+Depending on your tastes, reading tutorials can be challenging.
+Boredom, frustration, utter incomprehension all are problems you may
+encounter.
+
+Because using your brain in only one way to scour only one problem can
+quickly produce diminishing returns, we encourage breaks. One helpful
+trick is to read stuff that is [[where does your software come from?][related,]] but not exactly what you
+need. Especially if it is something that it is easier to relate to,
+you can chalk it up to learning the culture, which may be helpful in
+the long run. 
+
+Regardless, evidence (and personal experience) suggests that we can
+often subconsciously get ideas how to work out one problem while
+consciously working on something else. And there are usually no
+shortage of interesting concepts lurking just behind some really
+tedious ones. So [[repositories][branch]] and fork away!
+
+
+
+*** others' paths and processes
+
+I encourage contributors to share a little about the path they
+followed to arrive "here," understood as broadly or narrowly as
+necessary, as well as concrete examples of any process of working
+with software that they found useful or relevant in their own work or
+research. This can simply be links to tutorials or code on github or
+some such repository; or actual code or examples of work carried
+out. The emphasis, however, should be on explaining specific aspects
+of one's thought process or manner of working--artistic "source code,"
+as it were--rather than on finished presentations of already
+documented work. 
+**** _young Cicero's path_
+
+[[https://github.com/cicerojones/FOSS-media-arts-guide/blob/master/young-ciceros-path.org][a 2011-13 PIMA student's reflections]]
+
+#+TOC: headlines 2
+

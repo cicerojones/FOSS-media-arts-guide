@@ -1,0 +1,123 @@
+* notes about maintaining this document
+
+** document management
+Since the internet can make possible both breadth and depth of
+research in a way like no other, there may end up being a quite a
+number of links to many disparate things. One small goal, however, is
+to avoid simply accumulating of links, especially to that rich and
+dangerous pandora's box that is wikipedia. It is of course as good a
+place as any to quickly find out what something is. But we are hoping
+here to make use of a tailored approach. Wherever possible, some
+editorial shaping of content that may be helpful to a media student
+is to be preferred over a "link dump," (which nevertheless may be
+inevitable at first, especially in the philosophy or finding out more
+sections), until more "curated content" can be provided.
+
+Particularly, it can be very easy to simply click links and skim
+webpages, leaving a trail of open tabs overflowing one's
+webbrowser. Isn't it better to deeply engage with one or two really
+helpful sources, rather than know about the endless proliferation of
+sites that may or may not be helpful? As such, we strive to, as much
+as possible, share a link to something based on an a positive or edifying
+experience with that thing. 
+
+So, for example, if you think of a topic and a link that you think
+might be relevant, try to say what you know about it or why it might
+useful in as pithy a way as possible. If any kind of neutrality is
+going to be hard, consider creating a link to a personal page where
+you can expand on your idea, and let your enthusiasm pour forth.
+
+** set up the portal pages to be pithy so that they can link to more
+ detailed or elaborated pages elsewhere, say in my path.
+** quicknotes, concepts, and discussions
+a place to quickly jot down potentially useful information that
+should be refiled above (before too long)
+
+*** future entries or entries requiring attention
+
+pure data FLOSS tutorials
+
+general FLOSS tutorials
+
+how to use the terminal to deal with downloading and installing OSS
+
+understanding Darwin's filesystems enough to find things
+
+using a text editor like emacs or Aquamacs
+
+learning to use Processing and related libraries for Kinect
+
+using NLTK and Python for working with Natural Language Processing
+
+notes on cognition: interleaving; consolidation (sub/unconscious)
+priming; drilling and review;    
+
+*** existing online syllabi for courses looking at digital/culture intersection
+very possible for these links to go out-of-date
+
+http://itp.nyu.edu/varwiki/Syllabus/LearningBitbyBitS10
+
+See Mark Tribe [link]
+
+https://wiki.brown.edu/confluence/display/mcm1700n/Open+Source+Culture+Fall+12-+Outline
+
+** finding out more about "digital art"
+
+while the focus in this document is on things that might bear on an
+artist's ability to make sense of the world of open source software,
+it seems reasonable to collect some things that are maybe just off to
+the side of that focus. Where and how to incorporate such information
+remains a question, if "feature creep" and info-bloat is to be
+avoided. With that in mind, I propose thinking about this whole
+section as a kind of Appendix, where such miscellanies that pertain
+more exclusively to artists and digital art-making in the PIMA,
+Brooklyn College community can have an healthy, unobtrusive home.
+
+One easy thing to do is to provide some resources to find out more
+about existing work at the intersection of art and
+technology.
+
+This is one place to list links to relevant artists and organizations.
+*** links within Brooklyn College/PIMA
+This page contains a kind of relevant software chart. However, it
+almost uniformly concentrates on commercial software, and could use
+some attention.
+
+http://pima-mfa.wikispaces.com/PIMA+Students+2013-15
+*** links to organizations
+
+Harvestworks
+http://www.harvestworks.org
+
+eyebeam
+http://eyebeam.org
+
+NYCresistor
+
+rhizome
+http://rhizome.org/
+
+leonardo
+http://www.leonardo.info/isast/isastinfo.html
+
+connected via leonardo
+ http://artshumanities.netsci2013.net
+
+school for poetic computation
+http://sfpc.io/faq/
+
+siggraph
+http://www.siggraph.org 
+
+gecco
+http://eadcc.geccocompetitions.com/submissions/
+
+evolutionary computing and art
+http://evostar.dei.uc.pt/2012/call-for-contributions/evomusart/
+*** links to artist's works
+http://nymediaartsmap.org
+http://en.wikipedia.org/wiki/New_media_art
+
+[[top][top]] [[Specific Software--The What?][The What?]] [[Gaining a deeper
+understanding--The How?][The How?]] [[Philosophy and thinking about software--The Why?][The Why?]]
+

@@ -1,0 +1,192 @@
+* Philosophy and thinking about software--The Why?
+** where does your software come from? 
+*** free vs. open source software--a controversy?
+In this document I have generally tried to abide by a convention of
+using both the terms "free software" and "open source." (My rule of
+thumb is to prefer "free" in front of the word "software" and "open
+source" in front of other nouns, like "world" or "model," thus trying
+to emphasize that "free" designates software with "limited
+restrictions," rather "than provided at no cost").
+
+You may not need to worry much about making distinctions
+when speaking informally, but don't let [[some prominent voices and developers][Richard Stallman]] hear you.
+
+
+http://www.gnu.org/philosophy/free-sw.html
+
+http://www.gnu.org/philosophy/open-source-misses-the-point.html
+
+
+http://opensource.org/docs/osd
+
+http://opensource.org/history
+
+
+*** some prominent voices and developers
+**** _Miller Puckette_
+The designer of the Max/MSP programming environment talks about the
+experiences and thinking behind his creation of Pd, the open source
+alternative. 
+
+http://msp.ucsd.edu
+
+http://msp.ucsd.edu/Publications/isea-reprint.pdf
+
+**** _Richard Stallman interviews and FSF essays_
+
+There is no shortage of lucid, and sometime polemical, writing from
+one of the key driving forces between the free software movement. As
+well, Stallman was instrumental in [[_text_ or document-oriented][emacs]] and the GNU component
+of the Linux system.
+
+http://www.gnu.org/philosophy/philosophy.html
+
+http://www.gnu.org/gnu/manifesto.html
+
+**** _Eric Raymond_
+
+Another key figure in the free software, er...open source
+movement. See Raymond's comments on Lisp
+
+The Cathedral and the Bazaar
+http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/
+
+Homesteading the Noosphere
+http://www.catb.org/~esr/writings/cathedral-bazaar/homesteading/
+**** _Paul Graham_
+
+Of a different generation than the other two hackers, Graham is a
+notable voice who has published many essays about the software world
+that have a clarity of exposition and philosophical perspective that
+makes them worthwhile reading for artists. As well, another prominent
+Lisp programmer.
+
+http://www.paulgraham.com/articles.html
+
+Hackers and Painters
+
+#+BEGIN_QUOTE
+"Painting was not, in Leonardo's time, as cool as his work helped make
+it. How cool hacking turns out to be will depend on what we can do
+with this new medium. " 
+#+END_QUOTE
+http://www.paulgraham.com/hp.html
+
+*** misc. studies and writings
+
+Questions from an economic perspective about the role of FLOSS are
+worth considering, especially for how they either align or diverge
+from the more radical model imagined by Stallman. Though this seemingly takes
+us rather far afield from art-making, its relevance to the ways we get
+our art-related softwar should be apparent. 
+
+http://ocw.mit.edu/courses/sloan-school-of-management/15-352-managing-innovation-emerging-trends-spring-2005/readings/lakhaniwolf.pdf
+** open source culture and organizaions
+*** the broader 'open source' movement
+**** _Wikipedia links_
+
+Since thinking about software alone can get a little dry for many
+people, knowing about some important figures who have been honored by
+the FSF can cast the larger project in a more human light.
+
+http://en.wikipedia.org/wiki/Free_Software_Foundation_Award_for_the_Advancement_of_Free_Software
+
+***** misc.
+
+http://freedomdefined.org/Definition
+
+**** _Mark Tribe_ 
+
+A professor who teaches a course, which would fit well within PIMA,
+on this very notion of open source culture. He posts many source
+materials that should be of interest to your average PIMA MFA.
+
+https://wiki.brown.edu/confluence/display/MarkTribe/Open+Source+Culture+Mediography
+
+https://wiki.brown.edu/confluence/display/MarkTribe/Mark+Tribe%27s+Teaching+Wiki
+
+https://wiki.brown.edu/confluence/display/mcm1700n/Open+Source+Culture+Fall+12-+Syllabus
+*** EFF
+
+If you do not know the name Lawrence Lessig, be aware that he, and
+many others at the Electronic Frontier Foundation, are defending your digital rights.
+https://www.eff.org
+
+Another prominent voice defending freedom, in the software world and beyond.
+john gilmore
+http://www.toad.com/gnu/index.html
+*** FSF
+see [[some prominent voices and developers][richard stallman]]
+*** OSI
+see [[some prominent voices and developers][Eric Raymond]]
+http://opensource.org/osi-open-source-education
+** critical perspectives from philosophy and elsewhere
+
+in some cases, this section serves to share some books that I think
+are worth knowing about, especially if you are interested in the role
+of computing in the humanities. In other cases, there are links to
+particular thinkers or writers who voices seem to be prominent in the
+ongoing evolution of the "digital everything" trend.
+
+*** 'digital culture and philosophy:' some proponents, influential figures and critics
+**** _Scientists in computation, information theory and AI_
+***** Wolfram
+***** Kurzweil
+***** Shannon-Weaver
+***** Winograd
+**** _Journalists and technologists_
+***** Lanier
+***** Morozov
+[[http://www.evgenymorozov.com][Morozov]]
+
+http://www.newrepublic.com/article/books-and-arts/magazine/105703/the-naked-and-the-ted-khanna
+
+http://www.nytimes.com/2013/03/17/opinion/sunday/morozov-open-and-closed.html?_r=0
+
+***** Clay Shirky
+***** Kevin Kelley
+
+http://kk.org/outofcontrol/contents.php
+
+***** CUNY's Lev Manovich
+***** Eben Moglen
+http://moglen.law.columbia.edu
+**** _websites, periodicals and aggregators_
+***** edge.org
+see jaron lanier
+***** Wired
+see Kevin Kelly
+***** lifehacker
+http://lifehacker.com
+*** the role of technology in the Western philosophical tradition
+
+http://plato.stanford.edu/entries/technology/
+
+http://plato.stanford.edu/entries/episteme-techne/
+
+existentialism and Heidegger's Question Concerning Technology
+Marshall McLuhan
+Marx and alienation
+** reflections specifically on art and computation 
+*** questions of aesthetics in the 21st Century 
+
+** before and after
+*** precursors and progenitors
+
+MIT Media Lab
+
+John C. Lilly
+http://en.wikipedia.org/wiki/Human_biocomputer
+http://deoxy.org/h_lilly.htm
+
+Stewart Brand
+http://en.wikipedia.org/wiki/Whole_Earth_Catalog
+
+Systems Theory
+http://en.wikipedia.org/wiki/Gregory_Bateson
+*** speculative fiction and philosophy--or what did we learn from sci-fi?
+the singularity, Moore's law and the end of everything
+William Gibson et al
+
+
+#+TOC: headlines 2p

@@ -1,0 +1,792 @@
+* Specific Software--The What?
+** selected free software
+
+Here are some specific "things" that have come in handy during my time
+in an MFA program in performance and interactive media arts. (Can't
+help point out that the grouping may remind you of a certain Roland
+Barthes book...)
+
+Whenever possible, I will try to be consistent in giving a blurb,
+with at least some personal/editorial content where applicable. I
+will also include a link to the home of the project and another link
+to documentation or a wikipedia page concerning the project, where applicable. If
+there happen to be tutorials or applications of the program that I
+know of, I will mention or link to those as well. 
+
+*** music/sound
+**** _Pd_
+
+a graphical, dynamic programming language or environment, originally
+written by Miller Puckette (who helped lay the foundation for Max) as
+an open source alternative to Max. See Miller Puckette's [[Miller Puckette][essay]] on his
+experience developing the software and moving towards an open source
+model. 
+
+The documentation that you can find for Pd online (and within the
+program itself) is pretty good for an open source project. 
+http://puredata.info/
+http://en.wikipedia.org/wiki/Pure_Data
+
+
+Two excellent places to look are:
+http://www.pd-tutorial.com/english/index.html
+http://flossmanuals.net/pure-data/
+
+For those especially interested, Miller Puckette's textbook on
+electronic music is available online. He illustrates many of the
+fundamental concepts of electronic music with pd patches in the book. 
+
+Lastly, pd is written in C++ and would make for a good testing ground
+to practice writing extensions to an object-oriented, patching
+environment [see how to write externals]
+
+see [[others' paths and processes][Cicero's path]] for some particular experiences working with Pd.
+
+**** _Audacity_
+one of the primary open source sound editors, in the mode of Pro
+Tools and Logic. 
+
+Working with the interface will definitely require some adjustments
+to anybody who learned non-linear audio editing on those programs. 
+
+Still, a healthy amount of documentation exists. A worthy project to
+contribute to, especially if you are a musician.
+http://audacity.sourceforge.net 
+
+**** _Supercollider_
+
+Another popular programming environment originally designed with
+audio in mind, Supercollider is now hosted on Github.
+
+
+http://supercollider.sourceforge.net
+**** _Csound_
+
+
+one of the earliest computer music programs, based on the C
+programming language, which is at the heart of the Unix operating
+system. 
+
+Not as interactive an environment as the Pd or Max, Csound requires
+the ability to compile your C code before you can hear
+something. Still worth investigating, especially as a means to learn
+more about C, which remains a language worth learning.
+
+http://www.csounds.com
+
+http://en.wikipedia.org/wiki/Csound
+
+**** _PWGL_
+
+a Lisp-based environment for doing algorithmic composition, somewhat
+in the Patcher tradition of Pd/Max. The focus here, is on potentially
+creating attractive scores (the GL refers to the OpenGL standard)
+using traditional and graphic notation.
+
+A project full of potential for patient composers and those inclined
+to work with Lisp. See Cicero's path for more.
+
+http://www2.siba.fi/PWGL/
+
+**** _MuseScore_
+a music notation program I found compartively easy to learn and
+begin creating scores with quickly.
+
+http://musescore.org/en
+
+http://en.wikipedia.org/wiki/Musescore
+
+**** _LMMS_
+
+**** _misc_. 
+
+just to give you an idea of how much free software is out there, and
+what the world of getting it looks like:
+http://freecode.com/tags/soundaudio
+
+*** image/video
+**** _GIMP_
+
+GIMP, whose unfortunate acronym stands for GNU Image
+Manipulation Program, has been around for a long time, as part of GNU
+package of free software. 
+
+http://www.gimp.org 
+
+http://www.gimp.org/tutorials/ 
+
+
+It may be a while before Adobe's dominance in the visual media world
+is seriously challenged, though its recent adoption of a new pricing
+scheme for its Creative Suites products has attracted some [[https://videolan.org/vlc/][criticism]].
+
+**** _Processing_
+
+An important entry into the world of open source programming
+environments for artists and non-programmers, Processing has been
+around since 2001.
+
+
+http://www.processing.org 
+
+
+http://processing.org/tutorials/
+
+see Cicero's path: can be used with Kinect via special open source
+software tools that allow access to the motion-tracking capabilities
+of the Kinect.
+**** _Blender_
+
+Another longstanding free software project, Blender is a 3D-graphics
+environment that provides a fairly complex interface, at least for
+any not already familiar with graphics software. Like many free
+software packages, it has been used in commerical ventures (Spiderman
+2, apparently). 
+
+http://www.blender.org 
+
+http://wiki.blender.org 
+**** _VLC_ media player
+
+More properly an application for streaming or playing back content in
+wide array of formats, I have found VLC most useful for capturing (transcoding)
+streams, say, from Youtube or other streaming sources.
+
+
+https://videolan.org/vlc/
+
+**** _open_ frameworks
+
+I can only say I have heard good things about openframeworks, which
+appears to be used by artists working largely with installations and
+visual media. 
+
+http://openframeworks.cc 
+
+http://openframeworks.cc/tutorials/
+*** text/other
+**** _text_ or document-oriented
+***** LibreOffice
+
+The options for non-Microsoft word processing and office suite
+software has seen some recent changes, with OpenOffice and
+LibreOffice representing a kind of reconfiguring of the scene for
+document-producing free software.
+
+LibreOffice now comes as the default package on Linux systems, so that
+is mentioned here, as I have no particular experience with it.
+
+https://www.libreoffice.org/
+
+***** Emacs
+
+
+http://www.gnu.org/software/emacs/
+
+Nominally just a text editor, Emacs is perhaps the original free software package, still actively
+developed and maintained now since the mid-70s. To understand the
+staying power of something seemingly as uninteresting as a text editor
+may require some context and history. This history is very much bound
+up in the trajectory of the free software movement (see more).
+
+Since it was actually designed to be a kind of complete operating
+system environment, it is not uncommon to hear complaints by diehard
+users of having to "leave" Emacs to work in applications. 
+
+It is primarily used now as a highly-configurable environment for developing programs
+in a huge variety of languages, especially by those who have fully
+adopted the Linux operating system. 
+
+Ignoring the hyperbole of [[http://en.wikipedia.org/wiki/Editor_wars]["editor wars,"]] it's fair to say that the
+debate of, essentially, what to type in when navigating around your
+computer has given rise to factions and strife. I can say that,
+despite its frustrations and learning curve, I am very glad for
+having taken approximately 2 years to get the point of understanding
+those who don't want to leave emacs.
+
+Like many of the tools related to programming and text here, emacs is
+most likely already installed in some form on your computer. I got
+started using it on a Mac, with an implementation, Aquamacs, that makes
+for a simplified learning experience for Mac users. 
+
+I am happy to recommend it for those who want to take their
+understanding of their computer and programming further. I am also
+compelled to encourage patience: may your forebearance know no limits.
+
+http://aquamacs.org
+
+****** org-mode
+
+There exist many "libraries" and utilities within emacs that have
+been around for a long time. These allow Emacs to continue to be
+adapted by people who still find working in raw text-based
+environments critical to their productivity. And essentially org-mode
+is one huge library within emacs that is designed to help programmers
+be productive, which usually means typing text at a keyboard. 
+
+As indication, this whole text was composed in org-mode, as kind of
+raw text file, and automatically exported to HTML by using org-mode
+facilities. 
+***** LaTeX
+
+http://www.latex-project.org
+
+Built on top of another one of the longstanding free
+software projects, LaTeX (nothing to do with the gloves--it's
+connected to the Greek word "techne") is a program for typesetting
+documents. Huh? 
+
+The purpose of typesetting at a computer may strike most casual computer
+users as odd. This is because we tend to take for granted the reality
+that the acronym "WYSIWYG" represents: "what you see is what you
+get." That is, when typing a document using a program like Microsoft
+Word, what you see on the screen is what pretty much exactly what
+your document is going to look like. 
+
+That a need for something else exists may only become apparent when
+you can't get your document to look quite the way you want. This is
+where TeX comes in, as you essentially "program a document:" working
+with a text editor, you give TeX some commands along with your
+text that will allow you greater control of precisely how you want your
+document to look. The final document is produced after processing all
+of your commands.
+
+If you ever start to really care what your documents look like,
+especially if, god forbid, some mathematical text is involved, you'll
+see the need for LaTeX, which is ubiquitous in academia. 
+
+If you have ever downloaded an article that looked like [[http://msp.ucsd.edu/Publications/isea-reprint.pdf][Miller Puckette's]] then TeX was probably involved somewhere. 
+
+***** FreeMind mind mapping software
+
+A useful tool for taking loosely-structured notes or as a project
+management tool allowing for graph-like visualizations of image and
+text.
+
+Perhaps also significant here as a software project which is hosted
+on Subversion, a website used for open source projects large and
+small. The trouble of downloading and installing via the command line
+is avoided by the availability of pre-compiled binaries [link]. But
+you can acquaint yourself with the general look and feel of a project
+maintained by a smaller community on a code repository.
+
+You could even use this as an experiment in trying to "roll your
+own;" that is "install from source" yourself. [link]
+
+http://freemind.sourceforge.net/wiki/index.php/Main_Page 
+***** wordpress.org (as opposed to wordpress.com)
+see other for more programming-specific
+
+**** _other_
+***** applications of computational approaches
+****** NetLogo
+
+Quoting from Wikipedia, "NetLogo is an agent-based programming
+language and integrated modeling environment." That is, it is useful
+as an environment for setting up a vast number of complex interactions
+among parts, which the user creates and can defines to be anything
+from virtual ants to humans. 
+
+The purpose, and it's relevance to students of interactive media, is
+to make aid the study of interactions. Used as an educational tool,
+one can run existing simulations developed by other researchers or
+create one's own.
+
+
+
+http://ccl.northwestern.edu/netlogo/ 
+****** NLTK
+
+The Natural Language ToolKit (NLTK) is designed to get you started
+exploring the area of Natural Language Processing (NLP).
+
+One of the best things about NLTK is that there is an excellent book
+freely available (NLP with NLTK) that makes it possible to find out,
+say, in what senses Jane Austen uses the word "monstrous" in Sense
+and Sensibility (you'd be surprised).
+
+NLTK is a great example of newer open source project with a
+well-supported code base, and some of the best documentation going (a
+whole textbook, published by O'Reilly). Since it is hosted on Github
+you can also begin to get familiar with that repository. And most
+important of all, it can be an easy way to start to learn how to
+program in Python, without having to do a bunch of boring and
+meaningless exercises (which appear to be all too necessary parts of
+introductory programming texts).
+
+[link] 
+
+How can I install NLTK from the source code repository?  Most users
+should install NLTK from a distribution. Please see the installation
+instructions. However, if you need an up-to-the-minute version, then
+you will have to install NLTK from the source repository. Once you've
+downloaded this, you'll need to run the top level setup.py program to
+install this version of NLTK on your machine.
+***** programming languages and environments
+****** the bash shell
+
+For Mac users, this is, for simplicity's sake, equivalent to the
+Terminal application, which you may never have had reason to use. 
+
+But, if you are going to take seriously the task of using open source
+software more and more, or even if you are just interested in
+learning more about programming, the time is nigh.
+
+Issues pertaining to understanding what a "shell" is and how to use
+it, appear elsewhere in more detail. Suffice it to say that, the Bash
+shell is already on your computer, and provides a way into the core
+of the operating system.
+
+See [link] for more details. Getting comfortable with this is important.
+****** GNU/Linux--not just any software
+
+This may be an odd term for you, but hopefully you have at least
+heard of Linux. The word 'ecosystem' usually strikes me as a bit
+dubious when applied willy-nilly to any kind of software environment,
+but it really is applicable to the Linux, or GNU/Linux world. 
+
+Skimming around the various other sections and coming back here will
+probably be best, unless you are already especially motivated to
+start using the Linux operating system. If you already are working on
+a Mac, it is not terribly difficult to actually support both
+operating systems, if you want a way to learn incrementally. [link]
+
+However, if you are not totally comfortable working at the commandline
+[link] you may want instead to start by getting used to that first,
+by say doing some exercises, reading some tutorials, and maybe
+learning to use a text editor, such as Emacs. It's a process, but one
+that will eventually lead to you getting a better understanding of
+your computer, and the real value (and challenges) of working with
+open source software. [link]
+****** Python
+
+Python is one of the more popular programming languages, and happens
+to be open source, as well. What that means when it comes to a
+programming language may be a little unclear, which is ok for the
+moment. If you are on a Mac, you most likely already "have"
+Python. 
+
+Using it with a dedicated "interpreter" [link] is probably best when
+starting out, in which case you will want to download IDLE.
+
+Here are some further (loosely organized) links to things dealing
+with Python. 
+
+
+******* "where is 'Python' and the various things it uses located?"
+
+One example:
+/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/nltk/metrics/distance.pyc
+
+http://geosci.uchicago.edu/~rtp1/PrinciplesPlanetaryClimate/Python/pythonPortal.html
+
+http://geosci.uchicago.edu/~rtp1/PrinciplesPlanetaryClimate/Python/pythonInstall.html
+
+file:///Library/Frameworks/Python.framework/Versions/2.7/Resources/English.lproj/Documentation/glossary.html#term-interpreted
+
+******* what is "interpreted?"
+
+Python is an interpreted language, as opposed to a compiled one,
+though the distinction can be blurry because of the presence of the
+bytecode compiler. This means that source files can be run directly
+without explicitly creating an executable which is then
+run. Interpreted languages typically have a shorter development/debug
+cycle than compiled ones, though their programs generally also run
+more slowly. See also interactive.
+
+
+Let's go one more step and write executable Python code:
+
+
+******* Python beginners stuff
+http://en.wikibooks.org/wiki/Python_Beginner_to_Expert/Structured_Python
+. It is generally advisiable to include a shebang line when writing for Unix types of systems. 2. In some Unix type environments, the interpreter may have problems with DOS type line endings.
+
+******** digging in to Libraries 
+
+installing Python libraries
+http://pypi.python.org/
+
+Can be tricky on OS X
+
+For example:
+
+http://matplotlib.org/users/installing.html
+Manually installing pre-built packages
+General instructions
+For some people, the prepackaged pythons discussed above are not an
+option. That’s OK, it’s usually pretty easy to get a custom install
+working. You will first need to find out if you have python installed
+on your machine, and if not, install it. The official python builds
+are available for download here, but OS X users please read Which
+python for OS X?.
+
+
+I highly recommend looking the NLTK section [link], especially if you
+are interested in language or writing, as a way to start learning
+about programming in Python.
+****** Clozure Common Lisp
+
+One of the oldest (and still relevant) computer languages is
+Lisp. Common Lisp is pretty much the standard version of the language
+these days, and Clozure is just one of the widely available open
+source implementations [link]. 
+
+Lisp has been around long enough that its fortunes have risen and
+fallen with those of various corners of the computing world. For our
+purposes, its importance can be gauged by its influence on Emacs
+(which is written in its own version of Lisp. Knowing Lisp allows you
+to make virtually any modification and extension to the program you
+want). Additionally, for musicians, PWGL makes possible getting into
+Lisp programming in a musical setting akin to Max/MSP and Pd. 
+
+Please see some of the essays and authors below for more context and
+history behind using Lisp. [link]
+
+The availability of a great tutorial makes starting to learn
+programming in Common Lisp much more feasible. 
+
+[link] Seibel
+****** Lua
+
+I don't have first hand knowledge of this programming/scripting
+[link] language. But its hook into Max has made it be a part of many
+PIMA students introduction to programming languages.
+
+
+http://www.lua.org 
+***** code repositories
+
+At some point, you will discover that somebody has written some kind of
+extension to a program that you already use, and you'd like to try
+out this extension. But if they are not company, even if they are a
+community and not a single person, they need to make this code
+available, and not just to people who want to use the extension they've
+created. The great innovation of free software projects is that they
+take advantage of a community's ability to discover problems and
+develop emendations in a way that's impossible for individuals. Is it
+better for these teams or informal communities to take responsibility
+for this process or for a company of paid individuals? Good luck
+sorting that one out [link]
+
+In the meantime, you will eventually need to learn how to use these
+systems that make these large coordinated efforts at code-sharing and
+revising possible. Here's several of them.
+
+You will need to develop you understanding of [link] revisioning
+systems to make much use of these things, in most cases. 
+
+Content management systems, or "package managers," are typically
+another command-line reality to deal with for Mac users looking for
+free software.
+
+github
+
+subversion
+
+homebrew
+
+macports
+
+http://code.google.com 
+***** designing algorithms, programs and languages
+
+If you want to be able to write your own program or modify someone
+else's, you will greatly aided by understanding at least a little bit
+about how these things work at a pretty fundamental level.
+
+Though these links have virtually nothing to do with art per se, they
+all can play a part in helping you crystallize the understanding of
+process that lies at the heart of creating a program, and especially
+of designing an algorithm (whatever the hell that means). 
+
+It is safe to say that this section is really for the person who is
+especially motivated to study the science (or is it an art? [link]
+see SICP) of programming.
+
+One of the oldest, still widely admired textbooks on programming,
+freely available on line. While not for the mathematically faint of
+heart, there are many gems in here for the general user or thinker
+about software. 
+
+Since SICP has been around as long as it has, you may be able to guess
+what language it depends on. 
+
+SICP
+
+The Lisp language has evolved greatly in the 50-odd years since it's
+creation. For some purposes, people prefer a more streamlined,
+"elegant" version.
+
+Scheme-Racket
+
+In order to solve a problem, or just to get to know your tools that
+are available, you may want to work on exercises that simply hone
+your skills rather than create "living, breathing" programs for use in
+the world. 
+
+rosetta-code [link]
+
+euler
+
+#+TOC: headlines 2 
+** getting to the 'source'
+It may happen that, at some point along the way in your trying to deal
+with installing and using some of the above pieces of software, you
+brush up against the fact that your favorite app is "written" and
+"maintained" by an actual entity, which may be a person or may be a
+community; heck, it may even be a company (the horror). Understanding
+just what is entailed by all that is the key to becoming a savvy user
+of open-source software.
+*** what is 'source code?'
+You may not think about it often, but everything that appears in front
+of you on your computer, whatever it may be, exists in another form
+that you don't usually see (unless you've taken to the idea of being a
+"developer"). What is that form? It's called "source code." Learning
+just how it works may be more than most of us have time for, but
+regardless, it's good to be aware that that cool app on your phone or
+your computer has an underlying basis that you potentially could
+understand and alter, had you the time and the inclination.
+**** _some vocabulary_
+
+Terms and ideas that you may encounter in this section and that may
+require some unpacking to understand the relevance or significance
+of. 
+
+implementation
+http://en.wikipedia.org/wiki/Category:Programming_language_implementation
+
+administrator
+
+debugging
+
+dependencies
+
+bleeding edge
+
+binaries
+
+object code
+
+source code
+
+machine language
+
+compiling/compiled
+
+interpreter/ed
+
+installing 
+
+configure--make--make-install
+
+libraries
+
+version control or revisioning
+
+bytecode
+
+**** installing and using software
+
+In order to use the software that follows below, you may face a
+variety of initial challenges. Or you may find the process smooth,
+effortless and painless. It all depends on a variety of factors, some
+within and some outside your control. 
+
+If you are a student in media arts, there is a good chance you have a
+Mac and already understand something about how to download and install
+a new application, especially one that has been neatly packaged by its
+proprietor. If it has not been so packaged, you may have to dig a
+little deeper into the process of, shall we say, getting the source to
+run?
+
+[what happens when you double click on a .dmg file is usually fairly
+consistent, though what happens afterwards depends a lot on what
+approach the person who "compiled" the program choose to do insofar
+as it would affect you.
+
+Let's contrast what would happen if you were to open this with
+something other than the DiskImageMounter, which is the default
+package that deals with .dmg files. Believe it or not, you can even
+choose to open up such a file in a text-editing program, and you will
+see a good representation of what 'compiled' means. It means that you
+can't read it. At least, not as something like English in the way
+that the source code was written by someone in something at least
+resembling English, (or at least as it was made up of recognizable
+symbols using a Latin alphabet). 
+
+This unreadable by humans characteristic is part of what makes
+compiled code, or "binaries" special. The only thing you can
+reasonably do with it is give it to the machine inside your
+machine. That is, let the underlying low-level operating system
+facilities handle it, by bringing it unto the various operations that
+make up the processor's domain (the level of architecture we can
+think of as the machine language layer, or machine layer). 
+
+The subtleties here (at least as far as the average user is
+concerned) point to the complicated nature of getting a machine to
+understand something humans try to communicate. Which points to the
+fact that there is an enormous amount of stuff going on
+underneath the hood of that clean-lined, relatively static-looking
+desktop environment the Apple design team (or the KDE, or the GNOME
+team) has sweated over. Understanding how a keystroke on a keyboard
+gets translated into something down in a fancy processor and returned
+instantaneously on a screen, without us having to say much of
+anything, is all part of the remarkable ballet of user-designer
+interaction. 
+
+Back to your .dmg file. Dragging the main folder of whatever window
+appears next into the Applications folder (this is all following a Mac
+installation experience) brings the installation game to a neat
+conclusion. As far as the ordinary user is concerned, at least. And
+did you notice that the original disk image file, which was "opened"
+by you DiskImage mounter, in fact appears as a device as far as your
+operating system interface is concerned. What the hell does THAT mean?
+
+When it comes to open source software, you will eventually realizable
+that any number of assumptions you had about how the above process is
+supposed to work may not be borne out.]
+
+***** getting 'source code' onto a Mac
+
+One of the main complications I have experienced was how to take
+published code, say, from [[Github, Subversion et al][Github]], http://sourceforge.net or from
+somebody's personal website, and to get it working on my laptop, which
+was usually a Mac running OS X.
+
+The typical software user is either (depending on your perspective)
+shielded or blocked from understanding the nitty-gritty details of how
+software really works. There certainly are plausible arguments for making it
+as easy as possible for the "end user;" the appropriate shibboleth
+here is 'intuitive.' The Mac design philosophy, and as of the early
+2010s, Macs are the de facto standard for media and design students 
+[[some history, context and terminology][(see Neal Stephenson's essay)]] is to make the user experience as smooth
+and "intuitive" as possible; you want people to have to do little more
+than "double-click" to get things to work.
+
+While there are many advantages to this being shielded from the
+obscure inner-workings of software installation and operation, when it
+comes time to use software which is not proprietary, and which is not
+being actively maintained by a paid support team, you are now at a
+double disadvantage. Not only do you not know what to do if something
+goes wrong (which it often does), you may not have the required skills
+to do it at all, may not know even the required vocabuarly (at the very
+least you may not be comfortable with working from the command line,
+especially if you have been accustomed to the Mac GUI). Knowing a
+little bit of how it all actually works 'under the hood' makes sense.
+
+Again, there have been and will continue to be good reasons to keep
+people from 'opening the hood:' they are less likely to put
+power-steering fluid in the radiator, for one thing. But I would make
+the argument now that artists, especially those artists for whom
+digital technology has affected their field (which is just about
+everyone), need to be among the vanguard of 'non-techies' acquiring
+the vocabulary. We need to learn how to not just benefit from but
+contribute to the free software movement. More elaborate arguments
+supporting this can be found [[some prominent voices and developers][here]]
+
+****** homebrew, macports et al
+Because there continues to be a sizeable demand for open source
+software by Mac users, there is a particular set of command line tools
+that you will perhaps be pleased to know about and learn. As of 2014,
+I can say that homebrew appears to be in the ascendancy as far as
+being a /package manager/ where Macs are concerned. Just as Macports
+may have been the main game in town in previous years, this too may
+change. But in the meantime, you'll want to begin to understand how to
+use the command line in order to take advantage of homebrew.
+
+****** Xcode Unix Utilities
+On a Mac, at least in 2013, you'll probably want to get your 'hands'
+on a piece of software that you may or may not ever use much. X Code
+is the massive application that serves developers of programs for any
+Apple software. Glossing over some history and nuances, X code will
+probably help you take advantage of the "open source core" that has
+been at the heart of OS X. 
+
+If you don't know much about it, we can for now say that this has to
+do with Unix, and leave at that for the moment, until you want to
+find out [[assorted concepts][more]]
+
+**** _becoming a contributor_
+
+Another thing that may arise will be the question of how to
+contribute to these projects. One of the great things about free
+software is that it is not just free as in beer, as the saying goes
+[see FSF]. You can modify it in whatever way you want, provided you
+know how. And this is no small catch. 
+
+Part of the idea behind this document is to make it possible for
+non-programmers to eventually be able to figure out how to contribute
+to the causes represented by these various programs. But in the
+meantime, going from artist to C++ programmer just does not happen
+overnight. The path from one to the other remains worth marking out. 
+
+The odds are you'll just want to jump in to learning what's possible
+in some particular application. For good reasons, this is a way to
+go, and may eventually inspire you to want to know more about what's
+possible with the given piece of software.
+*** looking around for free software (and help)
+
+I will be linking to a handful of specific free software projects,
+mainly ones that I have either used or come across during my time in
+PIMA.
+
+The open source world, however, is significantly larger than simply listing these
+examples can even hint at. Finding out more, and just generally
+exploring this world, can be greatly aided by becoming familiar with
+a few kind of clearinghouses for this kind of stuff. 
+
+I will mention and briefly describe a few here.
+
+**** _Wikipedia itself_ 
+http://en.wikipedia.org/wiki/Portal:Free_software
+
+**** _FLOSS Manuals_
+http://en.flossmanuals.net
+
+**** _the Free Software Foundation website_
+the free software directory
+http://directory.fsf.org/wiki/Main_Page
+
+http://www.gnu.org/links/links.html#FreeGNULinuxDistributions
+As of 2013, two crucial hubs for learning about what is available and
+how to use them are FLOSS manuals and FSF.
+
+As well, because of the centrality of Linux to the open source
+culture, getting linked into that world will make you much more aware
+of how much is going on in software beyond the big names and
+commericial proprietors
+
+Additionally, there is no shortage of user forums, which sometimes are
+more rabbithole than beacons of edification.
+
+stackexchange
+
+*** repositories
+    eventually, you will need to understand something about version
+    control and source code repositories. What is all this? See below.
+
+**** public code "repos" 
+At some point, you will discover that there exists an intriguing extension to a program that you already use, and you'd like to try out this extension. If the author of the extension is not a company, if they are a community and not even a single person, they will make this code available in its raw form anyone who's interested, both users and developers. What's the difference? The difference is increasingly blurred.
+
+The great innovation of this approach–indeed, of free software projects–is that they take advantage of a community's ability to discover problems and develop emendations in a way that's impossible for lonely laboring individuals. Is it ultimately better for these teams or informal communities to take responsibility for this process or for a company of paid individuals? Good luck sorting that one out (see 5).
+
+In the meantime, you will eventually need to learn how to use the robust and intricate systems that make these large coordinated efforts at code-sharing and revising possible. Several of them are listed below.
+
+You will need to develop your understanding of the command line interface, version control and compiling source code to participate fully in the glory that are these systems. However, there are GUI-based apps (at least for Macs) that try to make it easier.
+
+Content management systems, or "package managers," are typically another command-line reality to deal with for Mac users looking for free software. At the time of this writing, Homebrew is the one I am most familiar with and seems to have quite a bit of currency.
+
+
+**** Github, Bitbucket, Subversion et al
+     Understanding how github and friends works is crucial to making the most of
+     the open source world. What is github? It is just one--though one
+     of the most popular--/source code repository/. That's right,
+     it's a place where source code lives, almost literally. That is,
+     it is where source code is constantly being updated and
+     modified by its originators and the community of developers who
+     take an interest.
+
+     Getting this far means you will probably need to deal with the
+     stuff in the [[How does programming work?][next section.]] Don't worry, it's gonna be great! Most
+     of the time...
