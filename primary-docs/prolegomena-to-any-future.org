@@ -1651,6 +1651,9 @@ http://itp.nyu.edu/varwiki/Syllabus/LearningBitbyBitS10
 
 See Mark Tribe [link]
 
+https://www.digital-foundations.net/
+
+deprecated link:
 https://wiki.brown.edu/confluence/display/mcm1700n/Open+Source+Culture+Fall+12-+Outline
 
 ** finding out more about "digital art"
