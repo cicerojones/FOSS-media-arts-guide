@@ -1501,6 +1501,10 @@ A professor who teaches a course, which would fit well within PIMA,
 on this very notion of open source culture. He posts many source
 materials that should be of interest to your average PIMA MFA.
 
+https://wiki.digital-foundations.net/
+
+deprecated links:
+
 https://wiki.brown.edu/confluence/display/MarkTribe/Open+Source+Culture+Mediography
 
 https://wiki.brown.edu/confluence/display/MarkTribe/Mark+Tribe%27s+Teaching+Wiki
@@ -1652,6 +1656,8 @@ http://itp.nyu.edu/varwiki/Syllabus/LearningBitbyBitS10
 See Mark Tribe [link]
 
 https://www.digital-foundations.net/
+
+https://wiki.digital-foundations.net/
 
 deprecated link:
 https://wiki.brown.edu/confluence/display/mcm1700n/Open+Source+Culture+Fall+12-+Outline
